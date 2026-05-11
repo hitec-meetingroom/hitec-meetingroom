@@ -42,24 +42,24 @@ class GraphClient:
             raise RuntimeError(f"토큰 발급 실패: {err}")
         return result["access_token"]
 
-    def fetch_today_events(self) -> List[Meeting]:
+    def fetch_today_events(self, room_email: str) -> List[Meeting]:
         if settings.mock_mode:
             return self._mock_events()
-        return self._real_events()
+        return self._real_events(room_email)
 
-    def _real_events(self) -> List[Meeting]:
+    def _real_events(self, room_email: str) -> List[Meeting]:
         token = self._get_token()
         now = datetime.now().astimezone()
         start = now.replace(hour=0, minute=0, second=0, microsecond=0)
         end = start + timedelta(days=1)
 
-        user_seg = quote(settings.room_email, safe="")
+        user_seg = quote(room_email, safe="")
         url = f"{GRAPH_BASE}/users/{user_seg}/calendar/calendarView"
         params = {
             "startDateTime": start.isoformat(),
             "endDateTime": end.isoformat(),
             "$orderby": "start/dateTime",
-            "$select": "subject,start,end,organizer,isCancelled",
+            "$select": "subject,start,end,organizer,attendees,isCancelled",
             "$top": "50",
         }
         headers = {
@@ -72,20 +72,45 @@ class GraphClient:
         events = resp.json().get("value", [])
 
         return [
-            self._parse_event(e)
+            self._parse_event(e, room_email)
             for e in events
             if not e.get("isCancelled", False)
         ]
 
     @staticmethod
-    def _parse_event(e: dict) -> Meeting:
+    def _parse_event(e: dict, room_email: str = "") -> Meeting:
+        organizer_name = (
+            e.get("organizer", {})
+            .get("emailAddress", {})
+            .get("name", "")
+        )
+        room_email_lc = (room_email or "").lower()
+
+        attendees: List[str] = []
+        for a in (e.get("attendees") or []):
+            # 회의실(리소스)·거절·중복(주최자) 제외
+            if a.get("type") == "resource":
+                continue
+            status = (a.get("status") or {}).get("response", "")
+            if status == "declined":
+                continue
+            addr = a.get("emailAddress") or {}
+            email = (addr.get("address") or "").lower()
+            if email and room_email_lc and email == room_email_lc:
+                continue
+            name = (addr.get("name") or "").strip()
+            if not name:
+                continue
+            if name == organizer_name:
+                continue
+            if name in attendees:
+                continue
+            attendees.append(name)
+
         return Meeting(
             subject=e.get("subject") or "(제목 없음)",
-            organizer=(
-                e.get("organizer", {})
-                .get("emailAddress", {})
-                .get("name", "")
-            ),
+            organizer=organizer_name,
+            attendees=attendees,
             start=datetime.fromisoformat(e["start"]["dateTime"]),
             end=datetime.fromisoformat(e["end"]["dateTime"]),
             is_cancelled=e.get("isCancelled", False),
@@ -102,24 +127,28 @@ class GraphClient:
             Meeting(
                 subject="주간 업무 회의",
                 organizer="김철수 차장",
+                attendees=["이영희 부장", "박민수 과장", "최지원 팀장"],
                 start=today.replace(hour=9, minute=0),
                 end=today.replace(hour=10, minute=0),
             ),
             Meeting(
                 subject="설계 검토 회의",
                 organizer="이영희 부장",
+                attendees=["김철수 차장", "박민수 과장"],
                 start=hour_start - timedelta(minutes=20),
                 end=hour_start + timedelta(minutes=40),
             ),
             Meeting(
                 subject="고객사 미팅 - HITECNSOL",
                 organizer="박민수 과장",
+                attendees=["김철수 차장", "이영희 부장", "최지원 팀장", "정수민 사원"],
                 start=hour_start + timedelta(hours=1, minutes=30),
                 end=hour_start + timedelta(hours=2, minutes=30),
             ),
             Meeting(
                 subject="협력업체 협의",
                 organizer="최지원 팀장",
+                attendees=["김철수 차장"],
                 start=hour_start + timedelta(hours=4),
                 end=hour_start + timedelta(hours=5),
             ),

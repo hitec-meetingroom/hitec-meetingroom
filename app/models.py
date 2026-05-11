@@ -7,6 +7,7 @@ from pydantic import BaseModel
 class Meeting(BaseModel):
     subject: str
     organizer: str
+    attendees: List[str] = []
     start: datetime
     end: datetime
     is_cancelled: bool = False
