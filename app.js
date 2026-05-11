@@ -6,8 +6,8 @@ const rootEl = document.documentElement;
 const API_STATUS = rootEl.dataset.statusUrl || "/api/status";
 const HEALTH_URL = rootEl.dataset.healthUrl || "";
 const REFRESH_INTERVAL_MS = 30 * 1000;   // 서버 캐시 폴링: 30초
-const TIMELINE_START_HOUR = 8;            // 타임라인 표시 범위
-const TIMELINE_END_HOUR = 20;
+const TIMELINE_START_HOUR = 9;            // 타임라인 표시 범위 (업무시간)
+const TIMELINE_END_HOUR = 18;
 
 let latestStatus = null;
 
@@ -68,6 +68,9 @@ function renderStatus() {
     body.dataset.status = isOccupied ? "busy" : "free";
     document.getElementById("statusLabel").textContent = isOccupied ? "사용 중" : "사용 가능";
 
+    // 사용 가능 상태에서 다음 회의가 가까울수록 색상이 초록 → 노랑 → 빨강으로 변함
+    applyAccentColor(computeAccentT(current, next));
+
     // 현재 회의 카드
     const meetingEl = document.getElementById("currentMeeting");
     const emptyEl = document.getElementById("emptyMessage");
@@ -81,6 +84,14 @@ function renderStatus() {
             `${fmtTime(current.start)} — ${fmtTime(current.end)}`;
         document.getElementById("meetingRemaining").textContent =
             `${remainingMinutes(current.end)}분 남음`;
+        const attEl = document.getElementById("meetingAttendees");
+        const att = current.attendees || [];
+        if (att.length > 0) {
+            attEl.textContent = `참석자: ${formatAttendees(att)}`;
+            attEl.hidden = false;
+        } else {
+            attEl.hidden = true;
+        }
     } else {
         meetingEl.hidden = true;
         if (s.today_meetings.length === 0) {
@@ -96,8 +107,8 @@ function renderStatus() {
         nextEl.hidden = false;
         document.getElementById("nextTime").textContent =
             `${fmtTime(next.start)} — ${fmtTime(next.end)}`;
-        document.getElementById("nextSubject").textContent = next.subject;
-        document.getElementById("nextOrganizer").textContent = next.organizer || "—";
+        document.getElementById("nextSubject").textContent = next.subject || "(제목 없음)";
+        document.getElementById("nextOrganizer").textContent = next.organizer || "";
     } else {
         nextEl.hidden = true;
     }
@@ -139,7 +150,7 @@ function renderTimeline(meetings, currentMeeting) {
         }
         block.style.left = `${left}%`;
         block.style.width = `${width}%`;
-        block.title = `${m.subject} (${fmtTime(m.start)}-${fmtTime(m.end)})`;
+        attachTimelineTooltip(block, m, left + width / 2);
         track.appendChild(block);
     });
 
@@ -155,13 +166,86 @@ function renderTimeline(meetings, currentMeeting) {
     }
 
     // 시간 라벨 (한 번만 그리면 됨)
-    if (hoursEl.children.length === 0) {
-        for (let h = TIMELINE_START_HOUR; h <= TIMELINE_END_HOUR; h += 2) {
+    const expectedLabels = TIMELINE_END_HOUR - TIMELINE_START_HOUR + 1;
+    if (hoursEl.children.length !== expectedLabels) {
+        hoursEl.innerHTML = "";
+        for (let h = TIMELINE_START_HOUR; h <= TIMELINE_END_HOUR; h += 1) {
             const span = document.createElement("span");
             span.textContent = pad(h);
             hoursEl.appendChild(span);
         }
     }
+}
+
+/* ===== 타임라인 호버 툴팁 ===== */
+
+function attachTimelineTooltip(block, meeting, centerPercent) {
+    block.addEventListener("mouseenter", () => {
+        const tip = document.getElementById("timelineTooltip");
+        if (!tip) return;
+        document.getElementById("tooltipTime").textContent =
+            `${fmtTime(meeting.start)} — ${fmtTime(meeting.end)}`;
+        document.getElementById("tooltipSubject").textContent =
+            meeting.subject || "(제목 없음)";
+        const orgEl = document.getElementById("tooltipOrganizer");
+        const org = meeting.organizer || "";
+        orgEl.textContent = org ? `주최: ${org}` : "";
+        orgEl.hidden = !org;
+        const attEl = document.getElementById("tooltipAttendees");
+        const att = meeting.attendees || [];
+        if (att.length > 0) {
+            attEl.textContent = `참석자: ${formatAttendees(att)}`;
+            attEl.hidden = false;
+        } else {
+            attEl.hidden = true;
+        }
+        const clamped = Math.max(5, Math.min(95, centerPercent));
+        tip.style.left = `${clamped}%`;
+        tip.hidden = false;
+    });
+    block.addEventListener("mouseleave", () => {
+        const tip = document.getElementById("timelineTooltip");
+        if (tip) tip.hidden = true;
+    });
+}
+
+function formatAttendees(attendees, max = 8) {
+    if (!attendees || attendees.length === 0) return "";
+    if (attendees.length <= max) return attendees.join(", ");
+    const shown = attendees.slice(0, max).join(", ");
+    return `${shown} 외 ${attendees.length - max}명`;
+}
+
+/* ===== 액센트 색상 그라데이션 (시작 1시간 전부터 초록 → 노랑 → 빨강) ===== */
+
+const ACCENT_GREEN = [52, 211, 153];  // #34d399
+const ACCENT_AMBER = [251, 191, 36];  // #fbbf24
+const ACCENT_RED   = [248, 113, 113]; // #f87171
+const ACCENT_LEAD_MIN = 60;
+
+function computeAccentT(current, next) {
+    if (current) return 1;
+    if (!next) return 0;
+    const minutes = (new Date(next.start) - new Date()) / 60000;
+    if (minutes >= ACCENT_LEAD_MIN) return 0;
+    if (minutes <= 0) return 1;
+    return (ACCENT_LEAD_MIN - minutes) / ACCENT_LEAD_MIN;
+}
+
+function accentRgb(t) {
+    const lerp = (a, b, k) => Math.round(a + (b - a) * k);
+    const mix = (c1, c2, k) => [lerp(c1[0], c2[0], k), lerp(c1[1], c2[1], k), lerp(c1[2], c2[2], k)];
+    return t <= 0.5
+        ? mix(ACCENT_GREEN, ACCENT_AMBER, t * 2)
+        : mix(ACCENT_AMBER, ACCENT_RED, (t - 0.5) * 2);
+}
+
+function applyAccentColor(t) {
+    const [r, g, b] = accentRgb(t);
+    const body = document.body.style;
+    body.setProperty("--accent", `rgb(${r}, ${g}, ${b})`);
+    body.setProperty("--accent-soft", `rgba(${r}, ${g}, ${b}, 0.13)`);
+    body.setProperty("--accent-glow", `rgba(${r}, ${g}, ${b}, 0.08)`);
 }
 
 /* ===== 헬퍼 ===== */

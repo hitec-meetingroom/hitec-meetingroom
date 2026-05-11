@@ -40,6 +40,7 @@
                     <span class="meeting__divider">·</span>
                     <span class="meeting__remaining" id="meetingRemaining"></span>
                 </div>
+                <div class="meeting__attendees" id="meetingAttendees" hidden></div>
             </div>
 
             <div class="meeting meeting--empty" id="emptyMessage" hidden>
@@ -51,8 +52,10 @@
         <section class="next" id="nextSection" hidden>
             <div class="next__label">다음 회의</div>
             <div class="next__time" id="nextTime">—</div>
-            <div class="next__subject" id="nextSubject">—</div>
-            <div class="next__organizer" id="nextOrganizer">—</div>
+            <div class="next__info">
+                <div class="next__subject" id="nextSubject">—</div>
+                <div class="next__organizer" id="nextOrganizer"></div>
+            </div>
         </section>
 
         <!-- 오늘 일정 타임라인 -->
@@ -60,6 +63,12 @@
             <div class="timeline__label">오늘 일정</div>
             <div class="timeline__track" id="timelineTrack">
                 <div class="timeline__now" id="timelineNow"></div>
+                <div class="timeline__tooltip" id="timelineTooltip" hidden>
+                    <div class="timeline__tooltip-time" id="tooltipTime"></div>
+                    <div class="timeline__tooltip-subject" id="tooltipSubject"></div>
+                    <div class="timeline__tooltip-organizer" id="tooltipOrganizer"></div>
+                    <div class="timeline__tooltip-attendees" id="tooltipAttendees" hidden></div>
+                </div>
             </div>
             <div class="timeline__hours" id="timelineHours"></div>
         </section>

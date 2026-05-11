@@ -219,6 +219,18 @@ body[data-status="busy"] .status__dot {
     font-weight: 400;
 }
 
+.meeting__attendees {
+    margin-top: 0.9rem;
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    max-width: 90vw;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+
+.meeting__attendees[hidden] { display: none; }
+
 /* =================================================================
    다음 회의
    ================================================================= */
@@ -226,46 +238,58 @@ body[data-status="busy"] .status__dot {
 .next {
     background: var(--bg-elevated);
     border-left: 3px solid var(--accent);
-    padding: 1.6rem 2rem;
+    padding: 1.4rem 2rem;
     border-radius: 4px;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto auto;
-    column-gap: 2rem;
+    display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
 .next__label {
-    grid-row: 1 / 3;
+    flex-shrink: 0;
     font-size: 0.85rem;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--text-muted);
     font-weight: 500;
-    align-self: center;
 }
 
 .next__time {
+    flex-shrink: 0;
     font-family: var(--font-mono);
     font-size: 1.4rem;
     color: var(--text-primary);
     font-variant-numeric: tabular-nums;
-    align-self: end;
+    line-height: 1;
+}
+
+.next__info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    text-align: right;
 }
 
 .next__subject {
     font-size: 1.4rem;
     color: var(--text-primary);
     font-weight: 500;
-    align-self: end;
-    text-align: right;
+    line-height: 1.1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .next__organizer {
     font-size: 1rem;
     color: var(--text-secondary);
-    grid-column: 2 / 4;
-    text-align: right;
+    line-height: 1;
+}
+
+.next__organizer:empty {
+    display: none;
 }
 
 /* =================================================================
@@ -300,6 +324,14 @@ body[data-status="busy"] .status__dot {
     background: var(--text-secondary);
     border-radius: 2px;
     opacity: 0.85;
+    cursor: help;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.timeline__block:hover {
+    opacity: 1;
+    transform: scaleY(1.15);
+    z-index: 1;
 }
 
 .timeline__block--current {
@@ -307,6 +339,74 @@ body[data-status="busy"] .status__dot {
     opacity: 1;
     box-shadow: 0 0 18px var(--accent-soft);
 }
+
+/* 호버 툴팁 — 블록 위로 떠서 회의 정보 표시 */
+.timeline__tooltip {
+    position: absolute;
+    bottom: calc(100% + 12px);
+    transform: translateX(-50%);
+    background: var(--bg-elevated);
+    border: 1px solid var(--divider);
+    border-radius: 6px;
+    padding: 0.7rem 1rem;
+    min-width: 12rem;
+    max-width: 22rem;
+    pointer-events: none;
+    z-index: 10;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    line-height: 1.35;
+}
+
+.timeline__tooltip[hidden] { display: none; }
+
+.timeline__tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--bg-elevated);
+}
+
+.timeline__tooltip-time {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 0.3rem;
+}
+
+.timeline__tooltip-subject {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.15rem;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+}
+
+.timeline__tooltip-organizer {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.timeline__tooltip-organizer[hidden] { display: none; }
+
+.timeline__tooltip-attendees {
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    border-top: 1px dashed var(--divider);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    white-space: normal;
+}
+
+.timeline__tooltip-attendees[hidden] { display: none; }
 
 .timeline__now {
     position: absolute;
