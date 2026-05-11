@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko" data-status-url="./status.json">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회의실 디스플레이</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body data-status="loading">
+    <main class="screen">
+
+        <!-- 상단: 회의실 이름 + 날짜/시간 -->
+        <header class="header">
+            <div class="room">
+                <span class="room__brand">HITECNSOL</span>
+                <h1 class="room__name" id="roomName">회의실</h1>
+            </div>
+            <div class="clock">
+                <div class="clock__date" id="clockDate">—</div>
+                <div class="clock__time" id="clockTime">—</div>
+            </div>
+        </header>
+
+        <!-- 메인: 상태 표시 -->
+        <section class="status">
+            <div class="status__indicator" aria-hidden="true">
+                <span class="status__dot"></span>
+            </div>
+            <div class="status__label" id="statusLabel">—</div>
+
+            <div class="meeting" id="currentMeeting" hidden>
+                <div class="meeting__subject" id="meetingSubject"></div>
+                <div class="meeting__meta">
+                    <span class="meeting__organizer" id="meetingOrganizer"></span>
+                    <span class="meeting__divider">·</span>
+                    <span class="meeting__time" id="meetingTime"></span>
+                    <span class="meeting__divider">·</span>
+                    <span class="meeting__remaining" id="meetingRemaining"></span>
+                </div>
+            </div>
+
+            <div class="meeting meeting--empty" id="emptyMessage" hidden>
+                <div class="meeting__subject">예약된 회의가 없습니다</div>
+            </div>
+        </section>
+
+        <!-- 다음 회의 -->
+        <section class="next" id="nextSection" hidden>
+            <div class="next__label">다음 회의</div>
+            <div class="next__time" id="nextTime">—</div>
+            <div class="next__subject" id="nextSubject">—</div>
+            <div class="next__organizer" id="nextOrganizer">—</div>
+        </section>
+
+        <!-- 오늘 일정 타임라인 -->
+        <section class="timeline">
+            <div class="timeline__label">오늘 일정</div>
+            <div class="timeline__track" id="timelineTrack">
+                <div class="timeline__now" id="timelineNow"></div>
+            </div>
+            <div class="timeline__hours" id="timelineHours"></div>
+        </section>
+
+        <!-- 푸터 -->
+        <footer class="footer">
+            <span id="lastUpdated">—</span>
+            <span class="footer__mock" id="mockBadge" hidden>MOCK</span>
+        </footer>
+
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>

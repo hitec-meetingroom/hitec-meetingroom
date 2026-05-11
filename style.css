@@ -1,0 +1,387 @@
+/* =================================================================
+   Teams Room Display - Kiosk Stylesheet
+   ================================================================= */
+
+:root {
+    /* 색상 — 다크 테마, 따뜻한 톤 */
+    --bg-base:        #0c0e12;
+    --bg-elevated:    #14171d;
+    --bg-subtle:      #1c2028;
+
+    --text-primary:   #ecebe7;
+    --text-secondary: #9aa0aa;
+    --text-muted:     #5a6068;
+
+    --divider:        #232830;
+
+    /* 상태 액센트 (data-status 가 바꿔치기) */
+    --accent:         #5a6068;
+    --accent-soft:    #5a606820;
+    --accent-glow:    #5a606810;
+
+    /* 타이포 */
+    --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    --font-mono: "JetBrains Mono", "SF Mono", "Cascadia Code", Consolas, monospace;
+}
+
+/* 상태별 액센트 컬러 매핑 */
+body[data-status="free"] {
+    --accent:      #34d399;  /* 민트 그린 */
+    --accent-soft: #34d39922;
+    --accent-glow: #34d39915;
+}
+
+body[data-status="busy"] {
+    --accent:      #f87171;  /* 따뜻한 코랄 */
+    --accent-soft: #f8717122;
+    --accent-glow: #f8717115;
+}
+
+/* 리셋 */
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, p, div { margin: 0; padding: 0; }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: var(--bg-base);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "ss02";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* 배경에 미세한 그라데이션 + 그레인 느낌 (액센트 컬러 따라 변함) */
+    background-image:
+        radial-gradient(circle at 50% 0%, var(--accent-glow) 0%, transparent 60%),
+        radial-gradient(circle at 50% 100%, var(--accent-glow) 0%, transparent 70%);
+    transition: background-image 1.2s ease;
+}
+
+/* =================================================================
+   레이아웃
+   ================================================================= */
+
+.screen {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto auto auto;
+    padding: 4vh 5vw 3vh;
+    gap: 3vh;
+}
+
+/* =================================================================
+   상단 헤더
+   ================================================================= */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.room__brand {
+    font-size: 1rem;
+    letter-spacing: 0.3em;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.room__name {
+    margin-top: 0.4em;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+}
+
+.clock {
+    text-align: right;
+    font-family: var(--font-mono);
+}
+
+.clock__date {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.6em;
+}
+
+.clock__time {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.02em;
+    font-variant-numeric: tabular-nums;
+}
+
+/* =================================================================
+   메인 상태
+   ================================================================= */
+
+.status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.2vh;
+}
+
+.status__indicator {
+    margin-bottom: 2vh;
+}
+
+.status__dot {
+    display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow:
+        0 0 0 0.6rem var(--accent-soft),
+        0 0 4rem var(--accent-glow);
+    transition: all 0.8s ease;
+}
+
+body[data-status="busy"] .status__dot {
+    animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow:
+            0 0 0 0.6rem var(--accent-soft),
+            0 0 4rem var(--accent-glow);
+    }
+    50% {
+        box-shadow:
+            0 0 0 1.2rem var(--accent-soft),
+            0 0 6rem var(--accent-glow);
+    }
+}
+
+.status__label {
+    font-size: 6.5rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    color: var(--accent);
+    line-height: 1;
+    transition: color 0.8s ease;
+}
+
+.meeting {
+    margin-top: 1vh;
+    max-width: 80%;
+}
+
+.meeting__subject {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.meeting__meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.meeting__time {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+}
+
+.meeting__remaining {
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.meeting__divider {
+    color: var(--text-muted);
+}
+
+.meeting--empty .meeting__subject {
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+/* =================================================================
+   다음 회의
+   ================================================================= */
+
+.next {
+    background: var(--bg-elevated);
+    border-left: 3px solid var(--accent);
+    padding: 1.6rem 2rem;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto auto;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.next__label {
+    grid-row: 1 / 3;
+    font-size: 0.85rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+    align-self: center;
+}
+
+.next__time {
+    font-family: var(--font-mono);
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+    align-self: end;
+}
+
+.next__subject {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    align-self: end;
+    text-align: right;
+}
+
+.next__organizer {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    grid-column: 2 / 4;
+    text-align: right;
+}
+
+/* =================================================================
+   오늘 일정 타임라인
+   ================================================================= */
+
+.timeline {
+    margin-top: 1vh;
+}
+
+.timeline__label {
+    font-size: 0.85rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.timeline__track {
+    position: relative;
+    height: 28px;
+    background: var(--bg-subtle);
+    border-radius: 3px;
+    overflow: visible;
+}
+
+.timeline__block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: var(--text-secondary);
+    border-radius: 2px;
+    opacity: 0.85;
+}
+
+.timeline__block--current {
+    background: var(--accent);
+    opacity: 1;
+    box-shadow: 0 0 18px var(--accent-soft);
+}
+
+.timeline__now {
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    width: 2px;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+    z-index: 2;
+}
+
+.timeline__now::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -3px;
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+.timeline__hours {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* =================================================================
+   푸터
+   ================================================================= */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+}
+
+.footer__mock {
+    background: #f59e0b;
+    color: #0c0e12;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+}
+
+/* =================================================================
+   반응형 (작은 모니터 대응)
+   ================================================================= */
+
+@media (max-width: 1280px) {
+    .room__name { font-size: 2.4rem; }
+    .clock__time { font-size: 1.8rem; }
+    .status__label { font-size: 5rem; }
+    .meeting__subject { font-size: 1.8rem; }
+}
+
+/* =================================================================
+   로딩 상태
+   ================================================================= */
+
+body[data-status="loading"] .status__label {
+    color: var(--text-muted);
+    animation: breathe 1.5s ease-in-out infinite;
+}
+
+@keyframes breathe {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+}
