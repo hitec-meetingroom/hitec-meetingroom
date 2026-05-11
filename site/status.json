@@ -1,0 +1,8 @@
+{
+  "room_name": "회의실",
+  "is_occupied": false,
+  "current_meeting": null,
+  "next_meeting": null,
+  "today_meetings": [],
+  "last_updated": "2026-05-11T00:00:00"
+}

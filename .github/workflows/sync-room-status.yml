@@ -1,0 +1,56 @@
+# Microsoft Graph → site/status.json 커밋 → GitHub Pages가 정적 JSON 제공
+name: Sync room status
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC 기준 5분마다 (필요 시 간격 조정, 너무 짧으면 Graph throttling 위험)
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-room-status
+  cancel-in-progress: true
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    env:
+      MOCK_MODE: "false"
+      TENANT_ID: ${{ secrets.TENANT_ID }}
+      CLIENT_ID: ${{ secrets.CLIENT_ID }}
+      CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+      ROOM_EMAIL: ${{ secrets.ROOM_EMAIL }}
+      ROOM_DISPLAY_NAME: ${{ secrets.ROOM_DISPLAY_NAME }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Export status JSON
+        run: python scripts/export_room_status.py --output site/status.json
+
+      - name: Sync static assets to site/
+        run: |
+          cp app/static/app.js site/app.js
+          cp app/static/style.css site/style.css
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/status.json site/app.js site/style.css
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh room status [skip ci]"
+            git push
+          fi

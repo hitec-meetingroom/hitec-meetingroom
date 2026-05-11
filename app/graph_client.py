@@ -6,6 +6,7 @@ MOCK_MODE=false: 실제 Graph /calendarView 호출
 import logging
 from datetime import datetime, timedelta
 from typing import List
+from urllib.parse import quote
 
 import httpx
 import msal
@@ -52,7 +53,8 @@ class GraphClient:
         start = now.replace(hour=0, minute=0, second=0, microsecond=0)
         end = start + timedelta(days=1)
 
-        url = f"{GRAPH_BASE}/users/{settings.room_email}/calendar/calendarView"
+        user_seg = quote(settings.room_email, safe="")
+        url = f"{GRAPH_BASE}/users/{user_seg}/calendar/calendarView"
         params = {
             "startDateTime": start.isoformat(),
             "endDateTime": end.isoformat(),
