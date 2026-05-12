@@ -17,6 +17,7 @@ concurrency:
 jobs:
   export:
     runs-on: ubuntu-latest
+    environment: github-pages
     env:
       MOCK_MODE: "false"
       TENANT_ID: ${{ secrets.TENANT_ID }}
