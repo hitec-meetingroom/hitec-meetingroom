@@ -50,10 +50,8 @@ jobs:
       - name: Export status JSON
         run: python scripts/export_room_status.py --output-dir site
 
-      - name: Sync static assets to site/
-        run: |
-          cp app/static/app.js site/app.js
-          cp app/static/style.css site/style.css
+      - name: Build static room pages
+        run: python scripts/build_static_site.py
 
       - name: Commit and push
         run: |
