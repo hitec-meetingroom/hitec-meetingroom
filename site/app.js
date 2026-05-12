@@ -78,7 +78,7 @@ function renderStatus() {
     if (current) {
         meetingEl.hidden = false;
         emptyEl.hidden = true;
-        document.getElementById("meetingSubject").textContent = current.subject;
+        document.getElementById("meetingSubject").textContent = displaySubject(current);
         document.getElementById("meetingOrganizer").textContent = current.organizer || "—";
         document.getElementById("meetingTime").textContent =
             `${fmtTime(current.start)} — ${fmtTime(current.end)}`;
@@ -107,7 +107,7 @@ function renderStatus() {
         nextEl.hidden = false;
         document.getElementById("nextTime").textContent =
             `${fmtTime(next.start)} — ${fmtTime(next.end)}`;
-        document.getElementById("nextSubject").textContent = next.subject || "(제목 없음)";
+        document.getElementById("nextSubject").textContent = displaySubject(next);
         document.getElementById("nextOrganizer").textContent = next.organizer || "";
     } else {
         nextEl.hidden = true;
@@ -125,7 +125,6 @@ function renderTimeline(meetings, currentMeeting) {
     const track = document.getElementById("timelineTrack");
     const hoursEl = document.getElementById("timelineHours");
 
-    // 기존 블록 제거 ( __now 라인은 유지)
     track.querySelectorAll(".timeline__block").forEach(el => el.remove());
 
     const totalMin = (TIMELINE_END_HOUR - TIMELINE_START_HOUR) * 60;
@@ -138,9 +137,9 @@ function renderTimeline(meetings, currentMeeting) {
 
         if (endMin <= 0 || startMin >= totalMin) return;
 
-        const left = Math.max(0, startMin / totalMin) * 100;
-        const right = Math.min(totalMin, endMin) / totalMin * 100;
-        const width = right - left;
+        const top = Math.max(0, startMin / totalMin) * 100;
+        const bottom = Math.min(totalMin, endMin) / totalMin * 100;
+        const height = bottom - top;
 
         const block = document.createElement("div");
         block.className = "timeline__block";
@@ -148,24 +147,22 @@ function renderTimeline(meetings, currentMeeting) {
             currentMeeting.start === m.start) {
             block.classList.add("timeline__block--current");
         }
-        block.style.left = `${left}%`;
-        block.style.width = `${width}%`;
-        attachTimelineTooltip(block, m, left + width / 2);
+        block.style.top = `${top}%`;
+        block.style.height = `${height}%`;
+        attachTimelineTooltip(block, m, top + height / 2);
         track.appendChild(block);
     });
 
-    // 현재 시각 마커
     const now = new Date();
     const nowMin = (now.getHours() - TIMELINE_START_HOUR) * 60 + now.getMinutes();
     const nowEl = document.getElementById("timelineNow");
     if (nowMin >= 0 && nowMin <= totalMin) {
         nowEl.style.display = "block";
-        nowEl.style.left = `${(nowMin / totalMin) * 100}%`;
+        nowEl.style.top = `${(nowMin / totalMin) * 100}%`;
     } else {
         nowEl.style.display = "none";
     }
 
-    // 시간 라벨 (한 번만 그리면 됨)
     const expectedLabels = TIMELINE_END_HOUR - TIMELINE_START_HOUR + 1;
     if (hoursEl.children.length !== expectedLabels) {
         hoursEl.innerHTML = "";
@@ -186,7 +183,7 @@ function attachTimelineTooltip(block, meeting, centerPercent) {
         document.getElementById("tooltipTime").textContent =
             `${fmtTime(meeting.start)} — ${fmtTime(meeting.end)}`;
         document.getElementById("tooltipSubject").textContent =
-            meeting.subject || "(제목 없음)";
+            displaySubject(meeting);
         const orgEl = document.getElementById("tooltipOrganizer");
         const org = meeting.organizer || "";
         orgEl.textContent = org ? `주최: ${org}` : "";
@@ -199,8 +196,8 @@ function attachTimelineTooltip(block, meeting, centerPercent) {
         } else {
             attEl.hidden = true;
         }
-        const clamped = Math.max(5, Math.min(95, centerPercent));
-        tip.style.left = `${clamped}%`;
+        const clamped = Math.max(8, Math.min(92, centerPercent));
+        tip.style.top = `${clamped}%`;
         tip.hidden = false;
     });
     block.addEventListener("mouseleave", () => {
@@ -214,6 +211,20 @@ function formatAttendees(attendees, max = 8) {
     if (attendees.length <= max) return attendees.join(", ");
     const shown = attendees.slice(0, max).join(", ");
     return `${shown} 외 ${attendees.length - max}명`;
+}
+
+function displaySubject(meeting) {
+    const fallback = "(제목 없음)";
+    const raw = String(meeting?.subject || "").trim();
+    const organizer = String(meeting?.organizer || "").trim();
+    if (!raw) return fallback;
+    if (!organizer || !raw.startsWith(organizer)) return raw;
+
+    const titleOnly = raw
+        .slice(organizer.length)
+        .replace(/^[\s\-–—_:|·•,./\\]+/, "")
+        .trim();
+    return titleOnly || fallback;
 }
 
 /* ===== 액센트 색상 그라데이션 (시작 1시간 전부터 초록 → 노랑 → 빨강) ===== */
