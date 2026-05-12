@@ -12,8 +12,10 @@
 <body data-status="loading">
     <main class="screen">
 
+        <!-- ========== 좌측 패널: 세로 타임라인 + 회의실 상태 ========== -->
         <aside class="panel panel--status">
 
+            <!-- 세로 타임라인 (시간 라벨 + 막대) -->
             <div class="timeline">
                 <div class="timeline__hours" id="timelineHours"></div>
                 <div class="timeline__bar" id="timelineTrack">
@@ -27,6 +29,7 @@
                 </div>
             </div>
 
+            <!-- 상태 컨텐츠 (헤더 / 중앙 상태 / 다음 회의 / 푸터) -->
             <div class="status-content">
 
                 <header class="header">
@@ -62,6 +65,11 @@
                             <div class="meeting__attendees" id="meetingAttendees" hidden></div>
                         </div>
 
+                        <div class="meeting meeting--upcoming" id="untilNextMessage" hidden>
+                            <div class="meeting__countdown" id="untilNextCountdown">—</div>
+                            <div class="meeting__upcoming-subject" id="untilNextSubject"></div>
+                        </div>
+
                         <div class="meeting meeting--empty" id="emptyMessage" hidden>
                             <div class="meeting__subject">예약된 회의가 없습니다</div>
                         </div>
@@ -84,6 +92,7 @@
             </div>
         </aside>
 
+        <!-- ========== 우측 패널: 회의 운영 가이드 ========== -->
         <aside class="panel panel--guide">
             <h2 class="guide__title">회의 운영 가이드</h2>
 
@@ -93,9 +102,9 @@
                     회의의 준비
                 </h3>
                 <ol class="guide__list">
-                    <li><strong>(3일 전의 법칙)</strong> 리더는 목적과 안건을 명확히 정의하고, 최소 3일 전 공유하여 참여자들의 '생각할 시간'을 확보해주십시오.</li>
-                    <li><strong>(권위의 재정의)</strong> 회의실 안에서 리더의 권위는 '결정권'이 아니라 '경청의 태도'에서 나옵니다. 직급의 무게를 잠시 내려놓을 때 진정한 집단지성이 발휘됩니다.</li>
-                    <li><strong>(시스템 운영)</strong> 기록자와 타임키퍼를 사전에 지정하십시오. 리더가 운영의 짐을 나눌 때 비로소 논의의 본질에 집중할 수 있습니다.</li>
+                    <li><strong>3일 전의 법칙</strong> 리더는 목적과 안건을 명확히 정의하고, 최소 3일 전 공유하여 참여자들의 '생각할 시간'을 확보해주십시오.</li>
+                    <li><strong>권위의 재정의</strong> 회의실 안에서 리더의 권위는 '결정권'이 아니라 '경청의 태도'에서 나옵니다. 직급의 무게를 잠시 내려놓을 때 진정한 집단지성이 발휘됩니다.</li>
+                    <li><strong>시스템 운영</strong> 기록자와 타임키퍼를 사전에 지정하십시오. 리더가 운영의 짐을 나눌 때 비로소 논의의 본질에 집중할 수 있습니다.</li>
                 </ol>
             </section>
 
@@ -105,12 +114,12 @@
                     회의 진행
                 </h3>
                 <ol class="guide__list" start="4">
-                    <li><strong>(심리적 안전감)</strong> "틀린 의견은 없다"는 신호를 끊임없이 보내십시오. 참여자가 비난받을까 두려워하지 않을 때 리더는 가장 좋은 아이디어를 얻을 수 있습니다.</li>
-                    <li><strong>(발언의 평등)</strong> 일부의 목소리가 회의를 독점하지 않도록 관리하십시오. 침묵하는 참여자에게 질문을 던져 모든 지식을 동등하게 이끌어내는 것이 리더의 역량입니다.</li>
-                    <li><strong>(데이터 기반)</strong> 개인적인 추측에 의지하지 않고, 데이터·사실·사례를 바탕으로 의견을 제시할 수 있도록 리드해 주십시오.</li>
-                    <li><strong>(이견의 생산성)</strong> 반대 의견이 나오면 반가워하십시오. 갈등을 회피하지 말고 그 속의 '본질적 이유'를 깊이 파고들어 더 나은 대안으로 연결하십시오.</li>
-                    <li><strong>(속도 조절)</strong> 성급한 결론은 오류를 만들고, 결론 없는 논의는 낭비를 만듭니다. 충분한 탐색을 거치되, 데이터와 팩트를 기준으로 적절한 시점에 결론을 도출하십시오.</li>
-                    <li><strong>(비판의 전환)</strong> 비판이 단순한 지적으로 끝나지 않게 하십시오. "그래서 대안은 무엇인가?"를 함께 묻고 해결책을 찾는 방향으로 토론을 리드하십시오.</li>
+                    <li><strong>심리적 안전감</strong> "틀린 의견은 없다"는 신호를 끊임없이 보내십시오. 참여자가 비난받을까 두려워하지 않을 때 리더는 가장 좋은 아이디어를 얻을 수 있습니다.</li>
+                    <li><strong>발언의 평등</strong> 일부의 목소리가 회의를 독점하지 않도록 관리하십시오. 침묵하는 참여자에게 질문을 던져 모든 지식을 동등하게 이끌어내는 것이 리더의 역량입니다.</li>
+                    <li><strong>데이터 기반</strong> 개인적인 추측에 의지하지 않고, 데이터·사실·사례를 바탕으로 의견을 제시할 수 있도록 리드해 주십시오.</li>
+                    <li><strong>이견의 생산성</strong> 반대 의견이 나오면 반가워하십시오. 갈등을 회피하지 말고 그 속의 '본질적 이유'를 깊이 파고들어 더 나은 대안으로 연결하십시오.</li>
+                    <li><strong>속도 조절</strong> 성급한 결론은 오류를 만들고, 결론 없는 논의는 낭비를 만듭니다. 충분한 탐색을 거치되, 데이터와 팩트를 기준으로 적절한 시점에 결론을 도출하십시오.</li>
+                    <li><strong>비판의 전환</strong> 비판이 단순한 지적으로 끝나지 않게 하십시오. "그래서 대안은 무엇인가?"를 함께 묻고 해결책을 찾는 방향으로 토론을 리드하십시오.</li>
                 </ol>
             </section>
 
@@ -120,7 +129,7 @@
                     회의 마무리
                 </h3>
                 <ol class="guide__list" start="10">
-                    <li><strong>투명한 기록</strong> 회의의 내용 및 결과를 명확히 Loop (회의록)에 남기고, 회의 리더가 최종 검토, 확인 해 주십시오.</li>
+                    <li><strong>투명한 기록</strong> 회의의 내용 및 결과를 명확히 회의록에 남기고, 회의 리더가 최종 검토, 확인 해 주십시오.</li>
                 </ol>
             </section>
         </aside>
