@@ -2,7 +2,23 @@
   "room_name": "2층 교육실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-12T09:43:37"
+  "next_meeting": {
+    "subject": "안준영 ",
+    "organizer": "안준영",
+    "attendees": [],
+    "start": "2026-05-12T15:30:00",
+    "end": "2026-05-12T16:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "안준영 ",
+      "organizer": "안준영",
+      "attendees": [],
+      "start": "2026-05-12T15:30:00",
+      "end": "2026-05-12T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-12T01:04:44.665967"
 }
