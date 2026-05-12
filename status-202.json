@@ -1,0 +1,24 @@
+{
+  "room_name": "2층 소회의실",
+  "is_occupied": false,
+  "current_meeting": null,
+  "next_meeting": {
+    "subject": "안준영 첫번째 회의",
+    "organizer": "안준영",
+    "attendees": [],
+    "start": "2026-05-12T10:00:00",
+    "end": "2026-05-12T10:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "안준영 첫번째 회의",
+      "organizer": "안준영",
+      "attendees": [],
+      "start": "2026-05-12T10:00:00",
+      "end": "2026-05-12T10:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-12T01:04:46.900243"
+}
