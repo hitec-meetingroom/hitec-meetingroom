@@ -1,4 +1,4 @@
-# Microsoft Graph → site/status.json 커밋 → GitHub Pages가 정적 JSON 제공
+# Microsoft Graph → site/status-<room_id>.json 커밋 → GitHub Pages가 정적 JSON 제공
 name: Sync room status
 
 on:
@@ -22,8 +22,19 @@ jobs:
       TENANT_ID: ${{ secrets.TENANT_ID }}
       CLIENT_ID: ${{ secrets.CLIENT_ID }}
       CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-      ROOM_EMAIL: ${{ secrets.ROOM_EMAIL }}
-      ROOM_DISPLAY_NAME: ${{ secrets.ROOM_DISPLAY_NAME }}
+      DEFAULT_ROOM_ID: "201"
+      ROOM_EMAIL_201: ${{ secrets.ROOM_EMAIL_201 }}
+      ROOM_DISPLAY_NAME_201: "2층 교육실"
+      ROOM_EMAIL_202: ${{ secrets.ROOM_EMAIL_202 }}
+      ROOM_DISPLAY_NAME_202: "2층 소회의실"
+      ROOM_EMAIL_203: ${{ secrets.ROOM_EMAIL_203 }}
+      ROOM_DISPLAY_NAME_203: "2층 대회의실"
+      ROOM_EMAIL_301: ${{ secrets.ROOM_EMAIL_301 }}
+      ROOM_DISPLAY_NAME_301: "3층 소회의실1"
+      ROOM_EMAIL_302: ${{ secrets.ROOM_EMAIL_302 }}
+      ROOM_DISPLAY_NAME_302: "3층 소회의실2"
+      ROOM_EMAIL_303: ${{ secrets.ROOM_EMAIL_303 }}
+      ROOM_DISPLAY_NAME_303: "3층 대회의실"
 
     steps:
       - uses: actions/checkout@v4
@@ -36,7 +47,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Export status JSON
-        run: python scripts/export_room_status.py --output site/status.json
+        run: python scripts/export_room_status.py --output-dir site
 
       - name: Sync static assets to site/
         run: |
@@ -47,10 +58,17 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/status.json site/app.js site/style.css
+          git add site/
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
             git commit -m "chore: refresh room status [skip ci]"
             git push
           fi
+
+      - name: Deploy site to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          publish_branch: gh-pages
