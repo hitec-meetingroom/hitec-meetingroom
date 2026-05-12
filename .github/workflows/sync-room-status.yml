@@ -1,10 +1,11 @@
-# Microsoft Graph → site/status-<room_id>.json 커밋 → GitHub Pages가 정적 JSON 제공
+# Microsoft Graph → site/status-<room_id>.json 생성 → gh-pages 브랜치 배포
 name: Sync room status
 
 on:
   workflow_dispatch:
   schedule:
-    # UTC 기준 5분마다 (필요 시 간격 조정, 너무 짧으면 Graph throttling 위험)
+    # GitHub Actions schedule의 실질 최소 주기는 5분입니다.
+    # 1분 단위 실시간 동기화가 필요하면 별도 상시 서버/API가 필요합니다.
     - cron: "*/5 * * * *"
 
 permissions:
@@ -17,7 +18,6 @@ concurrency:
 jobs:
   export:
     runs-on: ubuntu-latest
-    environment: github-pages
     env:
       MOCK_MODE: "false"
       TENANT_ID: ${{ secrets.TENANT_ID }}
@@ -52,18 +52,6 @@ jobs:
 
       - name: Build static room pages
         run: python scripts/build_static_site.py
-
-      - name: Commit and push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore: refresh room status [skip ci]"
-            git push
-          fi
 
       - name: Deploy site to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -12,7 +12,7 @@ APP_STATIC = REPO_ROOT / "app" / "static"
 SITE_DIR = REPO_ROOT / "site"
 ROOM_IDS = ("201", "202", "203", "301", "302", "303")
 STYLE_VERSION = "guide-smaller-kst-20260512"
-APP_VERSION = "subject-title-only-20260512"
+APP_VERSION = "status-cache-bust-20260512"
 
 
 def with_asset_paths(html: str, css_href: str, js_src: str, status_url: str) -> str:

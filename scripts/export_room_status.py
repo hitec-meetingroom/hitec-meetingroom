@@ -31,10 +31,13 @@ def _as_kst_wall_time(dt: datetime) -> datetime:
     return dt.astimezone(KST).replace(tzinfo=None)
 
 
-def compose_room_status(room: Room, meetings: List[Meeting]) -> RoomStatus:
+def compose_room_status(
+    room: Room,
+    meetings: List[Meeting],
+    sync_started_at: datetime,
+) -> RoomStatus:
     """scheduler.RoomStatusStore._compose 와 동일 (모듈 부작용 피하기)."""
-    now = datetime.now(KST)
-    now_wall_time = now.replace(tzinfo=None)
+    now_wall_time = sync_started_at.replace(tzinfo=None)
     current = next(
         (
             m
@@ -51,7 +54,7 @@ def compose_room_status(room: Room, meetings: List[Meeting]) -> RoomStatus:
         current_meeting=current,
         next_meeting=nxt,
         today_meetings=meetings,
-        last_updated=now,
+        last_updated=sync_started_at,
     )
 
 
@@ -75,10 +78,11 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     client = GraphClient()
+    sync_started_at = datetime.now(KST)
     default_status_text = None
     for room in settings.rooms:
         meetings = client.fetch_today_events(room.email)
-        status = compose_room_status(room, meetings)
+        status = compose_room_status(room, meetings, sync_started_at)
         status_text = status.model_dump_json(indent=2)
 
         out = out_dir / f"status-{room.room_id}.json"

@@ -38,11 +38,16 @@ function pad(n) {
     return String(n).padStart(2, "0");
 }
 
+function cacheBustedUrl(url) {
+    const sep = url.includes("?") ? "&" : "?";
+    return `${url}${sep}_=${Date.now()}`;
+}
+
 /* ===== 상태 페치 ===== */
 
 async function fetchStatus() {
     try {
-        const r = await fetch(API_STATUS, { cache: "no-store" });
+        const r = await fetch(cacheBustedUrl(API_STATUS), { cache: "no-store" });
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         latestStatus = await r.json();
         renderStatus();
