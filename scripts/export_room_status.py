@@ -11,6 +11,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import List
+from zoneinfo import ZoneInfo
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 if str(REPO_ROOT) not in sys.path:
@@ -20,12 +21,29 @@ from app.config import Room, settings  # noqa: E402
 from app.graph_client import GraphClient  # noqa: E402
 from app.models import Meeting, RoomStatus  # noqa: E402
 
+KST = ZoneInfo("Asia/Seoul")
+
+
+def _as_kst_wall_time(dt: datetime) -> datetime:
+    """Return a naive Asia/Seoul wall-clock datetime for meeting comparisons."""
+    if dt.tzinfo is None:
+        return dt
+    return dt.astimezone(KST).replace(tzinfo=None)
+
 
 def compose_room_status(room: Room, meetings: List[Meeting]) -> RoomStatus:
     """scheduler.RoomStatusStore._compose 와 동일 (모듈 부작용 피하기)."""
-    now = datetime.now()
-    current = next((m for m in meetings if m.start <= now < m.end), None)
-    upcoming = [m for m in meetings if m.start > now]
+    now = datetime.now(KST)
+    now_wall_time = now.replace(tzinfo=None)
+    current = next(
+        (
+            m
+            for m in meetings
+            if _as_kst_wall_time(m.start) <= now_wall_time < _as_kst_wall_time(m.end)
+        ),
+        None,
+    )
+    upcoming = [m for m in meetings if _as_kst_wall_time(m.start) > now_wall_time]
     nxt = upcoming[0] if upcoming else None
     return RoomStatus(
         room_name=room.display_name,

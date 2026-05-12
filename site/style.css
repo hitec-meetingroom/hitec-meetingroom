@@ -534,7 +534,7 @@ body[data-status="busy"] .status__dot {
 .panel--guide::-webkit-scrollbar-thumb { background: var(--bg-subtle); border-radius: 3px; }
 
 .guide__title {
-    font-size: 1.15rem;
+    font-size: 1.08rem;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--text-muted);
@@ -549,7 +549,7 @@ body[data-status="busy"] .status__dot {
 }
 
 .guide__heading {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 0.55rem;
@@ -560,7 +560,7 @@ body[data-status="busy"] .status__dot {
 
 .guide__tag {
     font-family: var(--font-mono);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     letter-spacing: 0.18em;
     background: var(--accent-soft);
     color: var(--accent);
@@ -574,8 +574,8 @@ body[data-status="busy"] .status__dot {
 .guide__list {
     counter-reset: guide-item;
     padding-left: 0;
-    font-size: 1.2rem;
-    line-height: 1.52;
+    font-size: 1.12rem;
+    line-height: 1.54;
     color: var(--text-secondary);
 }
 
@@ -640,5 +640,5 @@ body[data-status="loading"] .status__label {
     .status__label { font-size: 2.8rem; }
     .meeting__subject { font-size: 1.15rem; }
     .meeting__countdown { font-size: 1.25rem; }
-    .guide__list { font-size: 1.08rem; }
+    .guide__list { font-size: 1rem; }
 }
