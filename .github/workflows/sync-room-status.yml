@@ -4,8 +4,8 @@ name: Sync room status
 on:
   workflow_dispatch:
   schedule:
-    # GitHub Actions schedule의 실질 최소 주기는 5분입니다.
-    # 1분 단위 실시간 동기화가 필요하면 별도 상시 서버/API가 필요합니다.
+    # GitHub Actions schedule은 5분마다 시작하고,
+    # job 내부에서 1분 간격으로 5회 gh-pages 배포를 반복합니다.
     - cron: "*/5 * * * *"
 
 permissions:
@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: sync-room-status
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   export:
@@ -47,15 +47,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Export status JSON
-        run: python scripts/export_room_status.py --output-dir site
-
-      - name: Build static room pages
-        run: python scripts/build_static_site.py
-
-      - name: Deploy site to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          publish_branch: gh-pages
+      - name: Publish Pages every minute
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PUBLISH_BRANCH: gh-pages
+          SYNC_ITERATIONS: "5"
+          SYNC_INTERVAL_SEC: "60"
+        run: |
+          for i in $(seq 1 "$SYNC_ITERATIONS"); do
+            echo "Sync iteration ${i}/${SYNC_ITERATIONS}"
+            bash scripts/publish_pages_once.sh
+            if [ "$i" -lt "$SYNC_ITERATIONS" ]; then
+              sleep "$SYNC_INTERVAL_SEC"
+            fi
+          done
