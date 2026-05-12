@@ -15,9 +15,6 @@ trap cleanup EXIT
 python scripts/export_room_status.py --output-dir site
 python scripts/build_static_site.py
 
-git config user.name "github-actions[bot]"
-git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
 REMOTE_URL="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
 if git clone --depth 1 --branch "$PUBLISH_BRANCH" "$REMOTE_URL" "$DEPLOY_DIR"; then
@@ -28,6 +25,9 @@ else
   git -C "$DEPLOY_DIR" checkout --orphan "$PUBLISH_BRANCH"
   git -C "$DEPLOY_DIR" remote add origin "$REMOTE_URL"
 fi
+
+git -C "$DEPLOY_DIR" config user.name "github-actions[bot]"
+git -C "$DEPLOY_DIR" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 find "$DEPLOY_DIR" -mindepth 1 -maxdepth 1 ! -name ".git" -exec rm -rf {} +
 cp -R site/. "$DEPLOY_DIR"/
