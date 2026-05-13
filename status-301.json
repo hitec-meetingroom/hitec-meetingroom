@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "유동호 32비트 전기적 성능 검증 개선",
-    "organizer": "유동호",
-    "attendees": [
-      "정광욱"
-    ],
-    "start": "2026-05-13T10:00:00",
-    "end": "2026-05-13T11:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "SS사업본부 개발팀 소프트웨어 주간회의",
     "organizer": "SS사업본부 개발팀",
     "attendees": [
@@ -26,6 +16,7 @@
     "end": "2026-05-13T12:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "유동호 32비트 전기적 성능 검증 개선",
@@ -53,5 +44,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-13T10:59:34.936199+09:00"
+  "last_updated": "2026-05-13T11:00:48.576745+09:00"
 }
