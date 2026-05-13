@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "유동호 32비트 전기적 성능 검증 개선",
     "organizer": "유동호",
     "attendees": [
@@ -10,6 +9,21 @@
     ],
     "start": "2026-05-13T10:00:00",
     "end": "2026-05-13T11:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "SS사업본부 개발팀 소프트웨어 주간회의",
+    "organizer": "SS사업본부 개발팀",
+    "attendees": [
+      "정승호",
+      "정재찬",
+      "김동규",
+      "최이화",
+      "백진주",
+      "강종빈"
+    ],
+    "start": "2026-05-13T11:00:00",
+    "end": "2026-05-13T12:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -39,5 +53,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-13T09:59:44.748608+09:00"
+  "last_updated": "2026-05-13T10:00:49.067190+09:00"
 }
