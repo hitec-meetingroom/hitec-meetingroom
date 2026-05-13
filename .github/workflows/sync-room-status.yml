@@ -3,9 +3,18 @@ name: Sync room status
 
 on:
   workflow_dispatch:
+    inputs:
+      iterations:
+        description: "1회 실행에서 몇 번 publish 할지 (기본 5)"
+        required: false
+        default: "5"
+  repository_dispatch:
+    # 외부 cron(예: cron-job.org)에서 5분 간격으로 호출.
+    # event_type: sync-rooms
+    types: [sync-rooms]
   schedule:
-    # GitHub Actions schedule은 5분마다 시작하고,
-    # job 내부에서 1분 간격으로 5회 gh-pages 배포를 반복합니다.
+    # GitHub schedule은 throttle 가능성이 있어 보조용으로만 사용.
+    # 정상 작동 시 외부 ping이 더 정확함.
     - cron: "*/5 * * * *"
 
 permissions:
@@ -52,7 +61,9 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PUBLISH_BRANCH: gh-pages
-          SYNC_ITERATIONS: "5"
+          # repository_dispatch payload의 iterations 값을 우선 사용,
+          # 없으면 workflow_dispatch input, 그것도 없으면 5회.
+          SYNC_ITERATIONS: ${{ github.event.client_payload.iterations || github.event.inputs.iterations || '5' }}
           SYNC_INTERVAL_SEC: "60"
         run: |
           for i in $(seq 1 "$SYNC_ITERATIONS"); do
