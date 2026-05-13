@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-13T16:50:46.861968+09:00"
+  "next_meeting": {
+    "subject": "이미래 테스트",
+    "organizer": "이미래",
+    "attendees": [],
+    "start": "2026-05-13T17:00:00",
+    "end": "2026-05-13T17:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이미래 테스트",
+      "organizer": "이미래",
+      "attendees": [],
+      "start": "2026-05-13T17:00:00",
+      "end": "2026-05-13T17:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-13T16:51:47.867918+09:00"
 }
