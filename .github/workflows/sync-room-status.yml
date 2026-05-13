@@ -5,16 +5,15 @@ on:
   workflow_dispatch:
     inputs:
       iterations:
-        description: "1회 실행에서 몇 번 publish 할지 (기본 5)"
+        description: "1회 실행에서 몇 번 publish 할지 (기본 1)"
         required: false
-        default: "5"
+        default: "1"
   repository_dispatch:
-    # 외부 cron(예: cron-job.org)에서 5분 간격으로 호출.
+    # 외부 cron(cron-job.org)에서 1분 간격으로 호출.
     # event_type: sync-rooms
     types: [sync-rooms]
   schedule:
-    # GitHub schedule은 throttle 가능성이 있어 보조용으로만 사용.
-    # 정상 작동 시 외부 ping이 더 정확함.
+    # 외부 cron이 죽었을 때 대비한 보조 트리거 (GitHub schedule은 throttle됨).
     - cron: "*/5 * * * *"
 
 permissions:
@@ -22,7 +21,8 @@ permissions:
 
 concurrency:
   group: sync-room-status
-  cancel-in-progress: false
+  # 1분 간격 트리거가 큐에 쌓이지 않도록, 진행 중이면 새 실행으로 교체.
+  cancel-in-progress: true
 
 jobs:
   export:
@@ -56,14 +56,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Publish Pages every minute
+      - name: Publish Pages
         env:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           PUBLISH_BRANCH: gh-pages
-          # repository_dispatch payload의 iterations 값을 우선 사용,
-          # 없으면 workflow_dispatch input, 그것도 없으면 5회.
-          SYNC_ITERATIONS: ${{ github.event.client_payload.iterations || github.event.inputs.iterations || '5' }}
+          # 외부 cron이 1분마다 호출하므로 기본 1회.
+          # 보조 schedule(*/5)이나 수동 실행에서 여러 번 돌리고 싶으면 payload/input으로 조정.
+          SYNC_ITERATIONS: ${{ github.event.client_payload.iterations || github.event.inputs.iterations || '1' }}
           SYNC_INTERVAL_SEC: "60"
         run: |
           for i in $(seq 1 "$SYNC_ITERATIONS"); do
