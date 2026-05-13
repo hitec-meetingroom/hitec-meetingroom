@@ -1,16 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 신규입사자 OT",
-    "organizer": "인사",
-    "attendees": [
-      "정찬희"
-    ],
-    "start": "2026-05-13T10:00:00",
-    "end": "2026-05-13T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 32비트 프로젝트 정기 미팅",
     "organizer": "황선민",
@@ -55,5 +46,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-13T11:59:37.218147+09:00"
+  "last_updated": "2026-05-13T12:00:51.256276+09:00"
 }
