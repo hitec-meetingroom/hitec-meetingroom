@@ -2,20 +2,31 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 [경영기획팀] HR스터디",
+    "organizer": "인사",
+    "attendees": [
+      "이미래",
+      "정찬희",
+      "이지은B"
+    ],
+    "start": "2026-05-15T09:30:00",
+    "end": "2026-05-15T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "정재찬 당진 ETL 배포 ",
-      "organizer": "정재찬",
+      "subject": "인사 [경영기획팀] HR스터디",
+      "organizer": "인사",
       "attendees": [
-        "정승호",
-        "김동규",
-        "최이화"
+        "이미래",
+        "정찬희",
+        "이지은B"
       ],
-      "start": "2026-05-14T10:00:00",
-      "end": "2026-05-14T11:00:00",
+      "start": "2026-05-15T09:30:00",
+      "end": "2026-05-15T12:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-15T08:59:31.789409+09:00"
+  "last_updated": "2026-05-15T09:00:49.325998+09:00"
 }

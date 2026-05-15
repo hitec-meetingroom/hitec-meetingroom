@@ -2,7 +2,31 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-15T08:59:31.789409+09:00"
+  "next_meeting": {
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [
+      "박병택",
+      "문성진",
+      "박민성"
+    ],
+    "start": "2026-05-15T10:00:00",
+    "end": "2026-05-15T11:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "정광욱 하드웨어파트 주간업무회의",
+      "organizer": "정광욱",
+      "attendees": [
+        "박병택",
+        "문성진",
+        "박민성"
+      ],
+      "start": "2026-05-15T10:00:00",
+      "end": "2026-05-15T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-15T09:00:49.325998+09:00"
 }

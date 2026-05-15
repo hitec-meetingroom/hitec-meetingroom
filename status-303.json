@@ -2,25 +2,29 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 품질 Weekly ",
+    "organizer": "황선민",
+    "attendees": [
+      "유동호",
+      "심규선"
+    ],
+    "start": "2026-05-15T11:00:00",
+    "end": "2026-05-15T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "양동규 SkyRun 3.0 기획/개선 회의",
-      "organizer": "양동규",
+      "subject": "황선민 품질 Weekly ",
+      "organizer": "황선민",
       "attendees": [
-        "SS사업본부 기술영업팀",
-        "정승호",
-        "김동규",
-        "정재찬",
-        "강종빈",
-        "백진주",
-        "최이화",
-        "권기정"
+        "유동호",
+        "심규선"
       ],
-      "start": "2026-05-14T16:00:00",
-      "end": "2026-05-14T18:00:00",
+      "start": "2026-05-15T11:00:00",
+      "end": "2026-05-15T12:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-15T08:59:31.789409+09:00"
+  "last_updated": "2026-05-15T09:00:49.325998+09:00"
 }
