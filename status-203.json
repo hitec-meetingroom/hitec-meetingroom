@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이미래 1차 면접_김한솔(SCADA)",
     "organizer": "이미래",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-05-18T15:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이미래 1차 면접_김한솔(SCADA)",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-18T13:59:32.212395+09:00"
+  "last_updated": "2026-05-18T14:00:45.935024+09:00"
 }

@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 32비트, 초음파수도미터 검사 기준서 초안 검토",
     "organizer": "황선민",
     "attendees": [
@@ -10,6 +9,18 @@
     ],
     "start": "2026-05-18T14:00:00",
     "end": "2026-05-18T15:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 면담_HR",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이미래",
+      "선대현"
+    ],
+    "start": "2026-05-18T16:00:00",
+    "end": "2026-05-18T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -36,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-18T13:59:32.212395+09:00"
+  "last_updated": "2026-05-18T14:00:45.935024+09:00"
 }
