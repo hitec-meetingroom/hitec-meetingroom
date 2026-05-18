@@ -2,7 +2,27 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-18T08:59:33.714216+09:00"
+  "next_meeting": {
+    "subject": "양동규 군산시 개발 회의",
+    "organizer": "양동규",
+    "attendees": [
+      "정승호"
+    ],
+    "start": "2026-05-18T14:00:00",
+    "end": "2026-05-18T16:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "양동규 군산시 개발 회의",
+      "organizer": "양동규",
+      "attendees": [
+        "정승호"
+      ],
+      "start": "2026-05-18T14:00:00",
+      "end": "2026-05-18T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-18T09:00:49.930469+09:00"
 }
