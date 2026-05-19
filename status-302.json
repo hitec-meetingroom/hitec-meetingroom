@@ -6,7 +6,7 @@
     "organizer": "강종빈",
     "attendees": [],
     "start": "2026-05-19T09:00:00",
-    "end": "2026-05-19T18:00:00",
+    "end": "2026-05-19T11:00:00",
     "is_cancelled": false
   },
   "next_meeting": null,
@@ -16,9 +16,9 @@
       "organizer": "강종빈",
       "attendees": [],
       "start": "2026-05-19T09:00:00",
-      "end": "2026-05-19T18:00:00",
+      "end": "2026-05-19T11:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-19T10:11:36.123406+09:00"
+  "last_updated": "2026-05-19T10:12:37.711266+09:00"
 }
