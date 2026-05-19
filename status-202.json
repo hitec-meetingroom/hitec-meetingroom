@@ -1,8 +1,24 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "이동욱 PS팀 ENG 파트 업무협의",
+    "organizer": "이동욱",
+    "attendees": [],
+    "start": "2026-05-19T09:30:00",
+    "end": "2026-05-19T10:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-19T09:29:33.013865+09:00"
+  "today_meetings": [
+    {
+      "subject": "이동욱 PS팀 ENG 파트 업무협의",
+      "organizer": "이동욱",
+      "attendees": [],
+      "start": "2026-05-19T09:30:00",
+      "end": "2026-05-19T10:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-19T09:30:43.127364+09:00"
 }
