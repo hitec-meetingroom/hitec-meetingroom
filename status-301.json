@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 검사 기준서 논의",
-    "organizer": "황선민",
-    "attendees": [
-      "심규선"
-    ],
-    "start": "2026-05-19T15:00:00",
-    "end": "2026-05-19T16:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 면담_HR",
     "organizer": "인사",
     "attendees": [
@@ -22,6 +12,7 @@
     "end": "2026-05-19T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 검사 기준서 논의",
@@ -45,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-19T15:59:47.119065+09:00"
+  "last_updated": "2026-05-19T16:00:50.557825+09:00"
 }
