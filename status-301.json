@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 검사 기준서 논의",
     "organizer": "황선민",
     "attendees": [
@@ -10,6 +9,17 @@
     ],
     "start": "2026-05-19T15:00:00",
     "end": "2026-05-19T16:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 면담_HR",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "박성현"
+    ],
+    "start": "2026-05-19T16:00:00",
+    "end": "2026-05-19T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -35,5 +45,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-19T14:59:36.207035+09:00"
+  "last_updated": "2026-05-19T15:00:49.823831+09:00"
 }
