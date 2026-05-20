@@ -2,7 +2,39 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-20T08:59:36.607635+09:00"
+  "next_meeting": {
+    "subject": "황선민 32비트 프로젝트 정기 미팅",
+    "organizer": "황선민",
+    "attendees": [
+      "김용원",
+      "정광욱",
+      "권기정",
+      "정승호",
+      "김경환",
+      "유동호",
+      "심규선"
+    ],
+    "start": "2026-05-20T14:00:00",
+    "end": "2026-05-20T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "황선민 32비트 프로젝트 정기 미팅",
+      "organizer": "황선민",
+      "attendees": [
+        "김용원",
+        "정광욱",
+        "권기정",
+        "정승호",
+        "김경환",
+        "유동호",
+        "심규선"
+      ],
+      "start": "2026-05-20T14:00:00",
+      "end": "2026-05-20T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-20T09:00:51.914451+09:00"
 }

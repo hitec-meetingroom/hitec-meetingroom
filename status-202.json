@@ -2,16 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이지은B [경영기획팀] 면접 대기실",
+    "organizer": "이지은B",
+    "attendees": [],
+    "start": "2026-05-20T14:30:00",
+    "end": "2026-05-20T16:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이동욱 PS팀 ENG 파트 업무협의",
-      "organizer": "이동욱",
+      "subject": "이지은B [경영기획팀] 면접 대기실",
+      "organizer": "이지은B",
       "attendees": [],
-      "start": "2026-05-19T09:30:00",
-      "end": "2026-05-19T10:30:00",
+      "start": "2026-05-20T14:30:00",
+      "end": "2026-05-20T16:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-20T08:59:36.607635+09:00"
+  "last_updated": "2026-05-20T09:00:51.914451+09:00"
 }
