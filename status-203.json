@@ -2,35 +2,7 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": {
-    "subject": "인사 1차 면접_설수진(공정관리)",
-    "organizer": "인사",
-    "attendees": [
-      "권기정",
-      "이미래",
-      "정찬희",
-      "정연미",
-      "이지은B"
-    ],
-    "start": "2026-05-20T15:00:00",
-    "end": "2026-05-20T16:00:00",
-    "is_cancelled": false
-  },
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_설수진(공정관리)",
-      "organizer": "인사",
-      "attendees": [
-        "권기정",
-        "이미래",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-05-20T15:00:00",
-      "end": "2026-05-20T16:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-05-20T14:49:37.851254+09:00"
+  "next_meeting": null,
+  "today_meetings": [],
+  "last_updated": "2026-05-20T14:50:41.708294+09:00"
 }
