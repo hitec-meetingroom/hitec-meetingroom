@@ -2,32 +2,50 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 1차 면접_김연태(공정관리)",
+    "organizer": "인사",
+    "attendees": [
+      "권기정",
+      "이미래",
+      "정찬희",
+      "정연미",
+      "이지은B"
+    ],
+    "start": "2026-05-22T10:00:00",
+    "end": "2026-05-22T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "양동규 블루앤아이(보안모듈업체) 미팅",
-      "organizer": "양동규",
+      "subject": "인사 1차 면접_김연태(공정관리)",
+      "organizer": "인사",
       "attendees": [
         "권기정",
-        "정광욱",
-        "정재찬"
+        "이미래",
+        "정찬희",
+        "정연미",
+        "이지은B"
       ],
-      "start": "2026-05-21T10:00:00",
-      "end": "2026-05-21T12:00:00",
+      "start": "2026-05-22T10:00:00",
+      "end": "2026-05-22T11:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "양동규 유비벨록스(보안모듈업체) 미팅",
-      "organizer": "양동규",
+      "subject": "황선민 CS 이슈 대응 방안 논의(인천시 1차, 2차)",
+      "organizer": "황선민",
       "attendees": [
-        "권기정",
         "정광욱",
-        "정재찬"
+        "김용원",
+        "권기정",
+        "이상국",
+        "박희택",
+        "허승혁"
       ],
-      "start": "2026-05-21T14:00:00",
-      "end": "2026-05-21T17:00:00",
+      "start": "2026-05-22T14:00:00",
+      "end": "2026-05-22T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-22T08:59:34.338218+09:00"
+  "last_updated": "2026-05-22T09:00:51.582456+09:00"
 }

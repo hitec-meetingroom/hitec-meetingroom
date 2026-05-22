@@ -2,26 +2,34 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이지은B [경영기획팀]면접 대기실(가)",
+    "organizer": "이지은B",
+    "attendees": [],
+    "start": "2026-05-22T09:30:00",
+    "end": "2026-05-22T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이지은B 미팅",
+      "subject": "이지은B [경영기획팀]면접 대기실(가)",
       "organizer": "이지은B",
       "attendees": [],
-      "start": "2026-05-21T12:00:00",
-      "end": "2026-05-21T13:30:00",
+      "start": "2026-05-22T09:30:00",
+      "end": "2026-05-22T11:30:00",
       "is_cancelled": false
     },
     {
-      "subject": "유동호 32비트 PP검증항목 정리",
-      "organizer": "유동호",
+      "subject": "황선민 품질 Weekly ",
+      "organizer": "황선민",
       "attendees": [
-        "황선민"
+        "유동호",
+        "심규선"
       ],
-      "start": "2026-05-21T15:00:00",
-      "end": "2026-05-21T16:00:00",
+      "start": "2026-05-22T15:00:00",
+      "end": "2026-05-22T16:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-22T08:59:34.338218+09:00"
+  "last_updated": "2026-05-22T09:00:51.582456+09:00"
 }

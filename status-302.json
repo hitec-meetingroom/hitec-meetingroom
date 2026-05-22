@@ -2,16 +2,39 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [
+      "박병택",
+      "문성진",
+      "박민성"
+    ],
+    "start": "2026-05-22T10:00:00",
+    "end": "2026-05-22T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "강종빈 GS인증 (SW개발)",
+      "subject": "정광욱 하드웨어파트 주간업무회의",
+      "organizer": "정광욱",
+      "attendees": [
+        "박병택",
+        "문성진",
+        "박민성"
+      ],
+      "start": "2026-05-22T10:00:00",
+      "end": "2026-05-22T11:30:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "강종빈 GS인증 (SW)",
       "organizer": "강종빈",
       "attendees": [],
-      "start": "2026-05-21T09:00:00",
-      "end": "2026-05-21T18:00:00",
+      "start": "2026-05-22T11:30:00",
+      "end": "2026-05-22T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-22T08:59:34.338218+09:00"
+  "last_updated": "2026-05-22T09:00:51.582456+09:00"
 }
