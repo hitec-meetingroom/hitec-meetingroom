@@ -3,22 +3,17 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "이지은B [경영기획팀]면접 대기실(가)",
-    "organizer": "이지은B",
-    "attendees": [],
-    "start": "2026-05-22T09:30:00",
-    "end": "2026-05-22T11:30:00",
+    "subject": "황선민 품질 Weekly ",
+    "organizer": "황선민",
+    "attendees": [
+      "유동호",
+      "심규선"
+    ],
+    "start": "2026-05-22T15:00:00",
+    "end": "2026-05-22T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
-    {
-      "subject": "이지은B [경영기획팀]면접 대기실(가)",
-      "organizer": "이지은B",
-      "attendees": [],
-      "start": "2026-05-22T09:30:00",
-      "end": "2026-05-22T11:30:00",
-      "is_cancelled": false
-    },
     {
       "subject": "황선민 품질 Weekly ",
       "organizer": "황선민",
@@ -31,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-22T09:17:32.173896+09:00"
+  "last_updated": "2026-05-22T09:18:32.605694+09:00"
 }
