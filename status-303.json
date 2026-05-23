@@ -3,36 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_김연태(공정관리)",
-      "organizer": "인사",
-      "attendees": [
-        "권기정",
-        "이미래",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-05-22T10:00:00",
-      "end": "2026-05-22T11:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 CS 이슈 대응 방안 논의(인천시 1차, 2차)",
-      "organizer": "황선민",
-      "attendees": [
-        "정광욱",
-        "김용원",
-        "권기정",
-        "이상국",
-        "박희택",
-        "허승혁"
-      ],
-      "start": "2026-05-22T14:00:00",
-      "end": "2026-05-22T15:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-05-23T08:59:33.265691+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-05-23T09:00:53.161402+09:00"
 }
