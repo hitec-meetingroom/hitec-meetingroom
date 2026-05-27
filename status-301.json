@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이지은B [경영기획팀] 면접대기실",
     "organizer": "이지은B",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-05-27T17:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정광욱 변리사 미팅",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-27T15:29:35.181662+09:00"
+  "last_updated": "2026-05-27T15:30:42.803240+09:00"
 }
