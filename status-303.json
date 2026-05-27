@@ -3,38 +3,17 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 32비트 프로젝트 정기 미팅",
-    "organizer": "황선민",
+    "subject": "정광욱 아이앤씨테크놀러지 미팅",
+    "organizer": "정광욱",
     "attendees": [
-      "김용원",
-      "정광욱",
       "권기정",
-      "정승호",
-      "김경환",
-      "유동호",
-      "심규선"
+      "양동규"
     ],
-    "start": "2026-05-27T14:00:00",
-    "end": "2026-05-27T15:00:00",
+    "start": "2026-05-27T15:00:00",
+    "end": "2026-05-27T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
-    {
-      "subject": "황선민 32비트 프로젝트 정기 미팅",
-      "organizer": "황선민",
-      "attendees": [
-        "김용원",
-        "정광욱",
-        "권기정",
-        "정승호",
-        "김경환",
-        "유동호",
-        "심규선"
-      ],
-      "start": "2026-05-27T14:00:00",
-      "end": "2026-05-27T15:00:00",
-      "is_cancelled": false
-    },
     {
       "subject": "정광욱 아이앤씨테크놀러지 미팅",
       "organizer": "정광욱",
@@ -47,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-27T10:41:36.678776+09:00"
+  "last_updated": "2026-05-27T10:42:35.578068+09:00"
 }
