@@ -2,28 +2,23 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 변리사 미팅",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-05-27T10:00:00",
+    "end": "2026-05-27T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "최이화 원주 수동검침",
-      "organizer": "최이화",
-      "attendees": [
-        "정승호",
-        "김동규",
-        "정재찬"
-      ],
-      "start": "2026-05-26T11:00:00",
-      "end": "2026-05-26T12:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 M_한국안전보건협회",
-      "organizer": "인사",
+      "subject": "정광욱 변리사 미팅",
+      "organizer": "정광욱",
       "attendees": [],
-      "start": "2026-05-26T14:00:00",
-      "end": "2026-05-26T15:00:00",
+      "start": "2026-05-27T10:00:00",
+      "end": "2026-05-27T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-27T08:59:31.524972+09:00"
+  "last_updated": "2026-05-27T09:00:48.753701+09:00"
 }

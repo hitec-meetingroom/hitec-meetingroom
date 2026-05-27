@@ -2,19 +2,37 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "ES_SALES(Sched) ES Sales 미팅",
+    "organizer": "ES_SALES(Sched)",
+    "attendees": [
+      "ES사업본부 ES영업팀",
+      "이훈"
+    ],
+    "start": "2026-05-27T09:30:00",
+    "end": "2026-05-27T10:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "ES_SALES(Sched) ES sales  미팅",
+      "subject": "ES_SALES(Sched) ES Sales 미팅",
       "organizer": "ES_SALES(Sched)",
       "attendees": [
         "ES사업본부 ES영업팀",
         "이훈"
       ],
-      "start": "2026-05-26T09:00:00",
-      "end": "2026-05-26T10:00:00",
+      "start": "2026-05-27T09:30:00",
+      "end": "2026-05-27T10:30:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "ES_ENG(Sched) [SK하이닉스 Y-PJT] 154kV 보호계전기 정정 보고서 검토의 건(파워토스)",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-05-27T14:00:00",
+      "end": "2026-05-27T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-27T08:59:31.524972+09:00"
+  "last_updated": "2026-05-27T09:00:48.753701+09:00"
 }
