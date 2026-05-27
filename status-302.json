@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "백진주 SS 소프트웨어 주간회의",
     "organizer": "백진주",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-05-27T12:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "백진주 SS 소프트웨어 주간회의",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-27T10:59:33.212998+09:00"
+  "last_updated": "2026-05-27T11:00:49.281255+09:00"
 }
