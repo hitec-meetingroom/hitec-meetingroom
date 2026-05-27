@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_SALES(Sched) ES Sales 미팅",
     "organizer": "ES_SALES(Sched)",
     "attendees": [
@@ -11,6 +10,14 @@
     ],
     "start": "2026-05-27T09:30:00",
     "end": "2026-05-27T10:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) [SK하이닉스 Y-PJT] 154kV 보호계전기 정정 보고서 검토의 건(파워토스)",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-05-27T14:00:00",
+    "end": "2026-05-27T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -34,5 +41,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-27T09:29:36.095603+09:00"
+  "last_updated": "2026-05-27T09:30:46.828891+09:00"
 }
