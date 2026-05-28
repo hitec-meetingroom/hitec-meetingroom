@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-05-28T09:06:36.050747+09:00"
+  "next_meeting": {
+    "subject": "최민철 삼성전기 베트남 업무미팅(삼성엔지니어링)",
+    "organizer": "최민철",
+    "attendees": [],
+    "start": "2026-05-28T10:00:00",
+    "end": "2026-05-28T11:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "최민철 삼성전기 베트남 업무미팅(삼성엔지니어링)",
+      "organizer": "최민철",
+      "attendees": [],
+      "start": "2026-05-28T10:00:00",
+      "end": "2026-05-28T11:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-05-28T09:07:34.367784+09:00"
 }
