@@ -43,6 +43,11 @@ class GraphClient:
         return result["access_token"]
 
     def fetch_today_events(self, room_email: str) -> List[Meeting]:
+        log.info(
+            "Graph fetch_today_events: mock=%s room=%s",
+            settings.mock_mode,
+            room_email,
+        )
         if settings.mock_mode:
             return self._mock_events()
         return self._real_events(room_email)
@@ -67,15 +72,45 @@ class GraphClient:
             "Prefer": 'outlook.timezone="Asia/Seoul"',
         }
 
+        log.info(
+            "Graph calendarView: window=%s .. %s",
+            params["startDateTime"],
+            params["endDateTime"],
+        )
         resp = httpx.get(url, params=params, headers=headers, timeout=15)
         resp.raise_for_status()
-        events = resp.json().get("value", [])
-
-        return [
-            self._parse_event(e, room_email)
-            for e in events
-            if not e.get("isCancelled", False)
-        ]
+        raw = resp.json().get("value", [])
+        cancelled_n = sum(1 for e in raw if e.get("isCancelled", False))
+        kept = [e for e in raw if not e.get("isCancelled", False)]
+        log.info(
+            "Graph calendarView: http=%s raw=%d cancelled_skipped=%d kept=%d",
+            resp.status_code,
+            len(raw),
+            cancelled_n,
+            len(kept),
+        )
+        meetings: List[Meeting] = []
+        for e in kept:
+            try:
+                meetings.append(self._parse_event(e, room_email))
+            except Exception:
+                log.exception(
+                    "Graph 이벤트 파싱 실패 subject=%r keys=%s",
+                    e.get("subject"),
+                    list(e.keys()),
+                )
+        max_lines = 30
+        for i, m in enumerate(meetings[:max_lines]):
+            log.info(
+                "  [%d] %s | %s ~ %s",
+                i + 1,
+                m.subject,
+                m.start.isoformat(),
+                m.end.isoformat(),
+            )
+        if len(meetings) > max_lines:
+            log.info("  ... 외 %d건 생략", len(meetings) - max_lines)
+        return meetings
 
     @staticmethod
     def _parse_event(e: dict, room_email: str = "") -> Meeting:
@@ -123,7 +158,7 @@ class GraphClient:
         today = now.replace(hour=0, minute=0, second=0, microsecond=0)
         hour_start = now.replace(minute=0, second=0, microsecond=0)
 
-        return [
+        out = [
             Meeting(
                 subject="주간 업무 회의",
                 organizer="김철수 차장",
@@ -153,3 +188,12 @@ class GraphClient:
                 end=hour_start + timedelta(hours=5),
             ),
         ]
+        for i, m in enumerate(out):
+            log.info(
+                "mock [%d] %s | %s ~ %s",
+                i + 1,
+                m.subject,
+                m.start.isoformat(),
+                m.end.isoformat(),
+            )
+        return out

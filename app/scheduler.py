@@ -15,6 +15,12 @@ from .models import Meeting, RoomStatus
 log = logging.getLogger(__name__)
 
 
+def _meeting_one_line(m: Optional[Meeting]) -> str:
+    if m is None:
+        return "없음"
+    return f"{m.subject!r} {m.start.isoformat()} ~ {m.end.isoformat()}"
+
+
 class RoomStatusStore:
     def __init__(self, room: Room, client: GraphClient):
         self._room = room
@@ -55,10 +61,18 @@ class RoomStatusStore:
             meetings = await asyncio.to_thread(
                 self._client.fetch_today_events, self._room.email
             )
-            self._status = self._compose(meetings)
+            now = datetime.now()
+            st = self._compose(meetings)
+            self._status = st
             log.info(
-                "[%s] 갱신 완료: 오늘 회의 %d건", self._room.room_id, len(meetings)
+                "[%s] compose: now=%s meetings=%d occupied=%s",
+                self._room.room_id,
+                now.isoformat(),
+                len(meetings),
+                st.is_occupied,
             )
+            log.info("[%s] current=%s", self._room.room_id, _meeting_one_line(st.current_meeting))
+            log.info("[%s] next=%s", self._room.room_id, _meeting_one_line(st.next_meeting))
         except Exception:
             log.exception(
                 "[%s] Graph 호출 실패 (기존 캐시 유지)", self._room.room_id

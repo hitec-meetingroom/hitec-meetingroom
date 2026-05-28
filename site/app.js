@@ -16,6 +16,7 @@ function resolveStatusUrl() {
 
 const API_STATUS = resolveStatusUrl();
 const HEALTH_URL = rootEl.dataset.healthUrl || "";
+const LOG_PREFIX = "[room-display]";
 const REFRESH_INTERVAL_MS = 30 * 1000;   // 서버 캐시 폴링: 30초
 const TIMELINE_START_HOUR = 9;            // 타임라인 표시 범위 (업무시간)
 const TIMELINE_END_HOUR = 18;
@@ -45,14 +46,38 @@ function cacheBustedUrl(url) {
 
 /* ===== 상태 페치 ===== */
 
+function logStatusPayload(data, fetchUrl) {
+    const meetings = Array.isArray(data?.today_meetings) ? data.today_meetings : [];
+    const sample = meetings.slice(0, 5).map((m) => ({
+        start: m?.start,
+        end: m?.end,
+        subject: m?.subject,
+        organizer: m?.organizer,
+    }));
+    console.log(LOG_PREFIX, "status 수신", {
+        fetchUrl,
+        room_name: data?.room_name,
+        last_updated: data?.last_updated,
+        meetingCount: meetings.length,
+        sampleMeetings: sample,
+    });
+}
+
 async function fetchStatus() {
+    const fetchUrl = cacheBustedUrl(API_STATUS);
+    const t0 = performance.now();
     try {
-        const r = await fetch(cacheBustedUrl(API_STATUS), { cache: "no-store" });
+        console.log(LOG_PREFIX, "요청 시작", { api: API_STATUS, fetchUrl, href: window.location.href });
+        const r = await fetch(fetchUrl, { cache: "no-store" });
+        const ms = Math.round(performance.now() - t0);
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
-        latestStatus = await r.json();
+        const data = await r.json();
+        latestStatus = data;
+        logStatusPayload(data, fetchUrl);
+        console.log(LOG_PREFIX, "요청 완료", { ok: true, http: r.status, ms });
         renderStatus();
     } catch (err) {
-        console.warn("API 호출 실패:", err);
+        console.warn(LOG_PREFIX, "API 호출 실패", { fetchUrl, err });
         // 기존 캐시 표시 유지 (네트워크 일시 불통 등)
     }
 }
@@ -141,7 +166,7 @@ function renderStatus() {
 
     // 푸터
     document.getElementById("lastUpdated").textContent =
-        `최근 동기화: ${fmtTime(s.last_updated)}`;
+        `${fmtTime(s.last_updated)}`;
 }
 
 function renderTimeline(meetings, currentMeeting) {
@@ -316,6 +341,13 @@ function untilStartText(startIso) {
 /* ===== 초기화 ===== */
 
 async function init() {
+    console.log(LOG_PREFIX, "초기화", {
+        pathname: window.location.pathname,
+        dataStatusUrl: rootEl.dataset.statusUrl || "(없음)",
+        resolvedApi: API_STATUS,
+        healthUrl: HEALTH_URL || "(없음)",
+    });
+
     updateClock();
     setInterval(updateClock, 1000);
 

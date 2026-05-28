@@ -27,9 +27,7 @@ let latestStatus = null;
 function updateClock() {
     const now = new Date();
     const dateStr = `${now.getFullYear()} / ${pad(now.getMonth() + 1)} / ${pad(now.getDate())}`;
-    const weekdays = ["일", "월", "화", "수", "목", "금", "토"];
-    const weekday = weekdays[now.getDay()] + "요일";
-    document.getElementById("clockDate").textContent = `${dateStr} · ${weekday}`;
+    document.getElementById("clockDate").textContent = dateStr;
     document.getElementById("clockTime").textContent =
         `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
 }
@@ -141,15 +139,15 @@ function renderStatus() {
 
     // 푸터
     document.getElementById("lastUpdated").textContent =
-        `최근 동기화: ${fmtTime(s.last_updated)}`;
+        `${fmtTime(s.last_updated)}`;
 }
 
 function renderTimeline(meetings, currentMeeting) {
     const track = document.getElementById("timelineTrack");
     const hoursEl = document.getElementById("timelineHours");
 
-    // 기존 블록 제거 (__now / 툴팁은 유지)
-    track.querySelectorAll(".timeline__block").forEach(el => el.remove());
+    // 기존 블록·툴팁 제거 (__now 만 유지)
+    track.querySelectorAll(".timeline__block, .timeline__tooltip").forEach(el => el.remove());
 
     const totalMin = (TIMELINE_END_HOUR - TIMELINE_START_HOUR) * 60;
 
@@ -174,8 +172,10 @@ function renderTimeline(meetings, currentMeeting) {
         }
         block.style.top = `${top}%`;
         block.style.height = `${height}%`;
-        attachTimelineTooltip(block, m, top + height / 2);
         track.appendChild(block);
+
+        // 블록마다 상시 노출 툴팁
+        track.appendChild(buildTimelineTooltip(m, top + height / 2));
     });
 
     // 현재 시각 마커 (가로 스트라이프)
@@ -201,37 +201,40 @@ function renderTimeline(meetings, currentMeeting) {
     }
 }
 
-/* ===== 타임라인 호버 툴팁 ===== */
+/* ===== 타임라인 상시 노출 툴팁 ===== */
 
-function attachTimelineTooltip(block, meeting, centerPercent) {
-    block.addEventListener("mouseenter", () => {
-        const tip = document.getElementById("timelineTooltip");
-        if (!tip) return;
-        document.getElementById("tooltipTime").textContent =
-            `${fmtTime(meeting.start)} — ${fmtTime(meeting.end)}`;
-        document.getElementById("tooltipSubject").textContent =
-            displaySubject(meeting);
-        const orgEl = document.getElementById("tooltipOrganizer");
-        const org = meeting.organizer || "";
-        orgEl.textContent = org ? `주최: ${org}` : "";
-        orgEl.hidden = !org;
-        const attEl = document.getElementById("tooltipAttendees");
-        const att = meeting.attendees || [];
-        if (att.length > 0) {
-            attEl.textContent = `참석자: ${formatAttendees(att)}`;
-            attEl.hidden = false;
-        } else {
-            attEl.hidden = true;
-        }
-        // 세로 타임라인: 막대 우측에 떠서 위/아래로 클램프
-        const clamped = Math.max(8, Math.min(92, centerPercent));
-        tip.style.top = `${clamped}%`;
-        tip.hidden = false;
-    });
-    block.addEventListener("mouseleave", () => {
-        const tip = document.getElementById("timelineTooltip");
-        if (tip) tip.hidden = true;
-    });
+function buildTimelineTooltip(meeting, centerPercent) {
+    const tip = document.createElement("div");
+    tip.className = "timeline__tooltip";
+    const clamped = Math.max(8, Math.min(92, centerPercent));
+    tip.style.top = `${clamped}%`;
+
+    const time = document.createElement("div");
+    time.className = "timeline__tooltip-time";
+    time.textContent = `${fmtTime(meeting.start)} — ${fmtTime(meeting.end)}`;
+    tip.appendChild(time);
+
+    const subject = document.createElement("div");
+    subject.className = "timeline__tooltip-subject";
+    subject.textContent = displaySubject(meeting);
+    tip.appendChild(subject);
+
+    const org = meeting.organizer || "";
+    if (org) {
+        const orgEl = document.createElement("div");
+        orgEl.className = "timeline__tooltip-organizer";
+        orgEl.textContent = `주최: ${org}`;
+        tip.appendChild(orgEl);
+    }
+
+    const att = meeting.attendees || [];
+    if (att.length > 0) {
+        const attEl = document.createElement("div");
+        attEl.className = "timeline__tooltip-attendees";
+        attEl.textContent = `참석자: ${formatAttendees(att)}`;
+        tip.appendChild(attEl);
+    }
+    return tip;
 }
 
 function formatAttendees(attendees, max = 8) {
