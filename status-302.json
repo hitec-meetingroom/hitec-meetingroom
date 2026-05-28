@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 EXPO 인수인계 및 앱 개발 내용 교육",
     "organizer": "최이화",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-05-28T15:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "백진주 TEST",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-28T13:59:34.778898+09:00"
+  "last_updated": "2026-05-28T14:00:48.561769+09:00"
 }
