@@ -1,14 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "백진주 TEST",
-    "organizer": "백진주",
-    "attendees": [],
-    "start": "2026-05-28T11:00:00",
-    "end": "2026-05-28T13:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "최이화 EXPO 인수인계 및 앱 개발 내용 교육",
     "organizer": "최이화",
@@ -39,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-28T12:59:36.136511+09:00"
+  "last_updated": "2026-05-28T13:00:47.055137+09:00"
 }
