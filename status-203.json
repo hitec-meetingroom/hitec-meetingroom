@@ -2,27 +2,7 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": {
-    "subject": "ES_PQ(Sched) TEST",
-    "organizer": "ES_PQ(Sched)",
-    "attendees": [
-      "백진주"
-    ],
-    "start": "2026-05-28T10:00:00",
-    "end": "2026-05-28T10:30:00",
-    "is_cancelled": false
-  },
-  "today_meetings": [
-    {
-      "subject": "ES_PQ(Sched) TEST",
-      "organizer": "ES_PQ(Sched)",
-      "attendees": [
-        "백진주"
-      ],
-      "start": "2026-05-28T10:00:00",
-      "end": "2026-05-28T10:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-05-28T09:44:32.844893+09:00"
+  "next_meeting": null,
+  "today_meetings": [],
+  "last_updated": "2026-05-28T09:45:40.379444+09:00"
 }
