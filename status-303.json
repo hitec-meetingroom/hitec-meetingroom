@@ -1,16 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황선민 업무 논의",
-    "organizer": "황선민",
-    "attendees": [
-      "이상국"
-    ],
-    "start": "2026-05-29T11:00:00",
-    "end": "2026-05-29T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 32비트 프로젝트 정기 미팅",
     "organizer": "황선민",
@@ -65,5 +56,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-29T11:59:38.789487+09:00"
+  "last_updated": "2026-05-29T12:00:51.222063+09:00"
 }
