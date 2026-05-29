@@ -1,7 +1,14 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "이지은B 경영기획팀",
+    "organizer": "이지은B",
+    "attendees": [],
+    "start": "2026-05-29T14:00:00",
+    "end": "2026-05-29T15:00:00",
+    "is_cancelled": false
+  },
   "next_meeting": {
     "subject": "황선민 품질 Weekly ",
     "organizer": "황선민",
@@ -20,6 +27,14 @@
       "attendees": [],
       "start": "2026-05-29T09:30:00",
       "end": "2026-05-29T11:30:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "이지은B 경영기획팀",
+      "organizer": "이지은B",
+      "attendees": [],
+      "start": "2026-05-29T14:00:00",
+      "end": "2026-05-29T15:00:00",
       "is_cancelled": false
     },
     {
@@ -44,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-29T14:03:36.268758+09:00"
+  "last_updated": "2026-05-29T14:04:34.823356+09:00"
 }
