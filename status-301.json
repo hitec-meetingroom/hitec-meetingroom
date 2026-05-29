@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 1 On 1",
-    "organizer": "황선민",
-    "attendees": [
-      "유동호"
-    ],
-    "start": "2026-05-29T16:00:00",
-    "end": "2026-05-29T16:30:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "최이화 수기검침 기획검토",
     "organizer": "최이화",
     "attendees": [
@@ -22,6 +12,7 @@
     "end": "2026-05-29T17:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이지은B [경영기획팀] 면접대기실",
@@ -72,5 +63,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-29T16:29:32.182113+09:00"
+  "last_updated": "2026-05-29T16:30:45.172194+09:00"
 }
