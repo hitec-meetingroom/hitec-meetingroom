@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정광욱 하드웨어파트 주간업무회의",
     "organizer": "정광욱",
     "attendees": [
@@ -12,6 +11,17 @@
     ],
     "start": "2026-05-29T10:00:00",
     "end": "2026-05-29T11:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 M_경영기획팀",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이미래"
+    ],
+    "start": "2026-05-29T15:00:00",
+    "end": "2026-05-29T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -39,5 +49,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-29T09:59:32.992120+09:00"
+  "last_updated": "2026-05-29T10:00:48.399241+09:00"
 }
