@@ -2,17 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 품질 Weekly ",
-    "organizer": "황선민",
-    "attendees": [
-      "유동호",
-      "심규선"
-    ],
-    "start": "2026-05-29T15:00:00",
-    "end": "2026-05-29T16:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "황선민 1 On 1",
     "organizer": "황선민",
     "attendees": [
@@ -22,6 +11,7 @@
     "end": "2026-05-29T16:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이지은B [경영기획팀] 면접대기실",
@@ -61,5 +51,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-29T15:59:31.705558+09:00"
+  "last_updated": "2026-05-29T16:00:49.051904+09:00"
 }
