@@ -2,26 +2,42 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [
+      "박병택",
+      "문성진",
+      "박민성"
+    ],
+    "start": "2026-05-29T10:00:00",
+    "end": "2026-05-29T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "백진주 TEST",
-      "organizer": "백진주",
-      "attendees": [],
-      "start": "2026-05-28T11:00:00",
-      "end": "2026-05-28T13:00:00",
+      "subject": "정광욱 하드웨어파트 주간업무회의",
+      "organizer": "정광욱",
+      "attendees": [
+        "박병택",
+        "문성진",
+        "박민성"
+      ],
+      "start": "2026-05-29T10:00:00",
+      "end": "2026-05-29T11:30:00",
       "is_cancelled": false
     },
     {
-      "subject": "최이화 EXPO 인수인계 및 앱 개발 내용 교육",
-      "organizer": "최이화",
+      "subject": "인사 M_경영기획팀",
+      "organizer": "인사",
       "attendees": [
-        "백진주"
+        "정찬희",
+        "이미래"
       ],
-      "start": "2026-05-28T14:00:00",
-      "end": "2026-05-28T15:30:00",
+      "start": "2026-05-29T15:00:00",
+      "end": "2026-05-29T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-05-29T08:59:36.752923+09:00"
+  "last_updated": "2026-05-29T09:00:49.449289+09:00"
 }
