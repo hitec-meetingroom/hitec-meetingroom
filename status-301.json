@@ -11,7 +11,20 @@
     "end": "2026-06-01T17:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정영모 주간 생산회의",
+    "organizer": "정영모",
+    "attendees": [
+      "김용원",
+      "김경환",
+      "정병주",
+      "김용희",
+      "이상국"
+    ],
+    "start": "2026-06-01T17:00:00",
+    "end": "2026-06-01T18:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "황선민 1 on 1",
@@ -22,7 +35,21 @@
       "start": "2026-06-01T16:00:00",
       "end": "2026-06-01T17:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "정영모 주간 생산회의",
+      "organizer": "정영모",
+      "attendees": [
+        "김용원",
+        "김경환",
+        "정병주",
+        "김용희",
+        "이상국"
+      ],
+      "start": "2026-06-01T17:00:00",
+      "end": "2026-06-01T18:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-01T16:49:33.759078+09:00"
+  "last_updated": "2026-06-01T16:50:42.717614+09:00"
 }
