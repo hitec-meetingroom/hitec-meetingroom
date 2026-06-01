@@ -1,14 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이지은B 미팅",
-    "organizer": "이지은B",
-    "attendees": [],
-    "start": "2026-06-01T16:30:00",
-    "end": "2026-06-01T18:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -20,5 +13,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-01T17:59:37.076493+09:00"
+  "last_updated": "2026-06-01T18:00:55.777015+09:00"
 }
