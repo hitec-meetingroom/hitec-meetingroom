@@ -1,14 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 작업환경측정 미팅",
-    "organizer": "인사",
-    "attendees": [],
-    "start": "2026-06-02T09:30:00",
-    "end": "2026-06-02T10:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정광욱 유성반도체 미팅",
     "organizer": "정광욱",
@@ -35,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-02T09:59:39.616469+09:00"
+  "last_updated": "2026-06-02T10:00:48.013796+09:00"
 }
