@@ -3,21 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_이상민(SCADA)",
-      "organizer": "인사",
-      "attendees": [
-        "최중영",
-        "한승복",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-06-01T17:00:00",
-      "end": "2026-06-01T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-02T08:59:32.444845+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-02T09:00:08.795327+09:00"
 }

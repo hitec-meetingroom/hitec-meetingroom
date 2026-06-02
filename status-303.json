@@ -3,18 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "정재찬 원주 수기검침 ",
-      "organizer": "정재찬",
-      "attendees": [
-        "김동규",
-        "최이화"
-      ],
-      "start": "2026-06-01T16:00:00",
-      "end": "2026-06-01T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-02T08:59:32.444845+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-02T09:00:08.795327+09:00"
 }
