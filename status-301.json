@@ -3,23 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 작업환경측정 미팅",
-      "organizer": "인사",
-      "attendees": [],
-      "start": "2026-06-02T09:30:00",
-      "end": "2026-06-02T10:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 유성반도체 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-06-02T14:00:00",
-      "end": "2026-06-02T15:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-03T08:59:34.555722+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-03T09:00:55.588351+09:00"
 }
