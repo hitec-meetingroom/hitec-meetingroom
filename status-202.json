@@ -2,7 +2,18 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "안희은 ENG TFT 회의",
+    "organizer": "안희은",
+    "attendees": [
+      "이동욱",
+      "윤은선",
+      "배정우"
+    ],
+    "start": "2026-06-04T16:00:00",
+    "end": "2026-06-04T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "이선아 WAGO KOREA 방문 관련 회의 건",
@@ -11,7 +22,19 @@
       "start": "2026-06-04T14:00:00",
       "end": "2026-06-04T15:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "안희은 ENG TFT 회의",
+      "organizer": "안희은",
+      "attendees": [
+        "이동욱",
+        "윤은선",
+        "배정우"
+      ],
+      "start": "2026-06-04T16:00:00",
+      "end": "2026-06-04T17:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-04T15:51:35.114681+09:00"
+  "last_updated": "2026-06-04T15:52:38.385445+09:00"
 }
