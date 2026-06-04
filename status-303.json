@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 M_교육(엑스퍼트)",
     "organizer": "인사",
     "attendees": [
@@ -10,6 +9,18 @@
     ],
     "start": "2026-06-04T14:00:00",
     "end": "2026-06-04T16:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 면담_HR",
+    "organizer": "인사",
+    "attendees": [
+      "문승환",
+      "정찬희",
+      "이미래"
+    ],
+    "start": "2026-06-04T16:00:00",
+    "end": "2026-06-04T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -36,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-04T13:59:36.798078+09:00"
+  "last_updated": "2026-06-04T14:00:53.686654+09:00"
 }
