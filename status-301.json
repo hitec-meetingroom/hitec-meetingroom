@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 품질 Weekly ",
     "organizer": "황선민",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-06-05T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 품질 Weekly ",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-05T16:59:38.012854+09:00"
+  "last_updated": "2026-06-05T17:00:55.861219+09:00"
 }

@@ -1,19 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 1차 면접_정현우(QMS)",
-    "organizer": "인사",
-    "attendees": [
-      "정찬희",
-      "황선민",
-      "정연미",
-      "이지은B"
-    ],
-    "start": "2026-06-05T16:00:00",
-    "end": "2026-06-05T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -43,5 +31,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-05T16:59:38.012854+09:00"
+  "last_updated": "2026-06-05T17:00:55.861219+09:00"
 }
