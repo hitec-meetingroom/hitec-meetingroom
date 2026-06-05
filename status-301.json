@@ -2,26 +2,29 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 품질 Weekly ",
+    "organizer": "황선민",
+    "attendees": [
+      "유동호",
+      "심규선"
+    ],
+    "start": "2026-06-05T17:00:00",
+    "end": "2026-06-05T18:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "황선민 1:1",
+      "subject": "황선민 품질 Weekly ",
       "organizer": "황선민",
-      "attendees": [],
-      "start": "2026-06-04T09:00:00",
-      "end": "2026-06-04T10:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "오소연 업무 미팅",
-      "organizer": "오소연",
       "attendees": [
-        "이상국"
+        "유동호",
+        "심규선"
       ],
-      "start": "2026-06-04T13:00:00",
-      "end": "2026-06-04T18:00:00",
+      "start": "2026-06-05T17:00:00",
+      "end": "2026-06-05T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-05T08:59:34.262006+09:00"
+  "last_updated": "2026-06-05T09:00:53.534076+09:00"
 }

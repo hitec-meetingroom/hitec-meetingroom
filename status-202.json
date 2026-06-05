@@ -3,27 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이선아 WAGO KOREA 방문 관련 회의 건",
-      "organizer": "이선아",
-      "attendees": [],
-      "start": "2026-06-04T14:00:00",
-      "end": "2026-06-04T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "안희은 ENG TFT 회의",
-      "organizer": "안희은",
-      "attendees": [
-        "이동욱",
-        "윤은선",
-        "배정우"
-      ],
-      "start": "2026-06-04T16:00:00",
-      "end": "2026-06-04T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-05T08:59:34.262006+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-05T09:00:53.534076+09:00"
 }
