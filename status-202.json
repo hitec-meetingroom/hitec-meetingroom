@@ -5,9 +5,7 @@
   "next_meeting": {
     "subject": "윤은선 오라이온코리아 회의",
     "organizer": "윤은선",
-    "attendees": [
-      "최민철"
-    ],
+    "attendees": [],
     "start": "2026-06-05T11:00:00",
     "end": "2026-06-05T11:30:00",
     "is_cancelled": false
@@ -16,13 +14,11 @@
     {
       "subject": "윤은선 오라이온코리아 회의",
       "organizer": "윤은선",
-      "attendees": [
-        "최민철"
-      ],
+      "attendees": [],
       "start": "2026-06-05T11:00:00",
       "end": "2026-06-05T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-05T10:58:37.634245+09:00"
+  "last_updated": "2026-06-05T10:59:31.591091+09:00"
 }
