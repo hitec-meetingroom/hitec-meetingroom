@@ -14,11 +14,13 @@
     "is_cancelled": false
   },
   "next_meeting": {
-    "subject": "이지은B [경영기획팀] 면접대기실",
-    "organizer": "이지은B",
-    "attendees": [],
-    "start": "2026-06-05T14:30:00",
-    "end": "2026-06-05T17:30:00",
+    "subject": "최이화 GS검증",
+    "organizer": "최이화",
+    "attendees": [
+      "강종빈"
+    ],
+    "start": "2026-06-05T11:30:00",
+    "end": "2026-06-05T13:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -35,6 +37,16 @@
       "is_cancelled": false
     },
     {
+      "subject": "최이화 GS검증",
+      "organizer": "최이화",
+      "attendees": [
+        "강종빈"
+      ],
+      "start": "2026-06-05T11:30:00",
+      "end": "2026-06-05T13:30:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "이지은B [경영기획팀] 면접대기실",
       "organizer": "이지은B",
       "attendees": [],
@@ -43,5 +55,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-05T11:21:04.335820+09:00"
+  "last_updated": "2026-06-05T11:21:37.097025+09:00"
 }
