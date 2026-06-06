@@ -3,33 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_복지영(QMS)",
-      "organizer": "인사",
-      "attendees": [
-        "황선민",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-06-05T15:00:00",
-      "end": "2026-06-05T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 1차 면접_정현우(QMS)",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희",
-        "황선민",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-06-05T16:00:00",
-      "end": "2026-06-05T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-06T08:59:31.679454+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-06T09:00:49.316925+09:00"
 }
