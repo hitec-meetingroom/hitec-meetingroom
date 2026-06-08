@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "사업부 Weekly잔여 안건 논의",
+    "subject": "황선민 사업부 Weekly잔여 안건 논의",
     "organizer": "황선민",
     "attendees": [
       "김용원",
@@ -18,7 +18,7 @@
   },
   "today_meetings": [
     {
-      "subject": "사업부 Weekly잔여 안건 논의",
+      "subject": "황선민 사업부 Weekly잔여 안건 논의",
       "organizer": "황선민",
       "attendees": [
         "김용원",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-08T15:38:38.700934+09:00"
+  "last_updated": "2026-06-08T15:39:35.784024+09:00"
 }
