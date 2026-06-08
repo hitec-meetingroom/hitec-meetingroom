@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-06-08T13:04:37.358601+09:00"
+  "next_meeting": {
+    "subject": "ES_SALES(Sched) 2026 데이터센터 전시회 관련 회의",
+    "organizer": "ES_SALES(Sched)",
+    "attendees": [],
+    "start": "2026-06-08T14:00:00",
+    "end": "2026-06-08T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_SALES(Sched) 2026 데이터센터 전시회 관련 회의",
+      "organizer": "ES_SALES(Sched)",
+      "attendees": [],
+      "start": "2026-06-08T14:00:00",
+      "end": "2026-06-08T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-06-08T13:05:38.300144+09:00"
 }
