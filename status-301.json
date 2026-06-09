@@ -2,20 +2,23 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 변리사 미팅",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-06-09T11:00:00",
+    "end": "2026-06-09T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "정병주 생산일정 회의",
-      "organizer": "정병주",
-      "attendees": [
-        "김용희",
-        "정영모",
-        "김경환"
-      ],
-      "start": "2026-06-08T14:00:00",
-      "end": "2026-06-08T14:30:00",
+      "subject": "정광욱 변리사 미팅",
+      "organizer": "정광욱",
+      "attendees": [],
+      "start": "2026-06-09T11:00:00",
+      "end": "2026-06-09T12:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-09T08:59:34.345648+09:00"
+  "last_updated": "2026-06-09T09:00:51.438818+09:00"
 }
