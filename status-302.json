@@ -3,17 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "최이화 수기검침",
-      "organizer": "최이화",
-      "attendees": [
-        "정재찬"
-      ],
-      "start": "2026-06-10T11:00:00",
-      "end": "2026-06-10T12:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-11T08:59:35.776996+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-11T09:00:52.319685+09:00"
 }
