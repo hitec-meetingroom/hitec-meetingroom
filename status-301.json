@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 HR_면담",
     "organizer": "인사",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-06-11T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김용희 HAT-615U-GR 작업표준서검토",
@@ -56,5 +56,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-11T13:59:35.982769+09:00"
+  "last_updated": "2026-06-11T14:00:55.489553+09:00"
 }
