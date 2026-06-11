@@ -3,16 +3,28 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "오소연 업무 미팅",
-    "organizer": "오소연",
+    "subject": "김용희 HAT-615U-GR 작업표준서검토",
+    "organizer": "김용희",
     "attendees": [
-      "이상국"
+      "김경환",
+      "김용원"
     ],
-    "start": "2026-06-11T13:00:00",
-    "end": "2026-06-11T18:00:00",
+    "start": "2026-06-11T09:30:00",
+    "end": "2026-06-11T10:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "김용희 HAT-615U-GR 작업표준서검토",
+      "organizer": "김용희",
+      "attendees": [
+        "김경환",
+        "김용원"
+      ],
+      "start": "2026-06-11T09:30:00",
+      "end": "2026-06-11T10:00:00",
+      "is_cancelled": false
+    },
     {
       "subject": "오소연 업무 미팅",
       "organizer": "오소연",
@@ -24,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-11T09:16:35.815915+09:00"
+  "last_updated": "2026-06-11T09:17:37.660255+09:00"
 }
