@@ -2,18 +2,37 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이미래 축구 관람",
+    "organizer": "이미래",
+    "attendees": [],
+    "start": "2026-06-12T11:00:00",
+    "end": "2026-06-12T13:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "오소연 업무 미팅",
-      "organizer": "오소연",
+      "subject": "이미래 축구 관람",
+      "organizer": "이미래",
+      "attendees": [],
+      "start": "2026-06-12T11:00:00",
+      "end": "2026-06-12T13:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1차 면접_김언화(프론트엔드)",
+      "organizer": "인사",
       "attendees": [
-        "이상국"
+        "정승호",
+        "정찬희",
+        "강종빈",
+        "정연미",
+        "이지은B"
       ],
-      "start": "2026-06-11T14:00:00",
-      "end": "2026-06-11T18:00:00",
+      "start": "2026-06-12T14:00:00",
+      "end": "2026-06-12T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-12T08:59:35.669202+09:00"
+  "last_updated": "2026-06-12T09:00:54.181068+09:00"
 }

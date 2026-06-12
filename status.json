@@ -2,7 +2,23 @@
   "room_name": "2층 교육실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-06-12T08:59:35.669202+09:00"
+  "next_meeting": {
+    "subject": "이미래 ",
+    "organizer": "이미래",
+    "attendees": [],
+    "start": "2026-06-12T11:00:00",
+    "end": "2026-06-12T13:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이미래 ",
+      "organizer": "이미래",
+      "attendees": [],
+      "start": "2026-06-12T11:00:00",
+      "end": "2026-06-12T13:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-06-12T09:00:54.181068+09:00"
 }
