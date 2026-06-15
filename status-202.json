@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_SALES(Sched) 2026 IDC전시회 회의",
     "organizer": "ES_SALES(Sched)",
     "attendees": [
@@ -17,6 +16,7 @@
     "end": "2026-06-15T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이훈 ES영업회의",
@@ -52,5 +52,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-15T13:59:38.677378+09:00"
+  "last_updated": "2026-06-15T14:00:59.106055+09:00"
 }

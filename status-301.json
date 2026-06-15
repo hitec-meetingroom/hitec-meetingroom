@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 수기검침 시연",
     "organizer": "최이화",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-06-15T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 수기검침 시연",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-15T13:59:38.677378+09:00"
+  "last_updated": "2026-06-15T14:00:59.106055+09:00"
 }
