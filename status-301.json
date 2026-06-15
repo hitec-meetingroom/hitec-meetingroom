@@ -2,7 +2,31 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-06-15T09:54:45.693772+09:00"
+  "next_meeting": {
+    "subject": "수기검침 시연",
+    "organizer": "최이화",
+    "attendees": [
+      "정승호",
+      "정재찬",
+      "김동규"
+    ],
+    "start": "2026-06-15T14:00:00",
+    "end": "2026-06-15T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "수기검침 시연",
+      "organizer": "최이화",
+      "attendees": [
+        "정승호",
+        "정재찬",
+        "김동규"
+      ],
+      "start": "2026-06-15T14:00:00",
+      "end": "2026-06-15T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-06-15T09:55:52.765510+09:00"
 }
