@@ -1,7 +1,14 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "이동욱 PS팀 회의",
+    "organizer": "이동욱",
+    "attendees": [],
+    "start": "2026-06-15T11:00:00",
+    "end": "2026-06-15T12:00:00",
+    "is_cancelled": false
+  },
   "next_meeting": {
     "subject": "ES_SALES(Sched) 2026 IDC전시회 회의",
     "organizer": "ES_SALES(Sched)",
@@ -29,6 +36,14 @@
       "is_cancelled": false
     },
     {
+      "subject": "이동욱 PS팀 회의",
+      "organizer": "이동욱",
+      "attendees": [],
+      "start": "2026-06-15T11:00:00",
+      "end": "2026-06-15T12:00:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "ES_SALES(Sched) 2026 IDC전시회 회의",
       "organizer": "ES_SALES(Sched)",
       "attendees": [
@@ -44,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-15T11:07:41.596195+09:00"
+  "last_updated": "2026-06-15T11:08:39.465777+09:00"
 }
