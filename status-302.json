@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "백진주 SmartSet App 통신확인 점검",
     "organizer": "백진주",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-06-15T12:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "백진주 SmartSet App 통신확인 점검",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-15T10:59:36.964015+09:00"
+  "last_updated": "2026-06-15T11:01:02.745079+09:00"
 }
