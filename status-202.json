@@ -3,48 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이훈 ES영업회의",
-      "organizer": "이훈",
-      "attendees": [
-        "ES사업본부 ES영업팀"
-      ],
-      "start": "2026-06-15T09:00:00",
-      "end": "2026-06-15T09:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이동욱 PS팀 회의",
-      "organizer": "이동욱",
-      "attendees": [],
-      "start": "2026-06-15T11:00:00",
-      "end": "2026-06-15T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "ES_SALES(Sched) 2026 IDC전시회 회의",
-      "organizer": "ES_SALES(Sched)",
-      "attendees": [
-        "최중영",
-        "이훈",
-        "김덕재",
-        "정찬희",
-        "이미래",
-        "황도하"
-      ],
-      "start": "2026-06-15T14:00:00",
-      "end": "2026-06-15T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "ES_SALES(Sched) ES영업팀 내부회의",
-      "organizer": "ES_SALES(Sched)",
-      "attendees": [],
-      "start": "2026-06-15T16:10:00",
-      "end": "2026-06-15T18:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-16T08:59:37.391803+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-16T09:00:42.247784+09:00"
 }

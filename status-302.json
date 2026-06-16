@@ -3,18 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "백진주 SmartSet App 통신확인 점검",
-      "organizer": "백진주",
-      "attendees": [
-        "정승호",
-        "박희택"
-      ],
-      "start": "2026-06-15T11:00:00",
-      "end": "2026-06-15T12:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-16T08:59:37.391803+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-16T09:00:42.247784+09:00"
 }

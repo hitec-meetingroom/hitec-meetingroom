@@ -3,27 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "최이화 수기검침 시연",
-      "organizer": "최이화",
-      "attendees": [
-        "정승호",
-        "정재찬",
-        "김동규"
-      ],
-      "start": "2026-06-15T14:00:00",
-      "end": "2026-06-15T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이지은B 면접대기실",
-      "organizer": "이지은B",
-      "attendees": [],
-      "start": "2026-06-15T15:30:00",
-      "end": "2026-06-15T16:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-16T08:59:37.391803+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-16T09:00:42.247784+09:00"
 }
