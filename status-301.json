@@ -4,7 +4,9 @@
   "current_meeting": {
     "subject": "이지은B 경영기획팀 미팅",
     "organizer": "이지은B",
-    "attendees": [],
+    "attendees": [
+      "이미래"
+    ],
     "start": "2026-06-18T10:00:00",
     "end": "2026-06-18T11:30:00",
     "is_cancelled": false
@@ -21,7 +23,9 @@
     {
       "subject": "이지은B 경영기획팀 미팅",
       "organizer": "이지은B",
-      "attendees": [],
+      "attendees": [
+        "이미래"
+      ],
       "start": "2026-06-18T10:00:00",
       "end": "2026-06-18T11:30:00",
       "is_cancelled": false
@@ -35,5 +39,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-18T10:08:37.704476+09:00"
+  "last_updated": "2026-06-18T10:09:38.446808+09:00"
 }
