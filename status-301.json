@@ -1,14 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 HR_회의",
-    "organizer": "인사",
-    "attendees": [],
-    "start": "2026-06-18T16:00:00",
-    "end": "2026-06-18T18:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -38,5 +31,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-18T17:59:40.074424+09:00"
+  "last_updated": "2026-06-18T18:01:29.215846+09:00"
 }
