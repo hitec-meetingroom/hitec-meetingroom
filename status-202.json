@@ -3,15 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "배정우 코닝 E-RAY 관련 업무회의",
-      "organizer": "배정우",
-      "attendees": [],
-      "start": "2026-06-18T13:30:00",
-      "end": "2026-06-18T14:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-19T08:59:37.344852+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-19T09:00:41.638708+09:00"
 }
