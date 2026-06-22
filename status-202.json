@@ -1,14 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 직급별 교육",
-    "organizer": "인사",
-    "attendees": [],
-    "start": "2026-06-22T09:00:00",
-    "end": "2026-06-22T13:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -20,5 +13,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-22T12:59:43.362266+09:00"
+  "last_updated": "2026-06-22T13:01:01.368172+09:00"
 }
