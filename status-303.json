@@ -1,8 +1,34 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "황선민 환경표지 인증 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "권기정",
+      "김용원",
+      "이상국",
+      "심규선"
+    ],
+    "start": "2026-06-23T15:30:00",
+    "end": "2026-06-23T16:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-06-23T15:34:39.004378+09:00"
+  "today_meetings": [
+    {
+      "subject": "황선민 환경표지 인증 논의",
+      "organizer": "황선민",
+      "attendees": [
+        "권기정",
+        "김용원",
+        "이상국",
+        "심규선"
+      ],
+      "start": "2026-06-23T15:30:00",
+      "end": "2026-06-23T16:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-06-23T15:38:23.181946+09:00"
 }
