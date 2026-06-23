@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 SIWW2026 출장보고서 논의",
     "organizer": "황선민",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-06-23T10:50:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 SIWW2026 출장보고서 논의",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-23T09:59:35.673666+09:00"
+  "last_updated": "2026-06-23T10:00:40.020270+09:00"
 }

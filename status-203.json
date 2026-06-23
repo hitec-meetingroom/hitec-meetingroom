@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_ENG(Sched) 코닝정밀소재 E-RAY PJT 계통분석 업무회의",
     "organizer": "ES_ENG(Sched)",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-06-23T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "ES_ENG(Sched) 코닝정밀소재 E-RAY PJT 계통분석 업무회의",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-23T09:59:35.673666+09:00"
+  "last_updated": "2026-06-23T10:00:40.020270+09:00"
 }
