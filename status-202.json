@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "김한솔 신규입사자 SCADA 기본교육",
     "organizer": "김한솔",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-06-23T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김한솔 신규입사자 SCADA 기본교육",
@@ -37,5 +37,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-23T12:59:38.473382+09:00"
+  "last_updated": "2026-06-23T13:00:43.004467+09:00"
 }
