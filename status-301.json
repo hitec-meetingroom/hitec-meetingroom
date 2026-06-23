@@ -2,62 +2,31 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 SIWW2026 출장보고서 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "이상국",
+      "권순영",
+      "권기정"
+    ],
+    "start": "2026-06-23T10:00:00",
+    "end": "2026-06-23T10:50:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 신규입사자 OT",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희",
-        "이미래",
-        "최중영"
-      ],
-      "start": "2026-06-22T10:00:00",
-      "end": "2026-06-22T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정영모 주간 생산회의",
-      "organizer": "정영모",
-      "attendees": [
-        "이상국",
-        "김용원",
-        "김경환",
-        "정병주",
-        "김용희"
-      ],
-      "start": "2026-06-22T12:00:00",
-      "end": "2026-06-22T12:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "김용희 회의",
-      "organizer": "김용희",
-      "attendees": [
-        "김용원"
-      ],
-      "start": "2026-06-22T13:30:00",
-      "end": "2026-06-22T14:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이미래 HR_면담",
-      "organizer": "이미래",
-      "attendees": [],
-      "start": "2026-06-22T16:00:00",
-      "end": "2026-06-22T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 출장 자료 논의",
+      "subject": "황선민 SIWW2026 출장보고서 논의",
       "organizer": "황선민",
       "attendees": [
+        "이상국",
+        "권순영",
         "권기정"
       ],
-      "start": "2026-06-22T17:00:00",
-      "end": "2026-06-22T18:00:00",
+      "start": "2026-06-23T10:00:00",
+      "end": "2026-06-23T10:50:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-23T08:59:37.953592+09:00"
+  "last_updated": "2026-06-23T09:00:41.664111+09:00"
 }

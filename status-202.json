@@ -3,15 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 직급별 교육",
-      "organizer": "인사",
-      "attendees": [],
-      "start": "2026-06-22T09:00:00",
-      "end": "2026-06-22T13:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-23T08:59:37.953592+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-23T09:00:41.664111+09:00"
 }
