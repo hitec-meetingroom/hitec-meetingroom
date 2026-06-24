@@ -19,6 +19,8 @@ const HEALTH_URL = rootEl.dataset.healthUrl || "";
 const REFRESH_INTERVAL_MS = 30 * 1000;   // 서버 캐시 폴링: 30초
 const TIMELINE_START_HOUR = 9;            // 타임라인 표시 범위 (업무시간)
 const TIMELINE_END_HOUR = 18;
+const PIXEL_SHIFT_INTERVAL_MS = 60 * 1000;   // 번인 방지 픽셀 시프트 주기: 60초
+const ROOM_IDS = ["201", "202", "203", "301", "302", "303"];
 
 let latestStatus = null;
 
@@ -316,11 +318,112 @@ function untilStartText(startIso) {
     return `${h}시간 ${m}분`;
 }
 
+/* ===== 번인 방지: 픽셀 시프트 ===== */
+// 화면 전체를 주기적으로 미세 이동시켜 동일 픽셀의 장시간 고정을 막는다.
+// CSS에서 --burn-shift-max(6px)만큼 화면을 키워두었으므로 가장자리 빈틈은 없다.
+const PIXEL_SHIFT_OFFSETS = [
+    [0, 0], [6, 0], [6, 6], [0, 6],
+    [-6, 6], [-6, 0], [-6, -6], [0, -6], [6, -6],
+];
+let pixelShiftIndex = 0;
+
+function applyPixelShift() {
+    const screen = document.querySelector(".screen");
+    if (!screen) return;
+    pixelShiftIndex = (pixelShiftIndex + 1) % PIXEL_SHIFT_OFFSETS.length;
+    const [x, y] = PIXEL_SHIFT_OFFSETS[pixelShiftIndex];
+    screen.style.setProperty("--shift-x", `${x}px`);
+    screen.style.setProperty("--shift-y", `${y}px`);
+}
+
+/* ===== 회의실 전환 메뉴 (회의실명 호버/클릭) ===== */
+
+function isApiMode() {
+    return API_STATUS.includes("/api/status");
+}
+
+// 현재 페이지가 보고 있는 회의실 ID
+function currentRoomId() {
+    if (isApiMode()) {
+        const m = API_STATUS.match(/\/api\/status\/([^/]+)/);
+        return m ? m[1] : "";
+    }
+    const m = API_STATUS.match(/status-([^./]+)\.json/);
+    return m ? m[1] : "";
+}
+
+// 다른 회의실의 상태 JSON URL을 현재 페이지 기준으로 생성
+function roomStatusUrl(id) {
+    if (isApiMode()) return API_STATUS.replace(/\/api\/status\/[^/]+/, `/api/status/${id}`);
+    return API_STATUS.replace(/status-[^./]+\.json/, `status-${id}.json`);
+}
+
+// 다른 회의실 페이지로의 이동 URL (정적: 상대경로 / API: 절대경로)
+function roomPageUrl(id) {
+    if (isApiMode()) return `/${id}`;
+    const prefix = API_STATUS.startsWith("../") ? "../" : "./";
+    return `${prefix}${id}/`;
+}
+
+function buildRoomSwitcher() {
+    const nav = document.getElementById("roomSwitcher");
+    if (!nav) return;
+    const cur = currentRoomId();
+    nav.innerHTML = ROOM_IDS.map((id) => `
+        <a class="room-switcher__item" data-room="${id}" href="${roomPageUrl(id)}"${id === cur ? ' aria-current="page"' : ""}>
+            <span class="room-switcher__dot"></span>
+            <span class="room-switcher__name">회의실 ${id}</span>
+            <span class="room-switcher__state">—</span>
+        </a>`).join("");
+
+    // 마우스가 없는 키오스크 대응: 회의실명 클릭(터치)으로 토글, 바깥 클릭 시 닫기
+    const name = document.getElementById("roomName");
+    if (name && !name.dataset.switcherBound) {
+        name.dataset.switcherBound = "1";
+        name.addEventListener("click", (e) => {
+            e.stopPropagation();
+            nav.classList.toggle("is-open");
+        });
+        nav.addEventListener("click", (e) => e.stopPropagation());
+        document.addEventListener("click", () => nav.classList.remove("is-open"));
+    }
+    refreshRoomSwitcherStates();
+}
+
+// 각 회의실의 가용 여부를 가져와 색상(data-state)과 이름/라벨 갱신
+async function refreshRoomSwitcherStates() {
+    const nav = document.getElementById("roomSwitcher");
+    if (!nav) return;
+    await Promise.all(ROOM_IDS.map(async (id) => {
+        const item = nav.querySelector(`.room-switcher__item[data-room="${id}"]`);
+        if (!item) return;
+        try {
+            const r = await fetch(cacheBustedUrl(roomStatusUrl(id)), { cache: "no-store" });
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            const data = await r.json();
+            const occupied = !!data.is_occupied;
+            item.dataset.state = occupied ? "busy" : "free";
+            if (data.room_name) item.querySelector(".room-switcher__name").textContent = data.room_name;
+            item.querySelector(".room-switcher__state").textContent = occupied ? "사용 중" : "사용 가능";
+        } catch (err) {
+            item.dataset.state = "unknown";
+            item.querySelector(".room-switcher__state").textContent = "—";
+        }
+    }));
+}
+
 /* ===== 초기화 ===== */
 
 async function init() {
     updateClock();
     setInterval(updateClock, 1000);
+
+    // 번인 방지: 60초마다 화면을 미세 이동
+    setInterval(applyPixelShift, PIXEL_SHIFT_INTERVAL_MS);
+
+    // 회의실 전환 메뉴: 메뉴 구성 후 주기적으로 가용 상태 갱신
+    buildRoomSwitcher();
+    setInterval(refreshRoomSwitcherStates, REFRESH_INTERVAL_MS);
 
     // 매 초 상태 재계산 (남은 시간 카운트다운, 회의 시작/종료 경계)
     setInterval(() => {
