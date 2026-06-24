@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "안희은 AI QC MEETING",
+    "subject": "안희은 ENG TFT 회의",
     "organizer": "안희은",
     "attendees": [
       "이동욱",
@@ -16,7 +16,7 @@
   },
   "today_meetings": [
     {
-      "subject": "안희은 AI QC MEETING",
+      "subject": "안희은 ENG TFT 회의",
       "organizer": "안희은",
       "attendees": [
         "이동욱",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-24T15:20:51.752387+09:00"
+  "last_updated": "2026-06-24T15:21:39.044979+09:00"
 }
