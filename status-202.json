@@ -3,29 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "김한솔 신규입사자 SCADA 기본교육",
-      "organizer": "김한솔",
-      "attendees": [
-        "이선아",
-        "이상민"
-      ],
-      "start": "2026-06-23T09:30:00",
-      "end": "2026-06-23T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "김한솔 신규입사자 SCADA 기본교육",
-      "organizer": "김한솔",
-      "attendees": [
-        "이선아",
-        "이상민"
-      ],
-      "start": "2026-06-23T13:00:00",
-      "end": "2026-06-23T18:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-24T08:59:41.436344+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-24T09:01:04.299363+09:00"
 }

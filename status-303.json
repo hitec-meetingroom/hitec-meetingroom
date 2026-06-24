@@ -2,21 +2,37 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 32비트 프로젝트 정기 미팅",
+    "organizer": "황선민",
+    "attendees": [
+      "김용원",
+      "정광욱",
+      "권기정",
+      "정승호",
+      "김경환",
+      "유동호"
+    ],
+    "start": "2026-06-24T14:00:00",
+    "end": "2026-06-24T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "황선민 환경표지 인증 논의",
+      "subject": "황선민 32비트 프로젝트 정기 미팅",
       "organizer": "황선민",
       "attendees": [
-        "권기정",
         "김용원",
-        "이상국",
-        "심규선"
+        "정광욱",
+        "권기정",
+        "정승호",
+        "김경환",
+        "유동호"
       ],
-      "start": "2026-06-23T15:30:00",
-      "end": "2026-06-23T16:30:00",
+      "start": "2026-06-24T14:00:00",
+      "end": "2026-06-24T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-24T08:59:41.436344+09:00"
+  "last_updated": "2026-06-24T09:01:04.299363+09:00"
 }

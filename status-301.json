@@ -3,19 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "황선민 SIWW2026 출장보고서 논의",
-      "organizer": "황선민",
-      "attendees": [
-        "이상국",
-        "권순영",
-        "권기정"
-      ],
-      "start": "2026-06-23T10:00:00",
-      "end": "2026-06-23T10:50:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-24T08:59:41.436344+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-24T09:01:04.299363+09:00"
 }
