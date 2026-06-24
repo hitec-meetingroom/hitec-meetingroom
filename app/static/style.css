@@ -52,7 +52,15 @@ body {
 .screen {
     display: grid;
     grid-template-columns: minmax(420px, 13fr) 7fr;
-    height: 100vh;
+    /* 번인 방지 픽셀 시프트: 이동 여유분(--burn-shift-max)만큼 화면을 키우고
+       가운데로 당겨, 미세 이동 시 가장자리에 빈틈이 생기지 않게 한다. */
+    --burn-shift-max: 6px;
+    width: calc(100vw + 2 * var(--burn-shift-max));
+    height: calc(100vh + 2 * var(--burn-shift-max));
+    margin: calc(-1 * var(--burn-shift-max));
+    transform: translate(var(--shift-x, 0px), var(--shift-y, 0px));
+    transition: transform 3s ease-in-out;
+    will-change: transform;
 }
 
 .panel {
@@ -123,7 +131,95 @@ body {
 .room {
     min-width: 0;
     text-align: right;
+    position: relative;
 }
+
+/* ----- 회의실 전환 메뉴 (회의실명 호버/클릭 시 표시) ----- */
+.room-switcher {
+    position: absolute;
+    top: 100%;
+    right: 0;                 /* 우측 정렬 헤더 → 오른쪽 기준 */
+    margin-top: 0.55rem;
+    min-width: 15rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--divider);
+    border-radius: 8px;
+    padding: 0.4rem;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+    z-index: 50;
+}
+
+/* 회의실명↔메뉴 사이 빈 공간을 지나도 호버가 끊기지 않도록 브릿지 */
+.room-switcher::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 0.55rem;
+}
+
+.room:hover .room-switcher,
+.room:focus-within .room-switcher,
+.room-switcher:hover,
+.room-switcher.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.room__name { cursor: pointer; }
+
+.room-switcher__item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.room-switcher__item:hover { background: var(--bg-subtle); color: var(--text-primary); }
+.room-switcher__item[aria-current="page"] { background: var(--accent-soft); color: var(--text-primary); font-weight: 600; }
+
+.room-switcher__dot {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.room-switcher__name { flex: 1; }
+
+.room-switcher__state {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+/* 가용 여부에 따른 색상 — 사용 가능(초록) / 사용 중(빨강) */
+.room-switcher__item[data-state="free"] { border-left-color: #34d399; }
+.room-switcher__item[data-state="free"] .room-switcher__dot { background: #34d399; box-shadow: 0 0 8px rgba(52, 211, 153, 0.5); }
+.room-switcher__item[data-state="free"] .room-switcher__state { color: #34d399; }
+
+.room-switcher__item[data-state="busy"] { border-left-color: #f87171; }
+.room-switcher__item[data-state="busy"] .room-switcher__dot { background: #f87171; box-shadow: 0 0 8px rgba(248, 113, 113, 0.5); }
+.room-switcher__item[data-state="busy"] .room-switcher__state { color: #f87171; }
 
 .room__brand {
     font-size: 0.75rem;

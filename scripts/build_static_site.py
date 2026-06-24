@@ -11,8 +11,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 APP_STATIC = REPO_ROOT / "app" / "static"
 SITE_DIR = REPO_ROOT / "site"
 ROOM_IDS = ("201", "202", "203", "301", "302", "303")
-STYLE_VERSION = "hero-text-140-20260528"
-APP_VERSION = "date-no-weekday-20260528"
+STYLE_VERSION = "burnin-roomswitch-20260624"
+APP_VERSION = "burnin-roomswitch-20260624"
 
 
 def with_asset_paths(html: str, css_href: str, js_src: str, status_url: str) -> str:

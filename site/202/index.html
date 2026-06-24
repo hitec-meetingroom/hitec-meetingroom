@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://cdn.jsdelivr.net">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
-    <link rel="stylesheet" href="../style.css?v=guide-smaller-kst-20260512">
+    <link rel="stylesheet" href="../style.css?v=burnin-roomswitch-20260624">
 </head>
 <body data-status="loading">
     <main class="screen">
@@ -20,12 +20,6 @@
                 <div class="timeline__hours" id="timelineHours"></div>
                 <div class="timeline__bar" id="timelineTrack">
                     <div class="timeline__now" id="timelineNow"></div>
-                    <div class="timeline__tooltip" id="timelineTooltip" hidden>
-                        <div class="timeline__tooltip-time" id="tooltipTime"></div>
-                        <div class="timeline__tooltip-subject" id="tooltipSubject"></div>
-                        <div class="timeline__tooltip-organizer" id="tooltipOrganizer"></div>
-                        <div class="timeline__tooltip-attendees" id="tooltipAttendees" hidden></div>
-                    </div>
                 </div>
             </div>
 
@@ -36,6 +30,7 @@
                     <div class="room">
                         <span class="room__brand">HITECNSOL</span>
                         <h1 class="room__name" id="roomName">회의실</h1>
+                        <nav class="room-switcher" id="roomSwitcher" aria-label="회의실 바로가기"></nav>
                     </div>
                     <div class="clock">
                         <div class="clock__time" id="clockTime">—</div>
@@ -136,6 +131,6 @@
 
     </main>
 
-    <script src="../app.js?v=status-cache-bust-20260514-debug-log"></script>
+    <script src="../app.js?v=burnin-roomswitch-20260624"></script>
 </body>
 </html>

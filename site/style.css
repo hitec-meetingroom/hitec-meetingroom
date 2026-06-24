@@ -51,8 +51,16 @@ body {
 
 .screen {
     display: grid;
-    grid-template-columns: minmax(420px, 5fr) 7fr;
-    height: 100vh;
+    grid-template-columns: minmax(420px, 13fr) 7fr;
+    /* 번인 방지 픽셀 시프트: 이동 여유분(--burn-shift-max)만큼 화면을 키우고
+       가운데로 당겨, 미세 이동 시 가장자리에 빈틈이 생기지 않게 한다. */
+    --burn-shift-max: 6px;
+    width: calc(100vw + 2 * var(--burn-shift-max));
+    height: calc(100vh + 2 * var(--burn-shift-max));
+    margin: calc(-1 * var(--burn-shift-max));
+    transform: translate(var(--shift-x, 0px), var(--shift-y, 0px));
+    transition: transform 3s ease-in-out;
+    will-change: transform;
 }
 
 .panel {
@@ -110,14 +118,108 @@ body {
 
 /* ----- 헤더 ----- */
 
+/* 우상단 헤더 — 한 컬럼, 4줄 모두 우측 정렬, 우측 안전여백 확보 */
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: stretch;        /* 자식 폭을 컨테이너 폭과 일치시켜 text-align 기준 통일 */
+    text-align: right;           /* 4줄 전부 우측 라인 정렬 */
+    padding-right: 0.5rem;       /* 우측 가이드 패널 경계와의 안전 여백 (panel 패딩에 추가) */
+    gap: 1.4rem;                 /* 회의실명 블록과 시계 블록 사이의 시각적 분리 */
 }
 
-.room { min-width: 0; }
+.room {
+    min-width: 0;
+    text-align: right;
+    position: relative;
+}
+
+/* ----- 회의실 전환 메뉴 (회의실명 호버/클릭 시 표시) ----- */
+.room-switcher {
+    position: absolute;
+    top: 100%;
+    right: 0;                 /* 우측 정렬 헤더 → 오른쪽 기준 */
+    margin-top: 0.55rem;
+    min-width: 15rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--divider);
+    border-radius: 8px;
+    padding: 0.4rem;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.55);
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-6px);
+    transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s;
+    z-index: 50;
+}
+
+/* 회의실명↔메뉴 사이 빈 공간을 지나도 호버가 끊기지 않도록 브릿지 */
+.room-switcher::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 0.55rem;
+}
+
+.room:hover .room-switcher,
+.room:focus-within .room-switcher,
+.room-switcher:hover,
+.room-switcher.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.room__name { cursor: pointer; }
+
+.room-switcher__item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 6px;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.room-switcher__item:hover { background: var(--bg-subtle); color: var(--text-primary); }
+.room-switcher__item[aria-current="page"] { background: var(--accent-soft); color: var(--text-primary); font-weight: 600; }
+
+.room-switcher__dot {
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.room-switcher__name { flex: 1; }
+
+.room-switcher__state {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--text-muted);
+}
+
+/* 가용 여부에 따른 색상 — 사용 가능(초록) / 사용 중(빨강) */
+.room-switcher__item[data-state="free"] { border-left-color: #34d399; }
+.room-switcher__item[data-state="free"] .room-switcher__dot { background: #34d399; box-shadow: 0 0 8px rgba(52, 211, 153, 0.5); }
+.room-switcher__item[data-state="free"] .room-switcher__state { color: #34d399; }
+
+.room-switcher__item[data-state="busy"] { border-left-color: #f87171; }
+.room-switcher__item[data-state="busy"] .room-switcher__dot { background: #f87171; box-shadow: 0 0 8px rgba(248, 113, 113, 0.5); }
+.room-switcher__item[data-state="busy"] .room-switcher__state { color: #f87171; }
 
 .room__brand {
     font-size: 0.75rem;
@@ -125,15 +227,17 @@ body {
     color: var(--text-muted);
     text-transform: uppercase;
     font-weight: 500;
+    line-height: 1;              /* 브랜드 라벨이 위쪽으로 뜨지 않게 */
 }
 
 .room__name {
-    margin-top: 0.4em;
-    font-size: 2.1rem;
+    display: block;
+    margin-top: 0.55rem;          /* 브랜드 ↔ 회의실명: 한 묶음으로 보이도록 좁게 */
+    font-size: 3.15rem;           /* 2.1rem × 1.5 */
     font-weight: 700;
     letter-spacing: -0.02em;
     color: var(--text-primary);
-    line-height: 1.1;
+    line-height: 1.1;             /* 큰 폰트의 기본 행간이 차지하는 공간을 절제 */
     word-break: keep-all;
 }
 
@@ -149,14 +253,15 @@ body {
     color: var(--text-primary);
     letter-spacing: 0.02em;
     font-variant-numeric: tabular-nums;
-    line-height: 1;
+    line-height: 1;               /* 시간 텍스트 자체 행간 압축 */
 }
 
 .clock__date {
-    margin-top: 0.5em;
+    margin-top: 0.45rem;          /* 시간 ↔ 날짜: '시간 정보 덩어리'로 촘촘하게 */
     font-size: 0.75rem;
     color: var(--text-secondary);
     letter-spacing: 0.05em;
+    line-height: 1;
 }
 
 /* ----- 상태 (사용 가능 / 사용 중) ----- */
@@ -206,7 +311,7 @@ body[data-status="busy"] .status__dot {
 }
 
 .status__label {
-    font-size: 3.6rem;
+    font-size: 5.04rem;       /* 3.6rem × 1.4 */
     font-weight: 800;
     letter-spacing: -0.04em;
     color: var(--accent);
@@ -219,7 +324,7 @@ body[data-status="busy"] .status__dot {
 .meeting { width: 100%; min-width: 0; }
 
 .meeting__subject {
-    font-size: 1.3rem;
+    font-size: 1.82rem;       /* 1.3rem × 1.4 */
     font-weight: 600;
     color: var(--text-primary);
     letter-spacing: -0.01em;
@@ -234,7 +339,7 @@ body[data-status="busy"] .status__dot {
     align-items: center;
     gap: 0.6em;
     flex-wrap: wrap;
-    font-size: 0.95rem;
+    font-size: 1.33rem;       /* 0.95rem × 1.4 */
     color: var(--text-secondary);
     font-weight: 400;
 }
@@ -260,7 +365,7 @@ body[data-status="busy"] .status__dot {
 
 .meeting__attendees {
     margin-top: 0.7rem;
-    font-size: 0.85rem;
+    font-size: 1.19rem;       /* 0.85rem × 1.4 */
     color: var(--text-secondary);
     line-height: 1.5;
     word-break: keep-all;
@@ -273,7 +378,7 @@ body[data-status="busy"] .status__dot {
 .meeting--upcoming { width: 100%; }
 
 .meeting__countdown {
-    font-size: 1.5rem;
+    font-size: 2.1rem;        /* 1.5rem × 1.4 */
     font-weight: 600;
     color: var(--accent);
     letter-spacing: -0.01em;
@@ -283,7 +388,7 @@ body[data-status="busy"] .status__dot {
 }
 
 .meeting__upcoming-subject {
-    font-size: 0.95rem;
+    font-size: 1.33rem;       /* 0.95rem × 1.4 */
     color: var(--text-secondary);
     word-break: keep-all;
     overflow-wrap: anywhere;
@@ -303,11 +408,14 @@ body[data-status="busy"] .status__dot {
     /* hero가 위쪽 빈 공간을 흡수하므로 .next는 자연스레 하단에 위치. 우측 정렬만 유지 */
     align-self: flex-end;
     width: clamp(260px, 70%, 380px);
+    /* 다음 회의 유무와 무관하게 hero 중앙 위치를 고정하기 위해 최소 높이 확보 */
+    min-height: 5.6rem;
 }
 
-/* display: grid가 [hidden]의 기본 display: none을 덮어쓰지 않도록 */
+/* 다음 회의가 없을 때도 hero의 수직 중앙이 흔들리지 않도록
+   display: none 대신 visibility만 숨겨서 자리(높이)를 그대로 유지 */
 .next[hidden] {
-    display: none;
+    visibility: hidden;
 }
 
 .next__label {
@@ -459,8 +567,8 @@ body[data-status="busy"] .status__dot {
     border: 1px solid var(--divider);
     border-radius: 6px;
     padding: 0.7rem 1rem;
-    min-width: 11rem;
-    max-width: 18rem;
+    min-width: 14.3rem;
+    max-width: 23.4rem;
     pointer-events: none;
     z-index: 10;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
@@ -534,7 +642,7 @@ body[data-status="busy"] .status__dot {
 .panel--guide::-webkit-scrollbar-thumb { background: var(--bg-subtle); border-radius: 3px; }
 
 .guide__title {
-    font-size: 1.08rem;
+    font-size: 0.972rem;     /* 1.08rem × 0.9 */
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--text-muted);
@@ -549,7 +657,7 @@ body[data-status="busy"] .status__dot {
 }
 
 .guide__heading {
-    font-size: 1.35rem;
+    font-size: 1.215rem;     /* 1.35rem × 0.9 */
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 0.55rem;
@@ -560,7 +668,7 @@ body[data-status="busy"] .status__dot {
 
 .guide__tag {
     font-family: var(--font-mono);
-    font-size: 0.85rem;
+    font-size: 0.765rem;     /* 0.85rem × 0.9 */
     letter-spacing: 0.18em;
     background: var(--accent-soft);
     color: var(--accent);
@@ -574,7 +682,7 @@ body[data-status="busy"] .status__dot {
 .guide__list {
     counter-reset: guide-item;
     padding-left: 0;
-    font-size: 1.12rem;
+    font-size: 1.008rem;     /* 1.12rem × 0.9 */
     line-height: 1.54;
     color: var(--text-secondary);
 }
@@ -634,11 +742,11 @@ body[data-status="loading"] .status__label {
    ================================================================= */
 
 @media (max-width: 1280px) {
-    .screen { grid-template-columns: minmax(360px, 5fr) 7fr; }
-    .room__name { font-size: 1.7rem; }
+    .screen { grid-template-columns: minmax(360px, 13fr) 7fr; }
+    .room__name { font-size: 2.55rem; }   /* 1.7rem × 1.5 */
     .clock__time { font-size: 1.4rem; }
-    .status__label { font-size: 2.8rem; }
-    .meeting__subject { font-size: 1.15rem; }
-    .meeting__countdown { font-size: 1.25rem; }
-    .guide__list { font-size: 1rem; }
+    .status__label { font-size: 3.92rem; }       /* 2.8rem × 1.4 */
+    .meeting__subject { font-size: 1.61rem; }    /* 1.15rem × 1.4 */
+    .meeting__countdown { font-size: 1.75rem; }  /* 1.25rem × 1.4 */
+    .guide__list { font-size: 0.9rem; }   /* 1rem × 0.9 */
 }
