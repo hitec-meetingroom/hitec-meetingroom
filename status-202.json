@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "권용석 ES영업팀 회의",
     "organizer": "권용석",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-06-24T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권용석 ES영업팀 회의",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-24T13:29:41.448425+09:00"
+  "last_updated": "2026-06-24T13:31:03.715770+09:00"
 }
