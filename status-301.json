@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 BE 주간회의",
     "organizer": "최이화",
     "attendees": [
@@ -11,6 +10,16 @@
     ],
     "start": "2026-06-24T10:00:00",
     "end": "2026-06-24T11:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "황선민 환경표지 인증 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "심규선"
+    ],
+    "start": "2026-06-24T15:00:00",
+    "end": "2026-06-24T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -36,5 +45,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-24T09:59:36.538388+09:00"
+  "last_updated": "2026-06-24T10:00:41.684967+09:00"
 }
