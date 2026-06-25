@@ -2,7 +2,23 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-06-25T13:16:39.395638+09:00"
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) PS팀 ENG 파트 주간회의",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-06-25T15:00:00",
+    "end": "2026-06-25T17:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_ENG(Sched) PS팀 ENG 파트 주간회의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-06-25T15:00:00",
+      "end": "2026-06-25T17:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-06-25T13:17:40.303174+09:00"
 }
