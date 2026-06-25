@@ -3,28 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "최이화 BE 주간회의",
-      "organizer": "최이화",
-      "attendees": [
-        "김동규",
-        "정재찬"
-      ],
-      "start": "2026-06-24T10:00:00",
-      "end": "2026-06-24T11:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 환경표지 인증 논의",
-      "organizer": "황선민",
-      "attendees": [
-        "심규선"
-      ],
-      "start": "2026-06-24T15:00:00",
-      "end": "2026-06-24T16:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-25T08:59:38.522642+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-25T09:00:42.980467+09:00"
 }
