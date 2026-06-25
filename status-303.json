@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 축구 관람",
     "organizer": "인사",
     "attendees": [
@@ -10,6 +9,16 @@
     ],
     "start": "2026-06-25T09:30:00",
     "end": "2026-06-25T12:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "허승혁 구례군 교육설명회",
+    "organizer": "허승혁",
+    "attendees": [
+      "양동규"
+    ],
+    "start": "2026-06-25T15:00:00",
+    "end": "2026-06-25T18:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -34,5 +43,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-25T09:29:36.911307+09:00"
+  "last_updated": "2026-06-25T09:30:57.749349+09:00"
 }
