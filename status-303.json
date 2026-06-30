@@ -3,21 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "황선민 사업부 Weekly",
-      "organizer": "황선민",
-      "attendees": [
-        "권기정",
-        "정승호",
-        "김용원",
-        "이상국",
-        "정광욱"
-      ],
-      "start": "2026-06-29T10:00:00",
-      "end": "2026-06-29T12:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-06-30T08:59:40.283990+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-06-30T09:00:44.247300+09:00"
 }
