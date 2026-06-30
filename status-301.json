@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 1 On 1",
     "organizer": "황선민",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-06-30T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정재찬 BE 일간회의",
@@ -35,5 +35,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-30T15:59:44.026068+09:00"
+  "last_updated": "2026-06-30T16:00:48.586402+09:00"
 }
