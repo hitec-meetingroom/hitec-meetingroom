@@ -3,16 +3,28 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 1 On 1",
-    "organizer": "황선민",
+    "subject": "정재찬 BE 일간회의",
+    "organizer": "정재찬",
     "attendees": [
-      "유동호"
+      "김동규",
+      "최이화"
     ],
-    "start": "2026-06-30T16:00:00",
-    "end": "2026-06-30T17:00:00",
+    "start": "2026-06-30T09:30:00",
+    "end": "2026-06-30T10:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "정재찬 BE 일간회의",
+      "organizer": "정재찬",
+      "attendees": [
+        "김동규",
+        "최이화"
+      ],
+      "start": "2026-06-30T09:30:00",
+      "end": "2026-06-30T10:00:00",
+      "is_cancelled": false
+    },
     {
       "subject": "황선민 1 On 1",
       "organizer": "황선민",
@@ -24,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-06-30T09:21:38.829438+09:00"
+  "last_updated": "2026-06-30T09:22:40.036294+09:00"
 }
