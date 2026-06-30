@@ -2,7 +2,27 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-06-30T14:00:45.941153+09:00"
+  "next_meeting": {
+    "subject": "인사 면접",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희"
+    ],
+    "start": "2026-06-30T16:00:00",
+    "end": "2026-06-30T17:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "인사 면접",
+      "organizer": "인사",
+      "attendees": [
+        "정찬희"
+      ],
+      "start": "2026-06-30T16:00:00",
+      "end": "2026-06-30T17:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-06-30T14:01:06.398820+09:00"
 }
