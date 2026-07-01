@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이미래 1차 면접_김원희(영업관리)",
     "organizer": "이미래",
     "attendees": [
@@ -15,6 +14,7 @@
     "end": "2026-07-01T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이미래 2분기 신규입사자 OT",
@@ -45,5 +45,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-01T13:59:37.814094+09:00"
+  "last_updated": "2026-07-01T14:00:41.832373+09:00"
 }
