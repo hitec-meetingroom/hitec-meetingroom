@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이훈 지멘스 미팅 (강동구 상무 내방)",
     "organizer": "이훈",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-07-01T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이훈 지멘스 미팅 (강동구 상무 내방)",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-01T10:59:46.293883+09:00"
+  "last_updated": "2026-07-01T11:01:07.561992+09:00"
 }
