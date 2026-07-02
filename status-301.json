@@ -3,16 +3,28 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 지그 및 기타 운영 관련 논의",
-    "organizer": "황선민",
+    "subject": "최이화 BE 일간회의",
+    "organizer": "최이화",
     "attendees": [
-      "정광욱"
+      "김동규",
+      "정재찬"
     ],
-    "start": "2026-07-02T14:00:00",
-    "end": "2026-07-02T15:00:00",
+    "start": "2026-07-02T10:00:00",
+    "end": "2026-07-02T11:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "최이화 BE 일간회의",
+      "organizer": "최이화",
+      "attendees": [
+        "김동규",
+        "정재찬"
+      ],
+      "start": "2026-07-02T10:00:00",
+      "end": "2026-07-02T11:00:00",
+      "is_cancelled": false
+    },
     {
       "subject": "황선민 지그 및 기타 운영 관련 논의",
       "organizer": "황선민",
@@ -46,5 +58,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-02T09:39:39.732873+09:00"
+  "last_updated": "2026-07-02T09:40:57.426740+09:00"
 }
