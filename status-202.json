@@ -3,18 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이훈 지멘스 미팅 (강동구 상무 내방)",
-      "organizer": "이훈",
-      "attendees": [
-        "서보성",
-        "김영일"
-      ],
-      "start": "2026-07-01T11:00:00",
-      "end": "2026-07-01T12:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-07-02T08:59:39.014800+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-07-02T09:00:43.368823+09:00"
 }
