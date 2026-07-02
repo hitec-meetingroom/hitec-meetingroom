@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 BE 일간회의",
     "organizer": "최이화",
     "attendees": [
@@ -11,6 +10,16 @@
     ],
     "start": "2026-07-02T10:00:00",
     "end": "2026-07-02T11:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "황선민 지그 및 기타 운영 관련 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "정광욱"
+    ],
+    "start": "2026-07-02T14:00:00",
+    "end": "2026-07-02T15:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -58,5 +67,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-02T09:59:36.225647+09:00"
+  "last_updated": "2026-07-02T10:00:40.936405+09:00"
 }
