@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이훈 상반기 중간보고 회의 ",
     "organizer": "이훈",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-07-03T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이훈 상반기 중간보고 회의 ",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-03T09:59:35.605959+09:00"
+  "last_updated": "2026-07-03T10:00:39.738373+09:00"
 }
