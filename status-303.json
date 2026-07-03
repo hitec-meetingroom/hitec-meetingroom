@@ -2,7 +2,29 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-03T09:38:38.611857+09:00"
+  "next_meeting": {
+    "subject": "김경환 한영계기 방문 미팅",
+    "organizer": "김경환",
+    "attendees": [
+      "김용원",
+      "이상국"
+    ],
+    "start": "2026-07-03T15:00:00",
+    "end": "2026-07-03T17:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "김경환 한영계기 방문 미팅",
+      "organizer": "김경환",
+      "attendees": [
+        "김용원",
+        "이상국"
+      ],
+      "start": "2026-07-03T15:00:00",
+      "end": "2026-07-03T17:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-03T09:39:42.820476+09:00"
 }
