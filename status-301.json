@@ -2,17 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 품질 Weekly ",
-    "organizer": "황선민",
-    "attendees": [
-      "유동호",
-      "심규선"
-    ],
-    "start": "2026-07-03T15:00:00",
-    "end": "2026-07-03T16:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "황선민 32비트 검증 결과 Wrap Up",
     "organizer": "황선민",
     "attendees": [
@@ -22,6 +11,7 @@
     "end": "2026-07-03T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김용희 생산운영팀 회의",
@@ -58,5 +48,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-03T15:59:36.799810+09:00"
+  "last_updated": "2026-07-03T16:00:41.788181+09:00"
 }
