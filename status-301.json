@@ -39,7 +39,17 @@
       "start": "2026-07-03T15:00:00",
       "end": "2026-07-03T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "32비트 검증 결과 Wrap Up",
+      "organizer": "황선민",
+      "attendees": [
+        "유동호"
+      ],
+      "start": "2026-07-03T16:00:00",
+      "end": "2026-07-03T17:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-03T10:00:39.738373+09:00"
+  "last_updated": "2026-07-03T10:01:36.361885+09:00"
 }
