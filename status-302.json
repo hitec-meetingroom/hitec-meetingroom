@@ -2,26 +2,31 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [
+      "박병택",
+      "문성진",
+      "박민성"
+    ],
+    "start": "2026-07-03T10:00:00",
+    "end": "2026-07-03T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이지은B 면접 대기실",
-      "organizer": "이지은B",
-      "attendees": [],
-      "start": "2026-07-02T13:30:00",
-      "end": "2026-07-02T14:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정승호 반기보고",
-      "organizer": "정승호",
+      "subject": "정광욱 하드웨어파트 주간업무회의",
+      "organizer": "정광욱",
       "attendees": [
-        "이상국"
+        "박병택",
+        "문성진",
+        "박민성"
       ],
-      "start": "2026-07-02T16:00:00",
-      "end": "2026-07-02T17:00:00",
+      "start": "2026-07-03T10:00:00",
+      "end": "2026-07-03T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-03T08:59:41.700401+09:00"
+  "last_updated": "2026-07-03T09:00:46.069833+09:00"
 }

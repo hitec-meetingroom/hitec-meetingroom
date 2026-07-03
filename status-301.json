@@ -2,59 +2,44 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "김용희 생산운영팀 회의",
+    "organizer": "김용희",
+    "attendees": [
+      "김경환",
+      "정병주",
+      "김용원",
+      "정영모"
+    ],
+    "start": "2026-07-03T13:15:00",
+    "end": "2026-07-03T14:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "최이화 BE 일간회의",
-      "organizer": "최이화",
+      "subject": "김용희 생산운영팀 회의",
+      "organizer": "김용희",
       "attendees": [
-        "김동규",
-        "정재찬"
+        "김경환",
+        "정병주",
+        "김용원",
+        "정영모"
       ],
-      "start": "2026-07-02T10:00:00",
-      "end": "2026-07-02T11:00:00",
+      "start": "2026-07-03T13:15:00",
+      "end": "2026-07-03T14:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "황선민 지그 및 기타 운영 관련 논의",
+      "subject": "황선민 품질 Weekly ",
       "organizer": "황선민",
       "attendees": [
-        "정광욱"
+        "유동호",
+        "심규선"
       ],
-      "start": "2026-07-02T14:00:00",
-      "end": "2026-07-02T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 주간업무회의",
-      "organizer": "정광욱",
-      "attendees": [
-        "박민성",
-        "박병택",
-        "문성진"
-      ],
-      "start": "2026-07-02T15:00:00",
-      "end": "2026-07-02T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 32비트 녹색인증 시험 관련 문의의 건",
-      "organizer": "황선민",
-      "attendees": [
-        "문성진"
-      ],
-      "start": "2026-07-02T16:00:00",
-      "end": "2026-07-02T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "권용석 ES SALES 내부 회의",
-      "organizer": "권용석",
-      "attendees": [],
-      "start": "2026-07-02T17:00:00",
-      "end": "2026-07-02T18:00:00",
+      "start": "2026-07-03T15:00:00",
+      "end": "2026-07-03T16:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-03T08:59:41.700401+09:00"
+  "last_updated": "2026-07-03T09:00:46.069833+09:00"
 }
