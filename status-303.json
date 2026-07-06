@@ -2,7 +2,49 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-06T08:59:37.426509+09:00"
+  "next_meeting": {
+    "subject": "황선민 32비트 PP 검증 결과 공유회",
+    "organizer": "황선민",
+    "attendees": [
+      "김용원",
+      "김경환",
+      "권기정",
+      "정광욱",
+      "유동호",
+      "심규선",
+      "정승호",
+      "문성진",
+      "박병택",
+      "박민성",
+      "김용희",
+      "SS사업본부 기술영업팀"
+    ],
+    "start": "2026-07-06T16:00:00",
+    "end": "2026-07-06T17:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "황선민 32비트 PP 검증 결과 공유회",
+      "organizer": "황선민",
+      "attendees": [
+        "김용원",
+        "김경환",
+        "권기정",
+        "정광욱",
+        "유동호",
+        "심규선",
+        "정승호",
+        "문성진",
+        "박병택",
+        "박민성",
+        "김용희",
+        "SS사업본부 기술영업팀"
+      ],
+      "start": "2026-07-06T16:00:00",
+      "end": "2026-07-06T17:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-06T09:00:41.699417+09:00"
 }
