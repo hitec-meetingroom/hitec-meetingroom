@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-07T09:15:48.908971+09:00"
+  "next_meeting": {
+    "subject": "최민철 ENG업무회의",
+    "organizer": "최민철",
+    "attendees": [],
+    "start": "2026-07-07T10:00:00",
+    "end": "2026-07-07T11:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "최민철 ENG업무회의",
+      "organizer": "최민철",
+      "attendees": [],
+      "start": "2026-07-07T10:00:00",
+      "end": "2026-07-07T11:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-07T09:16:53.786125+09:00"
 }
