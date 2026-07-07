@@ -2,7 +2,48 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-07T08:59:36.504583+09:00"
+  "next_meeting": {
+    "subject": "이미래 1차 면접_이창훈(프론트엔드)",
+    "organizer": "이미래",
+    "attendees": [
+      "정승호",
+      "정찬희",
+      "정연미",
+      "이지은B",
+      "강종빈"
+    ],
+    "start": "2026-07-07T14:00:00",
+    "end": "2026-07-07T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이미래 1차 면접_이창훈(프론트엔드)",
+      "organizer": "이미래",
+      "attendees": [
+        "정승호",
+        "정찬희",
+        "정연미",
+        "이지은B",
+        "강종빈"
+      ],
+      "start": "2026-07-07T14:00:00",
+      "end": "2026-07-07T15:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "이미래 1차 면접_김승완(프론트엔드)",
+      "organizer": "이미래",
+      "attendees": [
+        "정승호",
+        "정찬희",
+        "정연미",
+        "이지은B"
+      ],
+      "start": "2026-07-07T15:00:00",
+      "end": "2026-07-07T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-07T09:00:40.942812+09:00"
 }
