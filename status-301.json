@@ -2,47 +2,29 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 1차 면접_윤여웅(수행기사)",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이지은B"
+    ],
+    "start": "2026-07-08T10:00:00",
+    "end": "2026-07-08T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이지은B 경영기획팀 미팅",
-      "organizer": "이지은B",
-      "attendees": [],
-      "start": "2026-07-07T09:00:00",
-      "end": "2026-07-07T11:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정연미 경영",
-      "organizer": "정연미",
+      "subject": "인사 1차 면접_윤여웅(수행기사)",
+      "organizer": "인사",
       "attendees": [
-        "이경택",
-        "최안나"
+        "정찬희",
+        "이지은B"
       ],
-      "start": "2026-07-07T15:00:00",
-      "end": "2026-07-07T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "최이화 원주 수기검침 사용자 매뉴얼 검토",
-      "organizer": "최이화",
-      "attendees": [
-        "정승호",
-        "정재찬",
-        "김동규"
-      ],
-      "start": "2026-07-07T16:00:00",
-      "end": "2026-07-07T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이지은B 경영기획팀 미팅",
-      "organizer": "이지은B",
-      "attendees": [],
-      "start": "2026-07-07T17:00:00",
-      "end": "2026-07-07T18:00:00",
+      "start": "2026-07-08T10:00:00",
+      "end": "2026-07-08T11:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-08T08:59:40.481388+09:00"
+  "last_updated": "2026-07-08T09:00:45.071372+09:00"
 }
