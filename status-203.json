@@ -2,17 +2,6 @@
   "room_name": "2층 대회의실",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "인사 1차 면접_윤여웅(수행기사)",
-    "organizer": "인사",
-    "attendees": [
-      "정찬희",
-      "이지은B"
-    ],
-    "start": "2026-07-08T10:00:00",
-    "end": "2026-07-08T11:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 1차 면접_김민호(수행기사)",
     "organizer": "인사",
     "attendees": [
@@ -23,6 +12,7 @@
     "end": "2026-07-08T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 1차 면접_윤여웅(수행기사)",
@@ -47,5 +37,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-08T10:59:40.084140+09:00"
+  "last_updated": "2026-07-08T11:00:44.284540+09:00"
 }
