@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 면담_HR",
     "organizer": "인사",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-07-09T11:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 면담_HR",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-09T09:59:37.231801+09:00"
+  "last_updated": "2026-07-09T10:00:41.803504+09:00"
 }
