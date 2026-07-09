@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "허준영 한설아 ENG업무회의",
+    "subject": "허준영 ENG업무회의",
     "organizer": "허준영",
     "attendees": [],
     "start": "2026-07-09T09:30:00",
@@ -12,7 +12,7 @@
   },
   "today_meetings": [
     {
-      "subject": "허준영 한설아 ENG업무회의",
+      "subject": "허준영 ENG업무회의",
       "organizer": "허준영",
       "attendees": [],
       "start": "2026-07-09T09:30:00",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-09T09:20:42.141265+09:00"
+  "last_updated": "2026-07-09T09:21:31.735646+09:00"
 }
