@@ -3,29 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_윤여웅(수행기사)",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희",
-        "이지은B"
-      ],
-      "start": "2026-07-08T10:00:00",
-      "end": "2026-07-08T11:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 1차 면접_김민호(수행기사)",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희",
-        "이지은B"
-      ],
-      "start": "2026-07-08T11:00:00",
-      "end": "2026-07-08T12:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-07-09T08:59:37.067446+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-07-09T09:00:42.979717+09:00"
 }
