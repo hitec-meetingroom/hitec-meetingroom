@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 32비트 PP 검증 결과 공유회",
     "organizer": "황선민",
     "attendees": [
@@ -23,6 +22,7 @@
     "end": "2026-07-09T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 32비트 PP 검증 결과 공유회",
@@ -46,5 +46,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-09T15:59:40.560440+09:00"
+  "last_updated": "2026-07-09T16:00:44.913730+09:00"
 }
