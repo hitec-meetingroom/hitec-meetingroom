@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "나기순 나기순 - SK하이닉스 용인 회의",
     "organizer": "나기순",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-07-10T16:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "안희은 회의",
@@ -30,5 +30,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T15:29:38.131397+09:00"
+  "last_updated": "2026-07-10T15:30:43.655718+09:00"
 }
