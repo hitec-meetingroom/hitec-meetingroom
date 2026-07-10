@@ -1,18 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 HR 대쉬보드",
-    "organizer": "인사",
-    "attendees": [
-      "정찬희",
-      "이미래",
-      "이지은B"
-    ],
-    "start": "2026-07-10T16:00:00",
-    "end": "2026-07-10T18:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -67,5 +56,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T17:59:41.136042+09:00"
+  "last_updated": "2026-07-10T18:00:45.306314+09:00"
 }
