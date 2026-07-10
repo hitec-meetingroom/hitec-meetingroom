@@ -2,21 +2,23 @@
   "room_name": "2층 교육실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 ",
+    "organizer": "인사",
+    "attendees": [],
+    "start": "2026-07-10T14:00:00",
+    "end": "2026-07-10T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "서보성 ",
-      "organizer": "서보성",
-      "attendees": [
-        "ES사업본부 ES영업팀",
-        "ES사업본부 PR팀",
-        "ES사업본부 Engineering팀",
-        "ES사업본부 SmartPQ팀-PQ"
-      ],
-      "start": "2026-07-09T16:00:00",
-      "end": "2026-07-09T17:00:00",
+      "subject": "인사 ",
+      "organizer": "인사",
+      "attendees": [],
+      "start": "2026-07-10T14:00:00",
+      "end": "2026-07-10T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T08:59:39.584622+09:00"
+  "last_updated": "2026-07-10T09:00:44.648493+09:00"
 }
