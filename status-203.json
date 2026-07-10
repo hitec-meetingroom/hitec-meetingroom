@@ -2,7 +2,23 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-10T15:57:36.785482+09:00"
+  "next_meeting": {
+    "subject": "서보성 기술교육팀 교육",
+    "organizer": "서보성",
+    "attendees": [],
+    "start": "2026-07-10T16:30:00",
+    "end": "2026-07-10T17:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "서보성 기술교육팀 교육",
+      "organizer": "서보성",
+      "attendees": [],
+      "start": "2026-07-10T16:30:00",
+      "end": "2026-07-10T17:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-10T15:58:43.388529+09:00"
 }
