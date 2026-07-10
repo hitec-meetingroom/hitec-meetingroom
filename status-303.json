@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 1차 면접_김남석(영업관리)",
     "organizer": "인사",
     "attendees": [
@@ -15,6 +14,14 @@
     ],
     "start": "2026-07-10T10:50:00",
     "end": "2026-07-10T11:50:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-07-10T16:00:00",
+    "end": "2026-07-10T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -42,5 +49,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T10:49:37.556767+09:00"
+  "last_updated": "2026-07-10T10:50:42.180694+09:00"
 }
