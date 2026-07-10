@@ -1,8 +1,7 @@
 {
   "room_name": "2층 교육실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 ",
     "organizer": "인사",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-07-10T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 ",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T13:59:35.715058+09:00"
+  "last_updated": "2026-07-10T14:00:40.244722+09:00"
 }
