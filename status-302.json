@@ -2,7 +2,16 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "최이화 수기검침 리뷰",
+    "organizer": "최이화",
+    "attendees": [
+      "문성진"
+    ],
+    "start": "2026-07-10T15:00:00",
+    "end": "2026-07-10T16:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "정광욱 하드웨어파트 주간업무회의",
@@ -15,7 +24,17 @@
       "start": "2026-07-10T10:00:00",
       "end": "2026-07-10T11:30:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "최이화 수기검침 리뷰",
+      "organizer": "최이화",
+      "attendees": [
+        "문성진"
+      ],
+      "start": "2026-07-10T15:00:00",
+      "end": "2026-07-10T16:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T14:58:39.294525+09:00"
+  "last_updated": "2026-07-10T14:59:37.678385+09:00"
 }
