@@ -1,16 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "안희은 회의",
-    "organizer": "안희은",
-    "attendees": [
-      "이동욱"
-    ],
-    "start": "2026-07-10T10:00:00",
-    "end": "2026-07-10T11:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -24,5 +15,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-10T11:29:46.889004+09:00"
+  "last_updated": "2026-07-10T11:30:51.785549+09:00"
 }
