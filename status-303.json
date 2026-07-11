@@ -3,30 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_김남석(영업관리)",
-      "organizer": "인사",
-      "attendees": [
-        "권기정",
-        "박희택",
-        "이미래",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-07-10T10:50:00",
-      "end": "2026-07-10T11:50:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 하드웨어파트 주간업무회의",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-07-10T16:00:00",
-      "end": "2026-07-10T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-07-11T08:59:34.601655+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-07-11T09:00:38.941481+09:00"
 }
