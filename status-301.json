@@ -1,8 +1,28 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "인사 신규입사자 OT",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희"
+    ],
+    "start": "2026-07-13T09:00:00",
+    "end": "2026-07-13T11:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-13T08:59:37.041496+09:00"
+  "today_meetings": [
+    {
+      "subject": "인사 신규입사자 OT",
+      "organizer": "인사",
+      "attendees": [
+        "정찬희"
+      ],
+      "start": "2026-07-13T09:00:00",
+      "end": "2026-07-13T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-13T09:00:41.283086+09:00"
 }
