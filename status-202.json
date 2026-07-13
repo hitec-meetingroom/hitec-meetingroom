@@ -3,16 +3,14 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황도하 TE Meeting",
-    "organizer": "황도하",
+    "subject": "ES_ENG(Sched) 업무협의",
+    "organizer": "ES_ENG(Sched)",
     "attendees": [
-      "신준현",
-      "나가람",
-      "이훈",
-      "이지은A"
+      "남기성",
+      "최민철"
     ],
-    "start": "2026-07-14T08:00:00",
-    "end": "2026-07-14T08:30:00",
+    "start": "2026-07-13T16:00:00",
+    "end": "2026-07-13T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -29,6 +27,17 @@
       "is_cancelled": false
     },
     {
+      "subject": "ES_ENG(Sched) 업무협의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [
+        "남기성",
+        "최민철"
+      ],
+      "start": "2026-07-13T16:00:00",
+      "end": "2026-07-13T17:00:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "황도하 TE Meeting",
       "organizer": "황도하",
       "attendees": [
@@ -42,5 +51,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-13T15:52:37.633456+09:00"
+  "last_updated": "2026-07-13T15:53:38.351061+09:00"
 }
