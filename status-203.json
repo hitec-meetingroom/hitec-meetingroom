@@ -1,14 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "ES_SALES(Sched) ES_SALES 회의",
-    "organizer": "ES_SALES(Sched)",
-    "attendees": [],
-    "start": "2026-07-13T09:00:00",
-    "end": "2026-07-13T09:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "서보성 기술교육팀 강의 - 접지설계 1회차",
     "organizer": "서보성",
@@ -45,5 +38,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-13T09:29:38.731265+09:00"
+  "last_updated": "2026-07-13T09:30:43.088186+09:00"
 }
