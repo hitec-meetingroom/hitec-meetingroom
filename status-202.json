@@ -1,19 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황도하 TE Meeting",
-    "organizer": "황도하",
-    "attendees": [
-      "신준현",
-      "나가람",
-      "이훈",
-      "이지은A"
-    ],
-    "start": "2026-07-14T08:00:00",
-    "end": "2026-07-14T08:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -53,5 +41,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-14T08:29:35.930634+09:00"
+  "last_updated": "2026-07-14T08:30:40.839812+09:00"
 }
