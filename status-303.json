@@ -2,7 +2,17 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 회의_HR",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이미래"
+    ],
+    "start": "2026-07-14T16:00:00",
+    "end": "2026-07-14T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "최이화 SW 미팅",
@@ -17,7 +27,18 @@
       "start": "2026-07-14T09:30:00",
       "end": "2026-07-14T11:30:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "인사 회의_HR",
+      "organizer": "인사",
+      "attendees": [
+        "정찬희",
+        "이미래"
+      ],
+      "start": "2026-07-14T16:00:00",
+      "end": "2026-07-14T17:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-14T15:51:34.116045+09:00"
+  "last_updated": "2026-07-14T15:52:40.198844+09:00"
 }
