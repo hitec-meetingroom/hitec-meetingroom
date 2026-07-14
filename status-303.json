@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 SW 미팅",
     "organizer": "최이화",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-07-14T11:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 SW 미팅",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-14T09:29:39.114837+09:00"
+  "last_updated": "2026-07-14T09:30:43.531899+09:00"
 }
