@@ -3,14 +3,28 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "이지은B 면접 대기실",
-    "organizer": "이지은B",
-    "attendees": [],
-    "start": "2026-07-14T14:00:00",
-    "end": "2026-07-14T15:30:00",
+    "subject": "최이화 BE 미팅",
+    "organizer": "최이화",
+    "attendees": [
+      "정재찬",
+      "김동규"
+    ],
+    "start": "2026-07-14T09:30:00",
+    "end": "2026-07-14T10:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "최이화 BE 미팅",
+      "organizer": "최이화",
+      "attendees": [
+        "정재찬",
+        "김동규"
+      ],
+      "start": "2026-07-14T09:30:00",
+      "end": "2026-07-14T10:30:00",
+      "is_cancelled": false
+    },
     {
       "subject": "이지은B 면접 대기실",
       "organizer": "이지은B",
@@ -20,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-14T09:15:56.590768+09:00"
+  "last_updated": "2026-07-14T09:16:39.933836+09:00"
 }
