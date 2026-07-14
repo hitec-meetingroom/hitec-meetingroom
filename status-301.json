@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "강종빈 SkyRun 3.0 미팅",
     "organizer": "강종빈",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-07-14T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 신규입사자  OT",
@@ -50,5 +50,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-14T15:59:39.161042+09:00"
+  "last_updated": "2026-07-14T16:00:43.472530+09:00"
 }
