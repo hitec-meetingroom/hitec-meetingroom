@@ -2,40 +2,23 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 품질보증팀 신규입사자 OT Day1",
+    "organizer": "황선민",
+    "attendees": [],
+    "start": "2026-07-15T09:30:00",
+    "end": "2026-07-15T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 신규입사자  OT",
-      "organizer": "인사",
-      "attendees": [
-        "이미래"
-      ],
-      "start": "2026-07-14T10:00:00",
-      "end": "2026-07-14T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 회의",
-      "organizer": "인사",
+      "subject": "황선민 품질보증팀 신규입사자 OT Day1",
+      "organizer": "황선민",
       "attendees": [],
-      "start": "2026-07-14T14:00:00",
-      "end": "2026-07-14T14:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "강종빈 SkyRun 3.0 미팅",
-      "organizer": "강종빈",
-      "attendees": [
-        "김동규",
-        "정재찬",
-        "최이화",
-        "이창훈",
-        "백진주"
-      ],
-      "start": "2026-07-14T16:00:00",
-      "end": "2026-07-14T17:00:00",
+      "start": "2026-07-15T09:30:00",
+      "end": "2026-07-15T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-15T08:59:41.732697+09:00"
+  "last_updated": "2026-07-15T09:00:46.104981+09:00"
 }
