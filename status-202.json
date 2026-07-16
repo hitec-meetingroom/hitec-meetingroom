@@ -12,14 +12,6 @@
   "next_meeting": null,
   "today_meetings": [
     {
-      "subject": "ES_SALES(Sched) ES 영업 회의",
-      "organizer": "ES_SALES(Sched)",
-      "attendees": [],
-      "start": "2026-07-15T16:00:00",
-      "end": "2026-07-15T17:00:00",
-      "is_cancelled": false
-    },
-    {
       "subject": "ES_ENG(Sched) SK하이닉스 SEC 청주 보호계전기 정정 및 보호협조 설명",
       "organizer": "ES_ENG(Sched)",
       "attendees": [],
@@ -28,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-16T08:59:35.547026+09:00"
+  "last_updated": "2026-07-16T09:00:40.349666+09:00"
 }
