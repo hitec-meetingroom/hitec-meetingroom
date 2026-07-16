@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 품질보증팀 신규입사자 OT Day3",
-    "organizer": "황선민",
-    "attendees": [
-      "복지영"
-    ],
-    "start": "2026-07-16T14:00:00",
-    "end": "2026-07-16T16:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "황선민 품질 Weekly ",
     "organizer": "황선민",
     "attendees": [
@@ -23,6 +13,7 @@
     "end": "2026-07-16T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 품질보증팀 신규입사자 OT Day2",
@@ -57,5 +48,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-16T15:59:35.380524+09:00"
+  "last_updated": "2026-07-16T16:00:39.644302+09:00"
 }
