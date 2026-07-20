@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "정재찬 대구시 배포구조 회의 ",
-    "organizer": "정재찬",
-    "attendees": [
-      "김동규"
-    ],
-    "start": "2026-07-20T15:00:00",
-    "end": "2026-07-20T16:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "정광욱 32비트 방수 논의",
     "organizer": "정광욱",
     "attendees": [
@@ -23,6 +13,7 @@
     "end": "2026-07-20T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김용희 생산운영팀 회의",
@@ -61,5 +52,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T15:59:38.893351+09:00"
+  "last_updated": "2026-07-20T16:00:58.366957+09:00"
 }
