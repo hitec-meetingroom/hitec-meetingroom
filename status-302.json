@@ -2,11 +2,9 @@
   "room_name": "3층 소회의실2",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "환경표지 인증 온라인 교육",
+    "subject": "황선민 환경표지 인증 온라인 교육",
     "organizer": "황선민",
-    "attendees": [
-      "3층 소회의실2"
-    ],
+    "attendees": [],
     "start": "2026-07-20T14:00:00",
     "end": "2026-07-20T16:00:00",
     "is_cancelled": false
@@ -24,15 +22,13 @@
       "is_cancelled": false
     },
     {
-      "subject": "환경표지 인증 온라인 교육",
+      "subject": "황선민 환경표지 인증 온라인 교육",
       "organizer": "황선민",
-      "attendees": [
-        "3층 소회의실2"
-      ],
+      "attendees": [],
       "start": "2026-07-20T14:00:00",
       "end": "2026-07-20T16:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T14:11:39.057084+09:00"
+  "last_updated": "2026-07-20T14:12:42.707936+09:00"
 }
