@@ -1,18 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "정광욱 32비트 방수 논의",
-    "organizer": "정광욱",
-    "attendees": [
-      "김용원",
-      "황선민",
-      "권기정"
-    ],
-    "start": "2026-07-20T16:00:00",
-    "end": "2026-07-20T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -52,5 +41,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T16:59:47.401456+09:00"
+  "last_updated": "2026-07-20T17:01:01.190718+09:00"
 }
