@@ -3,15 +3,13 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "정광욱 32비트 방수 논의",
-    "organizer": "정광욱",
+    "subject": "정재찬 대구시 배포구조 회의 ",
+    "organizer": "정재찬",
     "attendees": [
-      "김용원",
-      "황선민",
-      "권기정"
+      "김동규"
     ],
-    "start": "2026-07-20T16:00:00",
-    "end": "2026-07-20T17:00:00",
+    "start": "2026-07-20T15:00:00",
+    "end": "2026-07-20T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -30,6 +28,16 @@
       "is_cancelled": false
     },
     {
+      "subject": "정재찬 대구시 배포구조 회의 ",
+      "organizer": "정재찬",
+      "attendees": [
+        "김동규"
+      ],
+      "start": "2026-07-20T15:00:00",
+      "end": "2026-07-20T16:00:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "정광욱 32비트 방수 논의",
       "organizer": "정광욱",
       "attendees": [
@@ -42,5 +50,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T14:54:39.560453+09:00"
+  "last_updated": "2026-07-20T14:55:47.255889+09:00"
 }
