@@ -9,7 +9,16 @@
     "end": "2026-07-20T16:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "강종빈 FE 미팅",
+    "organizer": "강종빈",
+    "attendees": [
+      "이창훈"
+    ],
+    "start": "2026-07-20T16:00:00",
+    "end": "2026-07-20T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "이창훈 App 관련 미팅",
@@ -28,7 +37,17 @@
       "start": "2026-07-20T14:00:00",
       "end": "2026-07-20T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "강종빈 FE 미팅",
+      "organizer": "강종빈",
+      "attendees": [
+        "이창훈"
+      ],
+      "start": "2026-07-20T16:00:00",
+      "end": "2026-07-20T17:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T14:31:42.538360+09:00"
+  "last_updated": "2026-07-20T14:32:42.507158+09:00"
 }
