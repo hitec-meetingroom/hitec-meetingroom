@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이창훈 App 관련 미팅",
-    "organizer": "이창훈",
-    "attendees": [
-      "백진주"
-    ],
-    "start": "2026-07-20T10:30:00",
-    "end": "2026-07-20T11:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -24,5 +15,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T10:59:39.156551+09:00"
+  "last_updated": "2026-07-20T11:00:59.701697+09:00"
 }
