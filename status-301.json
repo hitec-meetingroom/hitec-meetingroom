@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "김용희 생산운영팀 회의",
     "organizer": "김용희",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-07-20T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김용희 생산운영팀 회의",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-20T11:29:37.895947+09:00"
+  "last_updated": "2026-07-20T11:30:56.030819+09:00"
 }
