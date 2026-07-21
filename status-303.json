@@ -2,16 +2,35 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 1차 면접_김대덕",
+    "organizer": "인사",
+    "attendees": [
+      "권기정",
+      "허승혁",
+      "정찬희",
+      "정연미",
+      "이지은B"
+    ],
+    "start": "2026-07-21T11:00:00",
+    "end": "2026-07-21T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "양동규 쿽텔코리아 미팅",
-      "organizer": "양동규",
-      "attendees": [],
-      "start": "2026-07-20T15:00:00",
-      "end": "2026-07-20T17:00:00",
+      "subject": "인사 1차 면접_김대덕",
+      "organizer": "인사",
+      "attendees": [
+        "권기정",
+        "허승혁",
+        "정찬희",
+        "정연미",
+        "이지은B"
+      ],
+      "start": "2026-07-21T11:00:00",
+      "end": "2026-07-21T12:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-21T08:59:36.632283+09:00"
+  "last_updated": "2026-07-21T09:00:41.658273+09:00"
 }

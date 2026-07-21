@@ -2,44 +2,35 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 업무 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "복지영"
+    ],
+    "start": "2026-07-21T10:00:00",
+    "end": "2026-07-21T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "김용희 생산운영팀 회의",
-      "organizer": "김용희",
+      "subject": "황선민 업무 논의",
+      "organizer": "황선민",
       "attendees": [
-        "이상국",
-        "정영모",
-        "김용원",
-        "김경환",
-        "정병주"
+        "복지영"
       ],
-      "start": "2026-07-20T11:30:00",
-      "end": "2026-07-20T12:00:00",
+      "start": "2026-07-21T10:00:00",
+      "end": "2026-07-21T11:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "정재찬 대구시 배포구조 회의 ",
-      "organizer": "정재찬",
-      "attendees": [
-        "김동규"
-      ],
-      "start": "2026-07-20T15:00:00",
-      "end": "2026-07-20T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 32비트 방수 논의",
+      "subject": "정광욱 변리사 미팅",
       "organizer": "정광욱",
-      "attendees": [
-        "김용원",
-        "황선민",
-        "권기정"
-      ],
-      "start": "2026-07-20T16:00:00",
-      "end": "2026-07-20T17:00:00",
+      "attendees": [],
+      "start": "2026-07-21T15:00:00",
+      "end": "2026-07-21T16:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-21T08:59:36.632283+09:00"
+  "last_updated": "2026-07-21T09:00:41.658273+09:00"
 }
