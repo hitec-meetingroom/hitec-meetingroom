@@ -1,7 +1,16 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "황선민 업무 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "복지영"
+    ],
+    "start": "2026-07-21T10:00:00",
+    "end": "2026-07-21T12:00:00",
+    "is_cancelled": false
+  },
   "next_meeting": {
     "subject": "정광욱 변리사 미팅",
     "organizer": "정광욱",
@@ -18,7 +27,7 @@
         "복지영"
       ],
       "start": "2026-07-21T10:00:00",
-      "end": "2026-07-21T11:00:00",
+      "end": "2026-07-21T12:00:00",
       "is_cancelled": false
     },
     {
@@ -30,5 +39,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-21T11:07:43.349265+09:00"
+  "last_updated": "2026-07-21T11:08:40.331218+09:00"
 }
