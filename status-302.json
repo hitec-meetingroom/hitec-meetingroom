@@ -2,23 +2,7 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": {
-    "subject": "이지은B 면접 대기실",
-    "organizer": "이지은B",
-    "attendees": [],
-    "start": "2026-07-22T13:30:00",
-    "end": "2026-07-22T16:30:00",
-    "is_cancelled": false
-  },
-  "today_meetings": [
-    {
-      "subject": "이지은B 면접 대기실",
-      "organizer": "이지은B",
-      "attendees": [],
-      "start": "2026-07-22T13:30:00",
-      "end": "2026-07-22T16:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-07-22T09:09:38.273085+09:00"
+  "next_meeting": null,
+  "today_meetings": [],
+  "last_updated": "2026-07-22T09:10:48.926208+09:00"
 }
