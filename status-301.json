@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 업무논의",
     "organizer": "황선민",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-07-22T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 32비트 프로젝트 정기 미팅",
@@ -49,5 +49,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-22T16:59:39.733314+09:00"
+  "last_updated": "2026-07-22T17:01:01.720610+09:00"
 }
