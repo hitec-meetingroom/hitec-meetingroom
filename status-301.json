@@ -7,7 +7,7 @@
     "organizer": "이지은B",
     "attendees": [],
     "start": "2026-07-23T16:30:00",
-    "end": "2026-07-23T17:00:00",
+    "end": "2026-07-23T18:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -50,9 +50,9 @@
       "organizer": "이지은B",
       "attendees": [],
       "start": "2026-07-23T16:30:00",
-      "end": "2026-07-23T17:00:00",
+      "end": "2026-07-23T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-23T16:16:43.704173+09:00"
+  "last_updated": "2026-07-23T16:17:37.733180+09:00"
 }
