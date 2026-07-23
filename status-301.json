@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이창훈 SS SW 미팅",
     "organizer": "이창훈",
     "attendees": [
@@ -14,6 +13,18 @@
     ],
     "start": "2026-07-23T11:00:00",
     "end": "2026-07-23T12:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 M_HR",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이미래",
+      "백진주"
+    ],
+    "start": "2026-07-23T14:00:00",
+    "end": "2026-07-23T15:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -44,5 +55,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-23T10:59:35.485175+09:00"
+  "last_updated": "2026-07-23T11:00:40.143866+09:00"
 }
