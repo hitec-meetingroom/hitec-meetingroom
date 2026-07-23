@@ -1,8 +1,24 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "인사 M",
+    "organizer": "인사",
+    "attendees": [],
+    "start": "2026-07-23T10:30:00",
+    "end": "2026-07-23T11:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-23T10:46:40.547957+09:00"
+  "today_meetings": [
+    {
+      "subject": "인사 M",
+      "organizer": "인사",
+      "attendees": [],
+      "start": "2026-07-23T10:30:00",
+      "end": "2026-07-23T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-23T10:47:39.027838+09:00"
 }
