@@ -1,17 +1,28 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "김경환 ISO심사",
+    "organizer": "김경환",
+    "attendees": [
+      "복지영"
+    ],
+    "start": "2026-07-24T09:00:00",
+    "end": "2026-07-24T15:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
   "today_meetings": [
     {
-      "subject": "인사 M",
-      "organizer": "인사",
-      "attendees": [],
-      "start": "2026-07-23T10:30:00",
-      "end": "2026-07-23T11:30:00",
+      "subject": "김경환 ISO심사",
+      "organizer": "김경환",
+      "attendees": [
+        "복지영"
+      ],
+      "start": "2026-07-24T09:00:00",
+      "end": "2026-07-24T15:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-24T08:59:35.200585+09:00"
+  "last_updated": "2026-07-24T09:00:40.609603+09:00"
 }
