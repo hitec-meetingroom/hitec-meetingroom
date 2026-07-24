@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "김동규 smartApp 기획 미팅",
     "organizer": "김동규",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-07-24T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김동규 smartApp 기획 미팅",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-24T09:59:38.225668+09:00"
+  "last_updated": "2026-07-24T10:00:55.609775+09:00"
 }
