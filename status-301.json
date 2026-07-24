@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정영모 주간생산회의",
     "organizer": "정영모",
     "attendees": [
@@ -15,6 +14,7 @@
     "end": "2026-07-24T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김동규 smartApp 기획 미팅",
@@ -41,5 +41,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-24T14:29:37.934514+09:00"
+  "last_updated": "2026-07-24T14:31:01.362793+09:00"
 }
