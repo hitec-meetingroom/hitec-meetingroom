@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "김한솔 ES_PQ 만도PJT 회의",
     "organizer": "김한솔",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-07-24T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "안희은 업무회의",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-24T13:59:39.712706+09:00"
+  "last_updated": "2026-07-24T14:01:04.252587+09:00"
 }
