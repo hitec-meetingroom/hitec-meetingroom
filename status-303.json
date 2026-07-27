@@ -2,7 +2,35 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-27T09:51:37.541619+09:00"
+  "next_meeting": {
+    "subject": "정영모 주간생산회의",
+    "organizer": "정영모",
+    "attendees": [
+      "김용원",
+      "김경환",
+      "정병주",
+      "김용희",
+      "이상국"
+    ],
+    "start": "2026-07-27T11:30:00",
+    "end": "2026-07-27T12:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "정영모 주간생산회의",
+      "organizer": "정영모",
+      "attendees": [
+        "김용원",
+        "김경환",
+        "정병주",
+        "김용희",
+        "이상국"
+      ],
+      "start": "2026-07-27T11:30:00",
+      "end": "2026-07-27T12:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-27T09:52:40.326137+09:00"
 }
