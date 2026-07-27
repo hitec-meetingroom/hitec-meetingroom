@@ -2,7 +2,23 @@
   "room_name": "2층 교육실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-27T12:14:43.173875+09:00"
+  "next_meeting": {
+    "subject": "서보성 ",
+    "organizer": "서보성",
+    "attendees": [],
+    "start": "2026-07-27T16:00:00",
+    "end": "2026-07-27T18:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "서보성 ",
+      "organizer": "서보성",
+      "attendees": [],
+      "start": "2026-07-27T16:00:00",
+      "end": "2026-07-27T18:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-27T12:15:55.048523+09:00"
 }
