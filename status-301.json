@@ -2,7 +2,17 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "강종빈 웹 3.0 요청사항 논의",
+    "organizer": "강종빈",
+    "attendees": [
+      "박희택",
+      "최이화"
+    ],
+    "start": "2026-07-27T14:00:00",
+    "end": "2026-07-27T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "황선민 품질 Weekly ",
@@ -23,7 +33,18 @@
       "start": "2026-07-27T10:00:00",
       "end": "2026-07-27T12:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "강종빈 웹 3.0 요청사항 논의",
+      "organizer": "강종빈",
+      "attendees": [
+        "박희택",
+        "최이화"
+      ],
+      "start": "2026-07-27T14:00:00",
+      "end": "2026-07-27T15:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-27T13:23:37.201576+09:00"
+  "last_updated": "2026-07-27T13:24:44.461109+09:00"
 }
