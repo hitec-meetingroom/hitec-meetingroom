@@ -1,8 +1,24 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "허준영 허준영 업무회의",
+    "organizer": "허준영",
+    "attendees": [],
+    "start": "2026-07-28T14:00:00",
+    "end": "2026-07-28T15:00:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-07-28T14:18:43.536984+09:00"
+  "today_meetings": [
+    {
+      "subject": "허준영 허준영 업무회의",
+      "organizer": "허준영",
+      "attendees": [],
+      "start": "2026-07-28T14:00:00",
+      "end": "2026-07-28T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-07-28T14:19:34.931385+09:00"
 }
