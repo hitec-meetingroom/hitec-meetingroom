@@ -1,40 +1,28 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "황선민 업무논의",
+    "organizer": "황선민",
+    "attendees": [
+      "복지영"
+    ],
+    "start": "2026-07-28T09:00:00",
+    "end": "2026-07-28T09:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
   "today_meetings": [
     {
-      "subject": "황선민 품질 Weekly ",
+      "subject": "황선민 업무논의",
       "organizer": "황선민",
       "attendees": [
-        "유동호",
-        "심규선",
         "복지영"
       ],
-      "start": "2026-07-27T09:00:00",
-      "end": "2026-07-27T10:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이미래 신규입사자 OT",
-      "organizer": "이미래",
-      "attendees": [],
-      "start": "2026-07-27T10:00:00",
-      "end": "2026-07-27T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "강종빈 웹 3.0 요청사항 논의",
-      "organizer": "강종빈",
-      "attendees": [
-        "박희택",
-        "최이화"
-      ],
-      "start": "2026-07-27T14:00:00",
-      "end": "2026-07-27T16:00:00",
+      "start": "2026-07-28T09:00:00",
+      "end": "2026-07-28T09:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-28T08:59:36.019404+09:00"
+  "last_updated": "2026-07-28T09:00:41.132168+09:00"
 }
