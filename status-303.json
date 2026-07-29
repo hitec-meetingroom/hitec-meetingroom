@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 1차 면접_강준석(영업관리)",
     "organizer": "인사",
     "attendees": [
@@ -17,6 +16,7 @@
     "end": "2026-07-29T17:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이미래 M_보건관리",
@@ -80,5 +80,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-29T16:29:37.504220+09:00"
+  "last_updated": "2026-07-29T16:31:04.925278+09:00"
 }
