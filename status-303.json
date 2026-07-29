@@ -2,21 +2,6 @@
   "room_name": "3층 대회의실",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 32비트 프로젝트 정기 미팅",
-    "organizer": "황선민",
-    "attendees": [
-      "김용원",
-      "정광욱",
-      "권기정",
-      "정승호",
-      "김경환",
-      "유동호"
-    ],
-    "start": "2026-07-29T14:00:00",
-    "end": "2026-07-29T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "황선민 녹색인증 시험 논의",
     "organizer": "황선민",
     "attendees": [
@@ -25,6 +10,21 @@
     ],
     "start": "2026-07-29T15:00:00",
     "end": "2026-07-29T15:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 1차 면접_강준석(영업관리)",
+    "organizer": "인사",
+    "attendees": [
+      "권기정",
+      "박희택",
+      "이미래",
+      "정찬희",
+      "정연미",
+      "이지은B"
+    ],
+    "start": "2026-07-29T16:30:00",
+    "end": "2026-07-29T17:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -90,5 +90,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-29T14:59:39.647173+09:00"
+  "last_updated": "2026-07-29T15:00:56.933994+09:00"
 }
