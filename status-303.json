@@ -1,18 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이미래 M_보건관리",
-    "organizer": "이미래",
-    "attendees": [
-      "서보성",
-      "황선민",
-      "복지영"
-    ],
-    "start": "2026-07-29T10:30:00",
-    "end": "2026-07-29T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 32비트 프로젝트 정기 미팅",
     "organizer": "황선민",
@@ -83,5 +72,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-29T11:59:42.708303+09:00"
+  "last_updated": "2026-07-29T12:01:00.053227+09:00"
 }
