@@ -3,18 +3,32 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 품질 Weekly ",
-    "organizer": "황선민",
+    "subject": "정영모 주간 생산회의",
+    "organizer": "정영모",
     "attendees": [
-      "유동호",
-      "심규선",
-      "복지영"
+      "김용원",
+      "김경환",
+      "정병주",
+      "김용희"
     ],
-    "start": "2026-07-31T15:00:00",
-    "end": "2026-07-31T16:00:00",
+    "start": "2026-07-31T11:30:00",
+    "end": "2026-07-31T12:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "정영모 주간 생산회의",
+      "organizer": "정영모",
+      "attendees": [
+        "김용원",
+        "김경환",
+        "정병주",
+        "김용희"
+      ],
+      "start": "2026-07-31T11:30:00",
+      "end": "2026-07-31T12:00:00",
+      "is_cancelled": false
+    },
     {
       "subject": "황선민 품질 Weekly ",
       "organizer": "황선민",
@@ -28,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-31T10:52:45.815811+09:00"
+  "last_updated": "2026-07-31T10:53:41.495747+09:00"
 }
