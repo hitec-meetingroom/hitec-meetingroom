@@ -1,24 +1,24 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
+  "is_occupied": false,
+  "current_meeting": null,
+  "next_meeting": {
     "subject": "권용석 ESSALES 회의",
     "organizer": "권용석",
     "attendees": [],
-    "start": "2026-07-31T11:00:00",
-    "end": "2026-07-31T14:00:00",
+    "start": "2026-07-31T14:00:00",
+    "end": "2026-07-31T15:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권용석 ESSALES 회의",
       "organizer": "권용석",
       "attendees": [],
-      "start": "2026-07-31T11:00:00",
-      "end": "2026-07-31T14:00:00",
+      "start": "2026-07-31T14:00:00",
+      "end": "2026-07-31T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-07-31T13:47:38.076472+09:00"
+  "last_updated": "2026-07-31T13:48:40.753516+09:00"
 }
