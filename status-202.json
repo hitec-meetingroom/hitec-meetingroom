@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_SALES(Sched) IDC전시회 회의",
     "organizer": "ES_SALES(Sched)",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-08-03T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권용석 ES SALES 회의",
@@ -40,5 +40,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-03T13:59:46.236939+09:00"
+  "last_updated": "2026-08-03T14:01:05.734845+09:00"
 }
