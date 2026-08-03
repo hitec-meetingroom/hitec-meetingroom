@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "허승혁 KTC 조달전문기관검사 진행",
     "organizer": "허승혁",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-08-03T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "허승혁 KTC 조달전문기관검사 진행",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-03T09:59:41.776612+09:00"
+  "last_updated": "2026-08-03T10:01:03.013746+09:00"
 }
