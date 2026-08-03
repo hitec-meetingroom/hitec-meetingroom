@@ -1,14 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "최운경 박람회 회의",
-    "organizer": "최운경",
-    "attendees": [],
-    "start": "2026-08-03T16:30:00",
-    "end": "2026-08-03T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -42,5 +35,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-03T16:59:35.814864+09:00"
+  "last_updated": "2026-08-03T17:00:40.440041+09:00"
 }
