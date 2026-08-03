@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최운경 박람회 회의",
     "organizer": "최운경",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-08-03T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권용석 ES SALES 회의",
@@ -42,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-03T16:29:44.636868+09:00"
+  "last_updated": "2026-08-03T16:31:45.278055+09:00"
 }
