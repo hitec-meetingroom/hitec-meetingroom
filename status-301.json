@@ -13,14 +13,13 @@
     "is_cancelled": false
   },
   "next_meeting": {
-    "subject": "최이화 팩토리서버 배포",
-    "organizer": "최이화",
+    "subject": "황선민 1 On 1",
+    "organizer": "황선민",
     "attendees": [
-      "정재찬",
-      "김동규"
+      "유동호"
     ],
-    "start": "2026-08-04T13:00:00",
-    "end": "2026-08-04T14:00:00",
+    "start": "2026-08-04T14:00:00",
+    "end": "2026-08-04T14:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -33,17 +32,6 @@
       ],
       "start": "2026-08-04T09:30:00",
       "end": "2026-08-04T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "최이화 팩토리서버 배포",
-      "organizer": "최이화",
-      "attendees": [
-        "정재찬",
-        "김동규"
-      ],
-      "start": "2026-08-04T13:00:00",
-      "end": "2026-08-04T14:00:00",
       "is_cancelled": false
     },
     {
@@ -77,5 +65,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-04T11:56:40.204651+09:00"
+  "last_updated": "2026-08-04T11:57:49.168283+09:00"
 }

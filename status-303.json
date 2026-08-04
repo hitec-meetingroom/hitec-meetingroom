@@ -2,7 +2,29 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-04T11:56:40.204651+09:00"
+  "next_meeting": {
+    "subject": "최이화 팩토리서버 배포",
+    "organizer": "최이화",
+    "attendees": [
+      "정재찬",
+      "김동규"
+    ],
+    "start": "2026-08-04T13:00:00",
+    "end": "2026-08-04T16:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "최이화 팩토리서버 배포",
+      "organizer": "최이화",
+      "attendees": [
+        "정재찬",
+        "김동규"
+      ],
+      "start": "2026-08-04T13:00:00",
+      "end": "2026-08-04T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-04T11:57:49.168283+09:00"
 }
