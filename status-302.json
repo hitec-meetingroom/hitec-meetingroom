@@ -2,7 +2,14 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이미래 M_HR",
+    "organizer": "이미래",
+    "attendees": [],
+    "start": "2026-08-04T17:00:00",
+    "end": "2026-08-04T18:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "인사 면접 대기실",
@@ -19,7 +26,15 @@
       "start": "2026-08-04T14:00:00",
       "end": "2026-08-04T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "이미래 M_HR",
+      "organizer": "이미래",
+      "attendees": [],
+      "start": "2026-08-04T17:00:00",
+      "end": "2026-08-04T18:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-04T16:54:41.119207+09:00"
+  "last_updated": "2026-08-04T16:55:51.109737+09:00"
 }
