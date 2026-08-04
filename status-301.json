@@ -5,20 +5,20 @@
     "subject": "황선민 1 On 1",
     "organizer": "황선민",
     "attendees": [
-      "유동호"
-    ],
-    "start": "2026-08-04T14:00:00",
-    "end": "2026-08-04T14:30:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
-    "subject": "황선민 1 On 1",
-    "organizer": "황선민",
-    "attendees": [
       "심규선"
     ],
     "start": "2026-08-04T14:30:00",
     "end": "2026-08-04T15:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "황선민 1 on 1",
+    "organizer": "황선민",
+    "attendees": [
+      "복지영"
+    ],
+    "start": "2026-08-04T15:00:00",
+    "end": "2026-08-04T15:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -64,5 +64,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-04T14:29:38.814273+09:00"
+  "last_updated": "2026-08-04T14:30:57.496343+09:00"
 }
