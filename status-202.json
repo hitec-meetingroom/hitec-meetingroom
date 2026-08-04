@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "권용석 ES SALES 회의",
     "organizer": "권용석",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-08-04T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최민철 S-OIL 설명회(화상)",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-04T13:59:44.190707+09:00"
+  "last_updated": "2026-08-04T14:01:05.445114+09:00"
 }
