@@ -1,14 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "김동규 SW 미팅",
-    "organizer": "김동규",
-    "attendees": [],
-    "start": "2026-08-04T16:00:00",
-    "end": "2026-08-04T17:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -31,5 +24,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-04T17:29:44.083408+09:00"
+  "last_updated": "2026-08-04T17:30:59.147783+09:00"
 }
