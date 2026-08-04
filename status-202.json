@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-04T09:09:42.289592+09:00"
+  "next_meeting": {
+    "subject": "최민철 S-OIL 설명회(화상)",
+    "organizer": "최민철",
+    "attendees": [],
+    "start": "2026-08-04T10:00:00",
+    "end": "2026-08-04T11:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "최민철 S-OIL 설명회(화상)",
+      "organizer": "최민철",
+      "attendees": [],
+      "start": "2026-08-04T10:00:00",
+      "end": "2026-08-04T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-04T09:10:58.280280+09:00"
 }
