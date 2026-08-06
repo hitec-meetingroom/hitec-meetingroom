@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "서울시 앱 관련 미팅",
+    "subject": "이창훈 서울시 앱 관련 미팅",
     "organizer": "이창훈",
     "attendees": [
       "강종빈",
@@ -15,7 +15,7 @@
   },
   "today_meetings": [
     {
-      "subject": "서울시 앱 관련 미팅",
+      "subject": "이창훈 서울시 앱 관련 미팅",
       "organizer": "이창훈",
       "attendees": [
         "강종빈",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-06T09:51:40.970786+09:00"
+  "last_updated": "2026-08-06T09:52:38.280752+09:00"
 }
