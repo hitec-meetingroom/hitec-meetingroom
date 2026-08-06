@@ -2,7 +2,29 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-06T09:50:49.952841+09:00"
+  "next_meeting": {
+    "subject": "서울시 앱 관련 미팅",
+    "organizer": "이창훈",
+    "attendees": [
+      "강종빈",
+      "박희택"
+    ],
+    "start": "2026-08-06T11:00:00",
+    "end": "2026-08-06T11:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "서울시 앱 관련 미팅",
+      "organizer": "이창훈",
+      "attendees": [
+        "강종빈",
+        "박희택"
+      ],
+      "start": "2026-08-06T11:00:00",
+      "end": "2026-08-06T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-06T09:51:40.970786+09:00"
 }
