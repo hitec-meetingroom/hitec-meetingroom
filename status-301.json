@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 BE 해외 서버 구성 회의",
     "organizer": "최이화",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-08-06T15:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이창훈 서울시 앱 관련 미팅",
@@ -39,5 +39,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-06T13:59:39.839679+09:00"
+  "last_updated": "2026-08-06T14:00:58.897631+09:00"
 }
