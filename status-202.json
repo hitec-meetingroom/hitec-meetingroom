@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-07T13:48:45.957156+09:00"
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) 허준영 업무회의",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-08-07T14:00:00",
+    "end": "2026-08-07T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_ENG(Sched) 허준영 업무회의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-08-07T14:00:00",
+      "end": "2026-08-07T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-07T13:49:41.326286+09:00"
 }
