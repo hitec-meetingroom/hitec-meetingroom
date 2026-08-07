@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "김동규 슬레이브 단말기 업무 논의",
     "organizer": "김동규",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-08-07T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정광욱 하드웨어파트 주간업무회의",
@@ -36,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-07T13:59:46.270675+09:00"
+  "last_updated": "2026-08-07T14:01:09.667316+09:00"
 }
