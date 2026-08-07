@@ -1,7 +1,17 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "최이화 BE 해외 서버 구성 회의",
+    "organizer": "최이화",
+    "attendees": [
+      "정재찬",
+      "김동규"
+    ],
+    "start": "2026-08-07T16:00:00",
+    "end": "2026-08-07T17:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
   "today_meetings": [
     {
@@ -25,7 +35,18 @@
       "start": "2026-08-07T14:00:00",
       "end": "2026-08-07T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "최이화 BE 해외 서버 구성 회의",
+      "organizer": "최이화",
+      "attendees": [
+        "정재찬",
+        "김동규"
+      ],
+      "start": "2026-08-07T16:00:00",
+      "end": "2026-08-07T17:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-07T16:00:47.549233+09:00"
+  "last_updated": "2026-08-07T16:01:05.584705+09:00"
 }
