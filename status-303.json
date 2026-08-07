@@ -2,7 +2,29 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-07T08:59:38.691898+09:00"
+  "next_meeting": {
+    "subject": "정연미 이노비즈 현장실사",
+    "organizer": "정연미",
+    "attendees": [
+      "권기정",
+      "정광욱"
+    ],
+    "start": "2026-08-07T14:30:00",
+    "end": "2026-08-07T15:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "정연미 이노비즈 현장실사",
+      "organizer": "정연미",
+      "attendees": [
+        "권기정",
+        "정광욱"
+      ],
+      "start": "2026-08-07T14:30:00",
+      "end": "2026-08-07T15:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-07T09:00:42.710559+09:00"
 }
