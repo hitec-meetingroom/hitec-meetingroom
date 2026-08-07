@@ -1,7 +1,16 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "김용희 생산 미팅",
+    "organizer": "김용희",
+    "attendees": [
+      "김용원"
+    ],
+    "start": "2026-08-07T09:30:00",
+    "end": "2026-08-07T11:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": {
     "subject": "정영모 주간 생산회의",
     "organizer": "정영모",
@@ -15,6 +24,16 @@
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "김용희 생산 미팅",
+      "organizer": "김용희",
+      "attendees": [
+        "김용원"
+      ],
+      "start": "2026-08-07T09:30:00",
+      "end": "2026-08-07T11:30:00",
+      "is_cancelled": false
+    },
     {
       "subject": "정영모 주간 생산회의",
       "organizer": "정영모",
@@ -40,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-07T09:31:42.945046+09:00"
+  "last_updated": "2026-08-07T09:32:42.112807+09:00"
 }
