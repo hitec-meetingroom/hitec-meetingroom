@@ -1,8 +1,53 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-10T08:59:39.546086+09:00"
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "ES_SALES(Sched) ES영업팀_주간회의",
+    "organizer": "ES_SALES(Sched)",
+    "attendees": [],
+    "start": "2026-08-10T09:00:00",
+    "end": "2026-08-10T09:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "ES_SALES(Sched) IDC전시회 회의",
+    "organizer": "ES_SALES(Sched)",
+    "attendees": [
+      "최중영",
+      "이훈",
+      "정찬희",
+      "이미래",
+      "이동욱",
+      "황도하"
+    ],
+    "start": "2026-08-10T14:00:00",
+    "end": "2026-08-10T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_SALES(Sched) ES영업팀_주간회의",
+      "organizer": "ES_SALES(Sched)",
+      "attendees": [],
+      "start": "2026-08-10T09:00:00",
+      "end": "2026-08-10T09:30:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "ES_SALES(Sched) IDC전시회 회의",
+      "organizer": "ES_SALES(Sched)",
+      "attendees": [
+        "최중영",
+        "이훈",
+        "정찬희",
+        "이미래",
+        "이동욱",
+        "황도하"
+      ],
+      "start": "2026-08-10T14:00:00",
+      "end": "2026-08-10T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-10T09:00:44.944450+09:00"
 }
