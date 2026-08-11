@@ -1,19 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "강종빈 SW 미팅",
-    "organizer": "강종빈",
-    "attendees": [
-      "최이화",
-      "이창훈",
-      "정재찬",
-      "김동규"
-    ],
-    "start": "2026-08-11T16:00:00",
-    "end": "2026-08-11T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -40,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-11T16:59:44.457954+09:00"
+  "last_updated": "2026-08-11T17:01:05.904714+09:00"
 }
