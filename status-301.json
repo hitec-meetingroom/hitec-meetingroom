@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "복지영 업무 논의",
-    "organizer": "복지영",
-    "attendees": [
-      "황선민"
-    ],
-    "start": "2026-08-11T14:00:00",
-    "end": "2026-08-11T15:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "강종빈 SW 미팅",
     "organizer": "강종빈",
@@ -49,5 +40,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-11T14:59:39.213880+09:00"
+  "last_updated": "2026-08-11T15:00:44.219912+09:00"
 }
