@@ -2,31 +2,27 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 인증컨설팅업체 미팅",
+    "organizer": "정광욱",
+    "attendees": [
+      "박병택"
+    ],
+    "start": "2026-08-12T10:00:00",
+    "end": "2026-08-12T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "복지영 업무 논의",
-      "organizer": "복지영",
+      "subject": "정광욱 인증컨설팅업체 미팅",
+      "organizer": "정광욱",
       "attendees": [
-        "황선민"
+        "박병택"
       ],
-      "start": "2026-08-11T14:00:00",
-      "end": "2026-08-11T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "강종빈 SW 미팅",
-      "organizer": "강종빈",
-      "attendees": [
-        "최이화",
-        "이창훈",
-        "정재찬",
-        "김동규"
-      ],
-      "start": "2026-08-11T16:00:00",
-      "end": "2026-08-11T17:00:00",
+      "start": "2026-08-12T10:00:00",
+      "end": "2026-08-12T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-12T08:59:46.423267+09:00"
+  "last_updated": "2026-08-12T09:01:07.113874+09:00"
 }

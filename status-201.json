@@ -3,27 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 ",
-      "organizer": "인사",
-      "attendees": [
-        "조용우",
-        "김영일",
-        "최중영",
-        "이훈",
-        "권기정",
-        "김용원",
-        "정승호",
-        "정광욱",
-        "황선민",
-        "김다위",
-        "정찬희"
-      ],
-      "start": "2026-08-11T10:00:00",
-      "end": "2026-08-11T12:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-08-12T08:59:46.423267+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-08-12T09:01:07.113874+09:00"
 }

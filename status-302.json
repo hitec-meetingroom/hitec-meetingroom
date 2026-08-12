@@ -3,17 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 HR 미팅",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희"
-      ],
-      "start": "2026-08-11T16:00:00",
-      "end": "2026-08-11T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-08-12T08:59:46.423267+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-08-12T09:01:07.113874+09:00"
 }
