@@ -3,21 +3,34 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 32비트 프로젝트 정기 미팅",
-    "organizer": "황선민",
+    "subject": "강종빈 [SW] 주간미팅",
+    "organizer": "강종빈",
     "attendees": [
-      "김용원",
-      "정광욱",
-      "권기정",
       "정승호",
-      "김경환",
-      "유동호"
+      "최이화",
+      "이창훈",
+      "김동규",
+      "정재찬"
     ],
-    "start": "2026-08-12T14:00:00",
-    "end": "2026-08-12T15:00:00",
+    "start": "2026-08-12T11:00:00",
+    "end": "2026-08-12T12:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "강종빈 [SW] 주간미팅",
+      "organizer": "강종빈",
+      "attendees": [
+        "정승호",
+        "최이화",
+        "이창훈",
+        "김동규",
+        "정재찬"
+      ],
+      "start": "2026-08-12T11:00:00",
+      "end": "2026-08-12T12:00:00",
+      "is_cancelled": false
+    },
     {
       "subject": "황선민 32비트 프로젝트 정기 미팅",
       "organizer": "황선민",
@@ -34,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-12T09:59:40.117400+09:00"
+  "last_updated": "2026-08-12T10:00:46.053264+09:00"
 }
