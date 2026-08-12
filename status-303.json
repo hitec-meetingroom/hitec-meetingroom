@@ -1,20 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "강종빈 [SW] 주간미팅",
-    "organizer": "강종빈",
-    "attendees": [
-      "정승호",
-      "최이화",
-      "이창훈",
-      "김동규",
-      "정재찬"
-    ],
-    "start": "2026-08-12T11:00:00",
-    "end": "2026-08-12T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 32비트 프로젝트 정기 미팅",
     "organizer": "황선민",
@@ -61,5 +48,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-12T11:59:38.902088+09:00"
+  "last_updated": "2026-08-12T12:00:43.622377+09:00"
 }
