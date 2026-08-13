@@ -6,7 +6,7 @@
     "organizer": "김동규",
     "attendees": [],
     "start": "2026-08-13T15:00:00",
-    "end": "2026-08-13T16:00:00",
+    "end": "2026-08-13T18:00:00",
     "is_cancelled": false
   },
   "next_meeting": null,
@@ -37,9 +37,9 @@
       "organizer": "김동규",
       "attendees": [],
       "start": "2026-08-13T15:00:00",
-      "end": "2026-08-13T16:00:00",
+      "end": "2026-08-13T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-13T15:34:38.666778+09:00"
+  "last_updated": "2026-08-13T15:35:58.303025+09:00"
 }
