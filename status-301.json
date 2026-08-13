@@ -3,27 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "정광욱 인증컨설팅업체 미팅",
-      "organizer": "정광욱",
-      "attendees": [
-        "박병택"
-      ],
-      "start": "2026-08-12T10:00:00",
-      "end": "2026-08-12T11:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "복지영 업무논의",
-      "organizer": "복지영",
-      "attendees": [
-        "황선민"
-      ],
-      "start": "2026-08-12T15:00:00",
-      "end": "2026-08-12T16:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-08-13T08:59:38.528623+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-08-13T09:00:42.780236+09:00"
 }
