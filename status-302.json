@@ -13,7 +13,18 @@
     "end": "2026-08-14T14:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이창훈 SW 민원기능",
+    "organizer": "이창훈",
+    "attendees": [
+      "김동규",
+      "정재찬",
+      "강종빈"
+    ],
+    "start": "2026-08-14T14:00:00",
+    "end": "2026-08-14T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "정광욱 하드웨어파트 주간업무회의",
@@ -38,7 +49,19 @@
       "start": "2026-08-14T13:00:00",
       "end": "2026-08-14T14:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "이창훈 SW 민원기능",
+      "organizer": "이창훈",
+      "attendees": [
+        "김동규",
+        "정재찬",
+        "강종빈"
+      ],
+      "start": "2026-08-14T14:00:00",
+      "end": "2026-08-14T15:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-14T13:37:36.729032+09:00"
+  "last_updated": "2026-08-14T13:38:44.727371+09:00"
 }
