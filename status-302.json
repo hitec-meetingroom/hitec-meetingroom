@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "문성진 하드웨어파트 회의",
     "organizer": "문성진",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-08-14T14:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정광욱 하드웨어파트 주간업무회의",
@@ -40,5 +40,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-14T12:59:39.604662+09:00"
+  "last_updated": "2026-08-14T13:00:43.788905+09:00"
 }
