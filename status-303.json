@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정광욱 변리사 미팅",
     "organizer": "정광욱",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-08-18T12:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정광욱 변리사 미팅",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-18T10:59:39.240471+09:00"
+  "last_updated": "2026-08-18T11:00:54.058466+09:00"
 }
