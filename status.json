@@ -2,7 +2,49 @@
   "room_name": "2층 교육실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-18T08:59:33.844049+09:00"
+  "next_meeting": {
+    "subject": "인사 ",
+    "organizer": "인사",
+    "attendees": [
+      "조용우",
+      "이상국",
+      "김영일",
+      "최중영",
+      "이훈",
+      "서보성",
+      "권기정",
+      "김용원",
+      "황선민",
+      "정승호",
+      "정광욱",
+      "정찬희"
+    ],
+    "start": "2026-08-18T14:00:00",
+    "end": "2026-08-18T18:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "인사 ",
+      "organizer": "인사",
+      "attendees": [
+        "조용우",
+        "이상국",
+        "김영일",
+        "최중영",
+        "이훈",
+        "서보성",
+        "권기정",
+        "김용원",
+        "황선민",
+        "정승호",
+        "정광욱",
+        "정찬희"
+      ],
+      "start": "2026-08-18T14:00:00",
+      "end": "2026-08-18T18:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-18T09:00:55.689411+09:00"
 }
