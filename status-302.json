@@ -1,8 +1,28 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "복지영 업무 논의",
+    "organizer": "복지영",
+    "attendees": [
+      "황선민"
+    ],
+    "start": "2026-08-19T15:00:00",
+    "end": "2026-08-19T15:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-19T15:00:53.669657+09:00"
+  "today_meetings": [
+    {
+      "subject": "복지영 업무 논의",
+      "organizer": "복지영",
+      "attendees": [
+        "황선민"
+      ],
+      "start": "2026-08-19T15:00:00",
+      "end": "2026-08-19T15:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-19T15:01:36.162496+09:00"
 }
