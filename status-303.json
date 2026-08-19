@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
     "organizer": "황선민",
     "attendees": [
@@ -17,6 +16,14 @@
     ],
     "start": "2026-08-19T14:00:00",
     "end": "2026-08-19T15:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 중간관리자 핵심가치 공유",
+    "organizer": "인사",
+    "attendees": [],
+    "start": "2026-08-19T15:00:00",
+    "end": "2026-08-19T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -46,5 +53,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-19T13:59:51.181404+09:00"
+  "last_updated": "2026-08-19T14:00:58.758605+09:00"
 }
