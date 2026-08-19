@@ -1,20 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이창훈 SS SW 주간미팅",
-    "organizer": "이창훈",
-    "attendees": [
-      "김동규",
-      "정재찬",
-      "최이화",
-      "강종빈",
-      "정승호"
-    ],
-    "start": "2026-08-19T16:00:00",
-    "end": "2026-08-19T16:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -42,5 +29,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-19T16:29:37.633637+09:00"
+  "last_updated": "2026-08-19T16:30:50.185747+09:00"
 }
