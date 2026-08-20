@@ -3,22 +3,14 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "ES_ENG(Sched) ENG 박람회 회의",
+    "subject": "ES_ENG(Sched) ENG 업무회의",
     "organizer": "ES_ENG(Sched)",
     "attendees": [],
-    "start": "2026-08-20T14:00:00",
-    "end": "2026-08-20T15:00:00",
+    "start": "2026-08-20T15:30:00",
+    "end": "2026-08-20T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
-    {
-      "subject": "ES_ENG(Sched) ENG 박람회 회의",
-      "organizer": "ES_ENG(Sched)",
-      "attendees": [],
-      "start": "2026-08-20T14:00:00",
-      "end": "2026-08-20T15:00:00",
-      "is_cancelled": false
-    },
     {
       "subject": "ES_ENG(Sched) ENG 업무회의",
       "organizer": "ES_ENG(Sched)",
@@ -28,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-20T11:33:35.620979+09:00"
+  "last_updated": "2026-08-20T11:34:42.350159+09:00"
 }
