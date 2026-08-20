@@ -2,7 +2,23 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-20T11:38:38.532070+09:00"
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) ENG 파트 업무협의",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-08-20T14:00:00",
+    "end": "2026-08-20T18:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_ENG(Sched) ENG 파트 업무협의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-08-20T14:00:00",
+      "end": "2026-08-20T18:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-20T11:39:34.143397+09:00"
 }
