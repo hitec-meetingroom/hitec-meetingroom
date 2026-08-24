@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "강종빈 Web 3.0",
     "organizer": "강종빈",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-08-24T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이창훈 SS SW 기능 관련 미팅",
@@ -51,5 +51,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T16:59:40.566017+09:00"
+  "last_updated": "2026-08-24T17:00:59.014702+09:00"
 }

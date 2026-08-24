@@ -1,16 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황선민 초음파 센서 검사 방안 논의 [직접]",
-    "organizer": "황선민",
-    "attendees": [
-      "박민성"
-    ],
-    "start": "2026-08-24T16:00:00",
-    "end": "2026-08-24T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -32,5 +23,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T16:59:40.566017+09:00"
+  "last_updated": "2026-08-24T17:00:59.014702+09:00"
 }

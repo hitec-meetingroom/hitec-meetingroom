@@ -1,14 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "남기성 ES영업팀 핵심가치 내재화 관련 협의",
-    "organizer": "남기성",
-    "attendees": [],
-    "start": "2026-08-24T15:00:00",
-    "end": "2026-08-24T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -20,5 +13,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T16:59:40.566017+09:00"
+  "last_updated": "2026-08-24T17:00:59.014702+09:00"
 }
