@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "인사 1:1 코칭(1차_최중영 상무님)",
-    "organizer": "인사",
-    "attendees": [
-      "최중영"
-    ],
-    "start": "2026-08-24T13:00:00",
-    "end": "2026-08-24T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 1:1 코칭(1차_김영일 전무님)",
     "organizer": "인사",
     "attendees": [
@@ -19,6 +9,16 @@
     ],
     "start": "2026-08-24T15:00:00",
     "end": "2026-08-24T17:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 1:1코칭(1차_이훈 상무님)",
+    "organizer": "인사",
+    "attendees": [
+      "이훈"
+    ],
+    "start": "2026-08-24T17:00:00",
+    "end": "2026-08-24T19:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -67,5 +67,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T14:59:34.920635+09:00"
+  "last_updated": "2026-08-24T15:00:53.393270+09:00"
 }

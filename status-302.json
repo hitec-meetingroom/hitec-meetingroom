@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이창훈 SS SW  통합관리서버 기능 논의",
     "organizer": "이창훈",
     "attendees": [
@@ -13,6 +12,16 @@
     ],
     "start": "2026-08-24T15:00:00",
     "end": "2026-08-24T16:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "황선민 초음파 센서 검사 방안 논의 [직접]",
+    "organizer": "황선민",
+    "attendees": [
+      "박민성"
+    ],
+    "start": "2026-08-24T16:00:00",
+    "end": "2026-08-24T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -50,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T14:59:34.920635+09:00"
+  "last_updated": "2026-08-24T15:00:53.393270+09:00"
 }
