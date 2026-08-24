@@ -1,8 +1,75 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-24T08:59:18.696781+09:00"
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "인사 입사_이찬민(IDC영업)",
+    "organizer": "인사",
+    "attendees": [
+      "최중영",
+      "이훈",
+      "김덕재",
+      "정찬희",
+      "이지은B"
+    ],
+    "start": "2026-08-24T09:00:00",
+    "end": "2026-08-24T11:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 1:1 코칭(1차_최중영 상무님)",
+    "organizer": "인사",
+    "attendees": [
+      "최중영"
+    ],
+    "start": "2026-08-24T13:00:00",
+    "end": "2026-08-24T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "인사 입사_이찬민(IDC영업)",
+      "organizer": "인사",
+      "attendees": [
+        "최중영",
+        "이훈",
+        "김덕재",
+        "정찬희",
+        "이지은B"
+      ],
+      "start": "2026-08-24T09:00:00",
+      "end": "2026-08-24T11:30:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1:1 코칭(1차_최중영 상무님)",
+      "organizer": "인사",
+      "attendees": [
+        "최중영"
+      ],
+      "start": "2026-08-24T13:00:00",
+      "end": "2026-08-24T15:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1:1 코칭(1차_김영일 전무님)",
+      "organizer": "인사",
+      "attendees": [
+        "김영일"
+      ],
+      "start": "2026-08-24T15:00:00",
+      "end": "2026-08-24T17:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1:1코칭(1차_이훈 상무님)",
+      "organizer": "인사",
+      "attendees": [
+        "이훈"
+      ],
+      "start": "2026-08-24T17:00:00",
+      "end": "2026-08-24T19:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-24T09:00:22.692919+09:00"
 }

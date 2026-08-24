@@ -2,7 +2,23 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-24T08:59:18.696781+09:00"
+  "next_meeting": {
+    "subject": "정광욱 KTC 미팅",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-08-24T13:00:00",
+    "end": "2026-08-24T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "정광욱 KTC 미팅",
+      "organizer": "정광욱",
+      "attendees": [],
+      "start": "2026-08-24T13:00:00",
+      "end": "2026-08-24T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-24T09:00:22.692919+09:00"
 }
