@@ -2,7 +2,14 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) 허준영 업무회의",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-08-24T11:00:00",
+    "end": "2026-08-24T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "ES_PQ(Sched) Smart PQ 주간회의",
@@ -11,7 +18,15 @@
       "start": "2026-08-24T09:00:00",
       "end": "2026-08-24T09:30:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "ES_ENG(Sched) 허준영 업무회의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-08-24T11:00:00",
+      "end": "2026-08-24T11:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T10:37:37.159094+09:00"
+  "last_updated": "2026-08-24T10:38:37.043845+09:00"
 }
