@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이창훈 SS SW 기능 관련 미팅",
-    "organizer": "이창훈",
-    "attendees": [
-      "김동규"
-    ],
-    "start": "2026-08-24T10:30:00",
-    "end": "2026-08-24T11:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 초음파 센서 검사 방안 논의 [직접]",
     "organizer": "황선민",
@@ -43,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T10:59:35.575220+09:00"
+  "last_updated": "2026-08-24T11:00:53.888086+09:00"
 }
