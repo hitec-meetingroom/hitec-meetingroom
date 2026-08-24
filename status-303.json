@@ -9,7 +9,16 @@
     "end": "2026-08-24T15:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 초음파 센서 검사 방안 논의 [직접]",
+    "organizer": "황선민",
+    "attendees": [
+      "박민성"
+    ],
+    "start": "2026-08-24T15:00:00",
+    "end": "2026-08-24T16:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "정광욱 KTC 미팅",
@@ -18,7 +27,17 @@
       "start": "2026-08-24T13:00:00",
       "end": "2026-08-24T15:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "황선민 초음파 센서 검사 방안 논의 [직접]",
+      "organizer": "황선민",
+      "attendees": [
+        "박민성"
+      ],
+      "start": "2026-08-24T15:00:00",
+      "end": "2026-08-24T16:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-24T14:18:38.709390+09:00"
+  "last_updated": "2026-08-24T14:19:33.321222+09:00"
 }
