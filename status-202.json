@@ -3,15 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "남기성 ES영업팀 핵심가치 내재화 관련 협의",
-      "organizer": "남기성",
-      "attendees": [],
-      "start": "2026-08-24T15:00:00",
-      "end": "2026-08-24T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-08-25T08:59:44.686226+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-08-25T09:01:00.986676+09:00"
 }

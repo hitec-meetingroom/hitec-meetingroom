@@ -2,36 +2,31 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "양동규 쿤텍 미팅(보안솔루션SW)",
+    "organizer": "양동규",
+    "attendees": [
+      "권기정",
+      "정승호",
+      "정광욱"
+    ],
+    "start": "2026-08-25T15:00:00",
+    "end": "2026-08-25T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "정광욱 KTC 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-08-24T13:00:00",
-      "end": "2026-08-24T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파 센서 검사 방안 논의 [직접]",
-      "organizer": "황선민",
+      "subject": "양동규 쿤텍 미팅(보안솔루션SW)",
+      "organizer": "양동규",
       "attendees": [
-        "박민성"
+        "권기정",
+        "정승호",
+        "정광욱"
       ],
-      "start": "2026-08-24T16:00:00",
-      "end": "2026-08-24T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이지은B 경영기획팀 미팅",
-      "organizer": "이지은B",
-      "attendees": [
-        "3층 대회의실"
-      ],
-      "start": "2026-08-24T17:00:00",
-      "end": "2026-08-24T18:00:00",
+      "start": "2026-08-25T15:00:00",
+      "end": "2026-08-25T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-25T08:59:44.686226+09:00"
+  "last_updated": "2026-08-25T09:01:00.986676+09:00"
 }
