@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 1:1코칭(1차_이상국 상무님)",
     "organizer": "인사",
     "attendees": [
@@ -10,6 +9,16 @@
     ],
     "start": "2026-08-25T10:00:00",
     "end": "2026-08-25T12:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 1:1코칭(1차_조용우 부사장님)",
+    "organizer": "인사",
+    "attendees": [
+      "조용우"
+    ],
+    "start": "2026-08-25T13:00:00",
+    "end": "2026-08-25T15:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -34,5 +43,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-25T09:59:32.774610+09:00"
+  "last_updated": "2026-08-25T10:00:36.724534+09:00"
 }
