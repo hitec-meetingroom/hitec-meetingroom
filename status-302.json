@@ -2,7 +2,27 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-25T10:11:27.198200+09:00"
+  "next_meeting": {
+    "subject": "허승혁 인수인계",
+    "organizer": "허승혁",
+    "attendees": [
+      "강준석"
+    ],
+    "start": "2026-08-25T10:30:00",
+    "end": "2026-08-25T11:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "허승혁 인수인계",
+      "organizer": "허승혁",
+      "attendees": [
+        "강준석"
+      ],
+      "start": "2026-08-25T10:30:00",
+      "end": "2026-08-25T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-25T10:12:39.373119+09:00"
 }
