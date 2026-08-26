@@ -1,13 +1,23 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_ENG(Sched) 배정우 업무 회의",
     "organizer": "ES_ENG(Sched)",
     "attendees": [],
     "start": "2026-08-26T09:30:00",
     "end": "2026-08-26T10:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "이미래 M_이상디자인",
+    "organizer": "이미래",
+    "attendees": [
+      "김덕재",
+      "정찬희"
+    ],
+    "start": "2026-08-26T15:00:00",
+    "end": "2026-08-26T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -31,5 +41,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T09:29:36.005630+09:00"
+  "last_updated": "2026-08-26T09:30:51.811897+09:00"
 }
