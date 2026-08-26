@@ -3,17 +3,22 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "이미래 M_이상디자인",
-    "organizer": "이미래",
-    "attendees": [
-      "김덕재",
-      "정찬희"
-    ],
-    "start": "2026-08-26T15:00:00",
-    "end": "2026-08-26T17:00:00",
+    "subject": "ES_ENG(Sched) 배정우 업무 회의",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-08-26T09:30:00",
+    "end": "2026-08-26T10:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "ES_ENG(Sched) 배정우 업무 회의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-08-26T09:30:00",
+      "end": "2026-08-26T10:30:00",
+      "is_cancelled": false
+    },
     {
       "subject": "이미래 M_이상디자인",
       "organizer": "이미래",
@@ -26,5 +31,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T09:15:45.226851+09:00"
+  "last_updated": "2026-08-26T09:16:34.576483+09:00"
 }
