@@ -1,18 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "복지영 업무 논의(양산이관 승인서 작성)",
-    "organizer": "복지영",
-    "attendees": [
-      "정광욱",
-      "황선민",
-      "문성진"
-    ],
-    "start": "2026-08-26T17:00:00",
-    "end": "2026-08-26T18:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -58,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T17:59:35.694965+09:00"
+  "last_updated": "2026-08-26T18:00:54.595412+09:00"
 }
