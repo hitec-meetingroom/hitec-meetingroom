@@ -2,26 +2,23 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 M_안전보건 ",
+    "organizer": "인사",
+    "attendees": [],
+    "start": "2026-08-26T14:00:00",
+    "end": "2026-08-26T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "허승혁 인수인계",
-      "organizer": "허승혁",
-      "attendees": [
-        "강준석"
-      ],
-      "start": "2026-08-25T10:30:00",
-      "end": "2026-08-25T11:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 M_HR",
+      "subject": "인사 M_안전보건 ",
       "organizer": "인사",
       "attendees": [],
-      "start": "2026-08-25T16:30:00",
-      "end": "2026-08-25T18:00:00",
+      "start": "2026-08-26T14:00:00",
+      "end": "2026-08-26T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T08:59:35.605000+09:00"
+  "last_updated": "2026-08-26T09:00:56.663028+09:00"
 }

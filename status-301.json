@@ -2,28 +2,59 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 1:1코칭(1차_정승호 수석님)",
+    "organizer": "인사",
+    "attendees": [
+      "정승호"
+    ],
+    "start": "2026-08-26T10:00:00",
+    "end": "2026-08-26T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 1:1코칭(1차_이상국 상무님)",
+      "subject": "인사 1:1코칭(1차_정승호 수석님)",
       "organizer": "인사",
       "attendees": [
-        "이상국"
+        "정승호"
       ],
-      "start": "2026-08-25T10:00:00",
-      "end": "2026-08-25T12:00:00",
+      "start": "2026-08-26T10:00:00",
+      "end": "2026-08-26T12:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "인사 1:1코칭(1차_조용우 부사장님)",
+      "subject": "인사 1:1코칭(1차_정광욱 책임님)",
       "organizer": "인사",
       "attendees": [
-        "조용우"
+        "정광욱"
       ],
-      "start": "2026-08-25T13:00:00",
-      "end": "2026-08-25T15:00:00",
+      "start": "2026-08-26T13:00:00",
+      "end": "2026-08-26T15:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1:1코칭(1차_황선민 수석님)",
+      "organizer": "인사",
+      "attendees": [
+        "황선민"
+      ],
+      "start": "2026-08-26T15:00:00",
+      "end": "2026-08-26T17:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "복지영 업무 논의(양산이관 승인서 작성)",
+      "organizer": "복지영",
+      "attendees": [
+        "정광욱",
+        "황선민",
+        "문성진"
+      ],
+      "start": "2026-08-26T17:00:00",
+      "end": "2026-08-26T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T08:59:35.605000+09:00"
+  "last_updated": "2026-08-26T09:00:56.663028+09:00"
 }

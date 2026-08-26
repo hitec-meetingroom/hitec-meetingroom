@@ -2,7 +2,29 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-26T08:59:35.605000+09:00"
+  "next_meeting": {
+    "subject": "이미래 M_이상디자인",
+    "organizer": "이미래",
+    "attendees": [
+      "김덕재",
+      "정찬희"
+    ],
+    "start": "2026-08-26T15:00:00",
+    "end": "2026-08-26T17:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이미래 M_이상디자인",
+      "organizer": "이미래",
+      "attendees": [
+        "김덕재",
+        "정찬희"
+      ],
+      "start": "2026-08-26T15:00:00",
+      "end": "2026-08-26T17:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-26T09:00:56.663028+09:00"
 }
