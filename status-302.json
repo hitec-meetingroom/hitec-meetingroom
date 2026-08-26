@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 M_안전보건 ",
     "organizer": "인사",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-08-26T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 M_안전보건 ",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T13:59:34.180146+09:00"
+  "last_updated": "2026-08-26T14:00:52.765431+09:00"
 }
