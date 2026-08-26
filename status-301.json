@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 1:1코칭(1차_정승호 수석님)",
-    "organizer": "인사",
-    "attendees": [
-      "정승호"
-    ],
-    "start": "2026-08-26T10:00:00",
-    "end": "2026-08-26T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "인사 1:1코칭(1차_정광욱 책임님)",
     "organizer": "인사",
@@ -65,5 +56,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-26T11:59:35.238900+09:00"
+  "last_updated": "2026-08-26T12:01:03.248418+09:00"
 }
