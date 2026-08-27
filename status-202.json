@@ -2,7 +2,27 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-27T10:04:38.783705+09:00"
+  "next_meeting": {
+    "subject": "안희은 S-OIL K.O.M 화상회의",
+    "organizer": "안희은",
+    "attendees": [
+      "최민철"
+    ],
+    "start": "2026-08-27T10:30:00",
+    "end": "2026-08-27T11:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "안희은 S-OIL K.O.M 화상회의",
+      "organizer": "안희은",
+      "attendees": [
+        "최민철"
+      ],
+      "start": "2026-08-27T10:30:00",
+      "end": "2026-08-27T11:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-27T10:05:39.615661+09:00"
 }
