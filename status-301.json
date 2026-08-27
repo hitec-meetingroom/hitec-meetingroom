@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "인사 1:1코칭(1차_김용원 수석님)",
-    "organizer": "인사",
-    "attendees": [
-      "김용원"
-    ],
-    "start": "2026-08-27T13:00:00",
-    "end": "2026-08-27T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 1:1코칭(1차_권기정 수석님)",
     "organizer": "인사",
     "attendees": [
@@ -21,6 +11,7 @@
     "end": "2026-08-27T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 1:1코칭(1차_김용원 수석님)",
@@ -43,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-27T14:59:37.733049+09:00"
+  "last_updated": "2026-08-27T15:00:58.670057+09:00"
 }
