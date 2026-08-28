@@ -2,28 +2,59 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 1 On 1",
+    "organizer": "황선민",
+    "attendees": [
+      "복지영"
+    ],
+    "start": "2026-08-28T14:00:00",
+    "end": "2026-08-28T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 1:1코칭(1차_김용원 수석님)",
-      "organizer": "인사",
+      "subject": "황선민 1 On 1",
+      "organizer": "황선민",
       "attendees": [
-        "김용원"
+        "복지영"
       ],
-      "start": "2026-08-27T13:00:00",
-      "end": "2026-08-27T15:00:00",
+      "start": "2026-08-28T14:00:00",
+      "end": "2026-08-28T15:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "인사 1:1코칭(1차_권기정 수석님)",
-      "organizer": "인사",
+      "subject": "황선민 QA Weekly",
+      "organizer": "황선민",
       "attendees": [
-        "권기정"
+        "심규선",
+        "유동호",
+        "복지영"
       ],
-      "start": "2026-08-27T15:00:00",
-      "end": "2026-08-27T17:00:00",
+      "start": "2026-08-28T15:00:00",
+      "end": "2026-08-28T16:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "황선민 1 On 1 [직접]",
+      "organizer": "황선민",
+      "attendees": [
+        "유동호"
+      ],
+      "start": "2026-08-28T16:00:00",
+      "end": "2026-08-28T17:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "황선민 1 On 1",
+      "organizer": "황선민",
+      "attendees": [
+        "심규선"
+      ],
+      "start": "2026-08-28T17:00:00",
+      "end": "2026-08-28T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-28T08:59:34.619595+09:00"
+  "last_updated": "2026-08-28T09:00:38.954695+09:00"
 }
