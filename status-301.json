@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황선민 1 On 1",
-    "organizer": "황선민",
-    "attendees": [
-      "심규선"
-    ],
-    "start": "2026-08-28T17:00:00",
-    "end": "2026-08-28T18:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -64,5 +55,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-28T17:59:35.230441+09:00"
+  "last_updated": "2026-08-28T18:00:39.073591+09:00"
 }
