@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 1 On 1 [직접]",
-    "organizer": "황선민",
-    "attendees": [
-      "유동호"
-    ],
-    "start": "2026-08-28T16:00:00",
-    "end": "2026-08-28T17:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "황선민 1 On 1",
     "organizer": "황선민",
     "attendees": [
@@ -21,6 +11,7 @@
     "end": "2026-08-28T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권용석 ES SALES 내부 회의",
@@ -73,5 +64,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-28T16:59:39.230299+09:00"
+  "last_updated": "2026-08-28T17:00:58.058379+09:00"
 }
