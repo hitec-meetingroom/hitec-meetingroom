@@ -3,57 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "권용석 ES SALES 내부 회의",
-      "organizer": "권용석",
-      "attendees": [],
-      "start": "2026-08-28T09:30:00",
-      "end": "2026-08-28T10:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 1 On 1",
-      "organizer": "황선민",
-      "attendees": [
-        "복지영"
-      ],
-      "start": "2026-08-28T14:00:00",
-      "end": "2026-08-28T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 QA Weekly",
-      "organizer": "황선민",
-      "attendees": [
-        "심규선",
-        "유동호",
-        "복지영"
-      ],
-      "start": "2026-08-28T15:00:00",
-      "end": "2026-08-28T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 1 On 1 [직접]",
-      "organizer": "황선민",
-      "attendees": [
-        "유동호"
-      ],
-      "start": "2026-08-28T16:00:00",
-      "end": "2026-08-28T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 1 On 1",
-      "organizer": "황선민",
-      "attendees": [
-        "심규선"
-      ],
-      "start": "2026-08-28T17:00:00",
-      "end": "2026-08-28T18:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-08-29T08:59:31.313105+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-08-29T09:00:35.332306+09:00"
 }
