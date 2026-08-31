@@ -1,14 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "권용석 ES SALES 내부 회의",
-    "organizer": "권용석",
-    "attendees": [],
-    "start": "2026-08-31T09:00:00",
-    "end": "2026-08-31T09:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "권용석 ES SALES 내부 회의",
     "organizer": "권용석",
@@ -43,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-31T09:29:38.845353+09:00"
+  "last_updated": "2026-08-31T09:30:54.082759+09:00"
 }
