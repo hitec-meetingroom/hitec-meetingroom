@@ -2,16 +2,6 @@
   "room_name": "3층 대회의실",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 초음파센서 입고검사 방안 논의",
-    "organizer": "황선민",
-    "attendees": [
-      "박민성"
-    ],
-    "start": "2026-08-31T16:00:00",
-    "end": "2026-08-31T17:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "황선민 HTM-615U-GR(인도네시아) 프로젝트 일정 확정 논의 건",
     "organizer": "황선민",
     "attendees": [
@@ -23,6 +13,7 @@
     "end": "2026-08-31T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김동규 BE 미팅",
@@ -55,5 +46,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-31T16:59:34.710176+09:00"
+  "last_updated": "2026-08-31T17:00:55.450727+09:00"
 }
