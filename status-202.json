@@ -3,11 +3,13 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "권용석 ES SALES 내부 회의",
+    "subject": "데이터 센터 관련 회의 & 1ON1 미팅 진행",
     "organizer": "권용석",
-    "attendees": [],
+    "attendees": [
+      "2층 소회의실"
+    ],
     "start": "2026-08-31T15:00:00",
-    "end": "2026-08-31T17:00:00",
+    "end": "2026-08-31T18:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -28,13 +30,15 @@
       "is_cancelled": false
     },
     {
-      "subject": "권용석 ES SALES 내부 회의",
+      "subject": "데이터 센터 관련 회의 & 1ON1 미팅 진행",
       "organizer": "권용석",
-      "attendees": [],
+      "attendees": [
+        "2층 소회의실"
+      ],
       "start": "2026-08-31T15:00:00",
-      "end": "2026-08-31T17:00:00",
+      "end": "2026-08-31T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-31T12:04:34.877240+09:00"
+  "last_updated": "2026-08-31T12:05:39.347479+09:00"
 }
