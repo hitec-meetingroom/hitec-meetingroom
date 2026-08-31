@@ -1,19 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "김용희 생산운영팀 회의",
-    "organizer": "김용희",
-    "attendees": [
-      "김용원",
-      "정영모",
-      "김경환",
-      "정병주"
-    ],
-    "start": "2026-08-31T11:30:00",
-    "end": "2026-08-31T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "인사 1:1코칭(2차_이훈 상무님)",
     "organizer": "인사",
@@ -59,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-31T11:59:37.893321+09:00"
+  "last_updated": "2026-08-31T12:00:55.518024+09:00"
 }
