@@ -3,11 +3,9 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "데이터 센터 관련 회의 & 1ON1 미팅 진행",
+    "subject": "권용석 데이터 센터 관련 회의 & 1ON1 미팅 진행",
     "organizer": "권용석",
-    "attendees": [
-      "2층 소회의실"
-    ],
+    "attendees": [],
     "start": "2026-08-31T15:00:00",
     "end": "2026-08-31T18:00:00",
     "is_cancelled": false
@@ -30,15 +28,13 @@
       "is_cancelled": false
     },
     {
-      "subject": "데이터 센터 관련 회의 & 1ON1 미팅 진행",
+      "subject": "권용석 데이터 센터 관련 회의 & 1ON1 미팅 진행",
       "organizer": "권용석",
-      "attendees": [
-        "2층 소회의실"
-      ],
+      "attendees": [],
       "start": "2026-08-31T15:00:00",
       "end": "2026-08-31T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-08-31T12:05:39.347479+09:00"
+  "last_updated": "2026-08-31T12:06:38.722569+09:00"
 }
