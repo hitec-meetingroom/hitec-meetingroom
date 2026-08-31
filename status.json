@@ -2,7 +2,29 @@
   "room_name": "2층 교육실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-08-31T11:37:34.690671+09:00"
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) ",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [
+      "ES사업본부 Engineering팀",
+      "안희은"
+    ],
+    "start": "2026-08-31T11:50:00",
+    "end": "2026-08-31T12:20:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_ENG(Sched) ",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [
+        "ES사업본부 Engineering팀",
+        "안희은"
+      ],
+      "start": "2026-08-31T11:50:00",
+      "end": "2026-08-31T12:20:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-08-31T11:38:36.624513+09:00"
 }
