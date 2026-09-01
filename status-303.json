@@ -3,37 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "김동규 BE 미팅",
-      "organizer": "김동규",
-      "attendees": [],
-      "start": "2026-08-31T14:30:00",
-      "end": "2026-08-31T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파센서 입고검사 방안 논의",
-      "organizer": "황선민",
-      "attendees": [
-        "박민성"
-      ],
-      "start": "2026-08-31T16:00:00",
-      "end": "2026-08-31T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 HTM-615U-GR(인도네시아) 프로젝트 일정 확정 논의 건",
-      "organizer": "황선민",
-      "attendees": [
-        "김용원",
-        "이상국",
-        "권순영"
-      ],
-      "start": "2026-08-31T17:00:00",
-      "end": "2026-08-31T18:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-09-01T08:59:33.999573+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-09-01T09:00:38.159664+09:00"
 }
