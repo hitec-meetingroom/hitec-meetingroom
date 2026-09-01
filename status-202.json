@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이미래 M_데이터센터 동영상 콘티 확정",
     "organizer": "이미래",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-09-01T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이미래 M_데이터센터 동영상 콘티 확정",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-01T13:59:53.661347+09:00"
+  "last_updated": "2026-09-01T14:00:57.258941+09:00"
 }
