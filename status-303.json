@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 ETL 인수인계",
     "organizer": "최이화",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-09-01T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 ETL 인수인계",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-01T14:59:36.983631+09:00"
+  "last_updated": "2026-09-01T15:00:54.550149+09:00"
 }
