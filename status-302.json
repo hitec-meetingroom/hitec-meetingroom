@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이창훈 SW HW 미팅",
-    "organizer": "이창훈",
-    "attendees": [
-      "박민성"
-    ],
-    "start": "2026-09-01T15:00:00",
-    "end": "2026-09-01T16:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -35,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-01T15:59:35.602824+09:00"
+  "last_updated": "2026-09-01T16:00:39.658031+09:00"
 }
