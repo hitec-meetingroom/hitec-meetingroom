@@ -24,7 +24,17 @@
       "start": "2026-09-01T14:00:00",
       "end": "2026-09-01T15:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "이창훈 SW HW 미팅",
+      "organizer": "이창훈",
+      "attendees": [
+        "박민성"
+      ],
+      "start": "2026-09-01T15:00:00",
+      "end": "2026-09-01T16:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-01T13:57:36.094791+09:00"
+  "last_updated": "2026-09-01T13:58:40.100876+09:00"
 }
