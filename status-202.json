@@ -2,7 +2,14 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "최민철 S-OIL EOCR Concept 설명회",
+    "organizer": "최민철",
+    "attendees": [],
+    "start": "2026-09-02T14:00:00",
+    "end": "2026-09-02T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "윤은선 배정우",
@@ -11,7 +18,15 @@
       "start": "2026-09-02T09:30:00",
       "end": "2026-09-02T10:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "최민철 S-OIL EOCR Concept 설명회",
+      "organizer": "최민철",
+      "attendees": [],
+      "start": "2026-09-02T14:00:00",
+      "end": "2026-09-02T15:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-02T10:22:40.436230+09:00"
+  "last_updated": "2026-09-02T10:23:35.867811+09:00"
 }
