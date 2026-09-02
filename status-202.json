@@ -5,9 +5,7 @@
   "next_meeting": {
     "subject": "윤은선 배정우",
     "organizer": "윤은선",
-    "attendees": [
-      "배정우"
-    ],
+    "attendees": [],
     "start": "2026-09-02T09:30:00",
     "end": "2026-09-02T10:00:00",
     "is_cancelled": false
@@ -16,13 +14,11 @@
     {
       "subject": "윤은선 배정우",
       "organizer": "윤은선",
-      "attendees": [
-        "배정우"
-      ],
+      "attendees": [],
       "start": "2026-09-02T09:30:00",
       "end": "2026-09-02T10:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-02T09:27:37.265171+09:00"
+  "last_updated": "2026-09-02T09:28:41.555136+09:00"
 }
