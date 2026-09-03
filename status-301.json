@@ -3,26 +3,16 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "인사 1:1코칭(2차_권기정 수석님)",
+    "subject": "인사 1:1코칭(2차_정광욱 책임님)",
     "organizer": "인사",
     "attendees": [
-      "권기정"
+      "정광욱"
     ],
-    "start": "2026-09-03T10:00:00",
-    "end": "2026-09-03T12:00:00",
+    "start": "2026-09-03T13:00:00",
+    "end": "2026-09-03T15:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
-    {
-      "subject": "인사 1:1코칭(2차_권기정 수석님)",
-      "organizer": "인사",
-      "attendees": [
-        "권기정"
-      ],
-      "start": "2026-09-03T10:00:00",
-      "end": "2026-09-03T12:00:00",
-      "is_cancelled": false
-    },
     {
       "subject": "인사 1:1코칭(2차_정광욱 책임님)",
       "organizer": "인사",
@@ -44,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-03T09:44:39.555584+09:00"
+  "last_updated": "2026-09-03T09:45:47.892997+09:00"
 }
