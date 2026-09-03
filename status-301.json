@@ -2,26 +2,47 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 1:1코칭(2차_권기정 수석님)",
+    "organizer": "인사",
+    "attendees": [
+      "권기정"
+    ],
+    "start": "2026-09-03T10:00:00",
+    "end": "2026-09-03T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "복지영 업무논의",
-      "organizer": "복지영",
+      "subject": "인사 1:1코칭(2차_권기정 수석님)",
+      "organizer": "인사",
       "attendees": [
-        "황선민"
+        "권기정"
       ],
-      "start": "2026-09-02T10:00:00",
-      "end": "2026-09-02T11:00:00",
+      "start": "2026-09-03T10:00:00",
+      "end": "2026-09-03T12:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "정광욱 개발팀 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-09-02T13:30:00",
-      "end": "2026-09-02T16:00:00",
+      "subject": "인사 1:1코칭(2차_정광욱 책임님)",
+      "organizer": "인사",
+      "attendees": [
+        "정광욱"
+      ],
+      "start": "2026-09-03T13:00:00",
+      "end": "2026-09-03T15:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1:1코칭(2차_김용원 수석님)",
+      "organizer": "인사",
+      "attendees": [
+        "김용원"
+      ],
+      "start": "2026-09-03T15:00:00",
+      "end": "2026-09-03T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-03T08:59:35.264514+09:00"
+  "last_updated": "2026-09-03T09:00:39.115279+09:00"
 }
