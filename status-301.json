@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 1:1코칭(2차_정광욱 책임님)",
     "organizer": "인사",
     "attendees": [
@@ -10,6 +9,16 @@
     ],
     "start": "2026-09-03T13:00:00",
     "end": "2026-09-03T15:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 1:1코칭(2차_김용원 수석님)",
+    "organizer": "인사",
+    "attendees": [
+      "김용원"
+    ],
+    "start": "2026-09-03T15:00:00",
+    "end": "2026-09-03T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -34,5 +43,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-03T12:59:37.542553+09:00"
+  "last_updated": "2026-09-03T13:00:58.263875+09:00"
 }
