@@ -1,18 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "박희택 협력업체 app교육_이수정보",
-    "organizer": "박희택",
-    "attendees": [
-      "SS사업본부 기술영업팀",
-      "오소연",
-      "권기정"
-    ],
-    "start": "2026-09-04T09:30:00",
-    "end": "2026-09-04T11:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정광욱 하드웨어파트 1on1피드백",
     "organizer": "정광욱",
@@ -57,5 +46,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-04T10:59:34.165411+09:00"
+  "last_updated": "2026-09-04T11:00:51.333652+09:00"
 }
