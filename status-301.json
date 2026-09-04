@@ -1,18 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황선민 QA Weekly",
-    "organizer": "황선민",
-    "attendees": [
-      "유동호",
-      "복지영",
-      "심규선"
-    ],
-    "start": "2026-09-04T15:00:00",
-    "end": "2026-09-04T16:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "복지영 업무 논의",
     "organizer": "복지영",
@@ -67,5 +56,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-04T15:59:36.231454+09:00"
+  "last_updated": "2026-09-04T16:01:05.014776+09:00"
 }
