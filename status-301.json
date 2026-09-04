@@ -13,7 +13,16 @@
     "end": "2026-09-04T16:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "복지영 업무 논의",
+    "organizer": "복지영",
+    "attendees": [
+      "황선민"
+    ],
+    "start": "2026-09-04T17:00:00",
+    "end": "2026-09-04T18:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "인사 1:1코칭(2차_황선민 수석님)",
@@ -46,7 +55,17 @@
       "start": "2026-09-04T15:00:00",
       "end": "2026-09-04T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "복지영 업무 논의",
+      "organizer": "복지영",
+      "attendees": [
+        "황선민"
+      ],
+      "start": "2026-09-04T17:00:00",
+      "end": "2026-09-04T18:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-04T15:57:37.645806+09:00"
+  "last_updated": "2026-09-04T15:58:37.555357+09:00"
 }
