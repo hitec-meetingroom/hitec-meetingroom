@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 1:1코칭(2차_황선민 수석님)",
-    "organizer": "인사",
-    "attendees": [
-      "황선민"
-    ],
-    "start": "2026-09-04T10:00:00",
-    "end": "2026-09-04T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "인사 1:1코칭(2차_정승호 수석님)",
     "organizer": "인사",
@@ -55,5 +46,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-04T11:59:33.068360+09:00"
+  "last_updated": "2026-09-04T12:00:37.574652+09:00"
 }
