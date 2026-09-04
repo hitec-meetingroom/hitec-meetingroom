@@ -2,7 +2,31 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-09-04T08:59:35.318668+09:00"
+  "next_meeting": {
+    "subject": "인사 다이어리&캘린더 회의",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이지은B",
+      "이미래"
+    ],
+    "start": "2026-09-04T14:00:00",
+    "end": "2026-09-04T16:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "인사 다이어리&캘린더 회의",
+      "organizer": "인사",
+      "attendees": [
+        "정찬희",
+        "이지은B",
+        "이미래"
+      ],
+      "start": "2026-09-04T14:00:00",
+      "end": "2026-09-04T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-09-04T09:00:54.132658+09:00"
 }

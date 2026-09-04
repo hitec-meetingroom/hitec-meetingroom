@@ -2,19 +2,51 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "박희택 협력업체 app교육_이수정보",
+    "organizer": "박희택",
+    "attendees": [
+      "SS사업본부 기술영업팀",
+      "오소연",
+      "권기정"
+    ],
+    "start": "2026-09-04T09:30:00",
+    "end": "2026-09-04T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "정재찬 인도네시아 데이터 수집 미팅 ",
-      "organizer": "정재찬",
+      "subject": "박희택 협력업체 app교육_이수정보",
+      "organizer": "박희택",
       "attendees": [
-        "김동규",
-        "최이화"
+        "SS사업본부 기술영업팀",
+        "오소연",
+        "권기정"
       ],
-      "start": "2026-09-03T16:30:00",
-      "end": "2026-09-03T17:00:00",
+      "start": "2026-09-04T09:30:00",
+      "end": "2026-09-04T11:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "정광욱 하드웨어파트 1on1피드백",
+      "organizer": "정광욱",
+      "attendees": [
+        "박민성"
+      ],
+      "start": "2026-09-04T13:30:00",
+      "end": "2026-09-04T15:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 1:1코칭(2차_권기정 수석님)",
+      "organizer": "인사",
+      "attendees": [
+        "권기정"
+      ],
+      "start": "2026-09-04T15:00:00",
+      "end": "2026-09-04T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-04T08:59:35.318668+09:00"
+  "last_updated": "2026-09-04T09:00:54.132658+09:00"
 }
