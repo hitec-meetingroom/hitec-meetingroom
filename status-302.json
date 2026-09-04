@@ -1,18 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "정영모 주간생산회의",
-    "organizer": "정영모",
-    "attendees": [
-      "김용원",
-      "김경환",
-      "정병주"
-    ],
-    "start": "2026-09-04T13:15:00",
-    "end": "2026-09-04T14:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정병주 주간업무회의",
     "organizer": "정병주",
@@ -63,5 +52,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-04T13:59:26.259133+09:00"
+  "last_updated": "2026-09-04T14:00:30.504999+09:00"
 }
