@@ -3,19 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 다이어리&캘린더 회의",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희",
-        "이지은B",
-        "이미래"
-      ],
-      "start": "2026-09-04T13:00:00",
-      "end": "2026-09-04T15:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-09-05T08:59:35.424081+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-09-05T09:00:55.893217+09:00"
 }
