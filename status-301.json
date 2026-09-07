@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "인사 1:1코칭(2차_이상국 상무님)",
-    "organizer": "인사",
-    "attendees": [
-      "이상국"
-    ],
-    "start": "2026-09-07T14:00:00",
-    "end": "2026-09-07T16:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 1:1코칭(2차_김영일 전무님)",
     "organizer": "인사",
     "attendees": [
@@ -19,6 +9,16 @@
     ],
     "start": "2026-09-07T16:00:00",
     "end": "2026-09-07T18:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 1:1코칭(2차_최중영 상무님)",
+    "organizer": "인사",
+    "attendees": [
+      "최중영"
+    ],
+    "start": "2026-09-07T18:00:00",
+    "end": "2026-09-07T20:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -72,5 +72,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-07T15:59:37.037610+09:00"
+  "last_updated": "2026-09-07T16:01:03.876448+09:00"
 }
