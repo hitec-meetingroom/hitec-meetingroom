@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "권기정 서울시 단말기 공장심사",
     "organizer": "권기정",
     "attendees": [
@@ -19,6 +18,7 @@
     "end": "2026-09-08T11:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권기정 서울시 단말기 공장심사",
@@ -38,5 +38,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-08T09:59:46.457556+09:00"
+  "last_updated": "2026-09-08T10:00:55.777208+09:00"
 }
