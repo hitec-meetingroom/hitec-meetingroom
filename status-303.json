@@ -1,23 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "권기정 서울시 단말기 공장심사",
-    "organizer": "권기정",
-    "attendees": [
-      "박희택",
-      "김용원",
-      "SS사업본부 생산운영팀",
-      "SS사업본부 기술영업팀",
-      "이상국",
-      "황선민",
-      "SS사업본부 개발팀",
-      "SS사업본부 품질보증팀"
-    ],
-    "start": "2026-09-08T10:00:00",
-    "end": "2026-09-08T11:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -38,5 +22,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-08T10:59:34.511813+09:00"
+  "last_updated": "2026-09-08T11:00:52.543413+09:00"
 }
