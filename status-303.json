@@ -2,16 +2,41 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "권기정 서울시 단말기 공장심사",
+    "organizer": "권기정",
+    "attendees": [
+      "박희택",
+      "김용원",
+      "SS사업본부 생산운영팀",
+      "SS사업본부 기술영업팀",
+      "이상국",
+      "황선민",
+      "SS사업본부 개발팀",
+      "SS사업본부 품질보증팀"
+    ],
+    "start": "2026-09-08T10:00:00",
+    "end": "2026-09-08T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "김동규 개발팀 SW_BE 내부 회의 ",
-      "organizer": "김동규",
-      "attendees": [],
-      "start": "2026-09-07T14:00:00",
-      "end": "2026-09-07T17:00:00",
+      "subject": "권기정 서울시 단말기 공장심사",
+      "organizer": "권기정",
+      "attendees": [
+        "박희택",
+        "김용원",
+        "SS사업본부 생산운영팀",
+        "SS사업본부 기술영업팀",
+        "이상국",
+        "황선민",
+        "SS사업본부 개발팀",
+        "SS사업본부 품질보증팀"
+      ],
+      "start": "2026-09-08T10:00:00",
+      "end": "2026-09-08T11:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-08T08:59:38.637338+09:00"
+  "last_updated": "2026-09-08T09:00:57.553140+09:00"
 }
