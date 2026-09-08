@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정병주 주간업무회의",
     "organizer": "정병주",
     "attendees": [
@@ -15,6 +14,7 @@
     "end": "2026-09-08T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정광욱 컨설팅 업체 미팅",
@@ -49,5 +49,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-08T16:59:38.207173+09:00"
+  "last_updated": "2026-09-08T17:00:56.075787+09:00"
 }
