@@ -1,41 +1,47 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "김용희 피드백",
+    "organizer": "김용희",
+    "attendees": [
+      "김용원"
+    ],
+    "start": "2026-09-09T09:00:00",
+    "end": "2026-09-09T10:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "황선민 초음파 센서 입고검사 방안 논의",
+    "organizer": "황선민",
+    "attendees": [
+      "박민성"
+    ],
+    "start": "2026-09-09T10:00:00",
+    "end": "2026-09-09T10:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "정광욱 컨설팅 업체 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-09-08T10:00:00",
-      "end": "2026-09-08T11:00:00",
+      "subject": "김용희 피드백",
+      "organizer": "김용희",
+      "attendees": [
+        "김용원"
+      ],
+      "start": "2026-09-09T09:00:00",
+      "end": "2026-09-09T10:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "정재찬 BE 주간미팅",
-      "organizer": "정재찬",
+      "subject": "황선민 초음파 센서 입고검사 방안 논의",
+      "organizer": "황선민",
       "attendees": [
-        "김동규",
-        "최이화"
+        "박민성"
       ],
-      "start": "2026-09-08T14:00:00",
-      "end": "2026-09-08T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정병주 주간업무회의",
-      "organizer": "정병주",
-      "attendees": [
-        "김용희",
-        "정영모",
-        "김용원",
-        "김경환"
-      ],
-      "start": "2026-09-08T17:00:00",
-      "end": "2026-09-08T18:00:00",
+      "start": "2026-09-09T10:00:00",
+      "end": "2026-09-09T10:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-09T08:59:36.928260+09:00"
+  "last_updated": "2026-09-09T09:00:55.471809+09:00"
 }
