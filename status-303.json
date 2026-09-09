@@ -3,23 +3,22 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
-    "organizer": "황선민",
-    "attendees": [
-      "김용원",
-      "김경환",
-      "정광욱",
-      "권기정",
-      "정승호",
-      "유동호",
-      "복지영",
-      "권순영"
-    ],
-    "start": "2026-09-09T14:00:00",
-    "end": "2026-09-09T15:00:00",
+    "subject": "정승호 개발팀 소프트웨어파트 코징",
+    "organizer": "정승호",
+    "attendees": [],
+    "start": "2026-09-09T09:30:00",
+    "end": "2026-09-09T11:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "정승호 개발팀 소프트웨어파트 코징",
+      "organizer": "정승호",
+      "attendees": [],
+      "start": "2026-09-09T09:30:00",
+      "end": "2026-09-09T11:30:00",
+      "is_cancelled": false
+    },
     {
       "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
       "organizer": "황선민",
@@ -62,5 +61,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-09T09:11:33.968458+09:00"
+  "last_updated": "2026-09-09T09:12:38.365611+09:00"
 }
