@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
     "organizer": "황선민",
     "attendees": [
@@ -17,6 +16,30 @@
     ],
     "start": "2026-09-09T14:00:00",
     "end": "2026-09-09T15:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "권기정 [공지]LG유플러스 사내미팅",
+    "organizer": "권기정",
+    "attendees": [
+      "박희택",
+      "허승혁",
+      "김용원",
+      "김경환",
+      "김용희",
+      "정광욱",
+      "박병택",
+      "박민성",
+      "정승호",
+      "정재찬",
+      "황선민",
+      "심규선",
+      "양동규",
+      "이상국",
+      "김건호"
+    ],
+    "start": "2026-09-09T15:00:00",
+    "end": "2026-09-09T18:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -70,5 +93,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-09T13:59:34.949648+09:00"
+  "last_updated": "2026-09-09T14:00:55.471507+09:00"
 }
