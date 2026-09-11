@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-09-11T14:51:37.133551+09:00"
+  "next_meeting": {
+    "subject": "ES_PR(Sched) 2층 소회의실",
+    "organizer": "ES_PR(Sched)",
+    "attendees": [],
+    "start": "2026-09-11T15:00:00",
+    "end": "2026-09-11T16:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_PR(Sched) 2층 소회의실",
+      "organizer": "ES_PR(Sched)",
+      "attendees": [],
+      "start": "2026-09-11T15:00:00",
+      "end": "2026-09-11T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-09-11T14:52:46.158435+09:00"
 }
