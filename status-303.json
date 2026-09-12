@@ -3,18 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이미래 M_체계개선",
-      "organizer": "이미래",
-      "attendees": [
-        "이창훈",
-        "정찬희"
-      ],
-      "start": "2026-09-11T17:00:00",
-      "end": "2026-09-11T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-09-12T08:59:35.257532+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-09-12T09:00:39.148407+09:00"
 }

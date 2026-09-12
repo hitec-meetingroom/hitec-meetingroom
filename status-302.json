@@ -3,20 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "정광욱 하드웨어파트 주간업무회의",
-      "organizer": "정광욱",
-      "attendees": [
-        "박병택",
-        "문성진",
-        "박민성",
-        "김승훈"
-      ],
-      "start": "2026-09-11T16:00:00",
-      "end": "2026-09-11T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-09-12T08:59:35.257532+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-09-12T09:00:39.148407+09:00"
 }

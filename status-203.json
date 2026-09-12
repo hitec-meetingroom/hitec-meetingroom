@@ -3,23 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 3분기 신규입사자 OT",
-      "organizer": "인사",
-      "attendees": [
-        "이훈",
-        "권기정",
-        "복지영",
-        "이창훈",
-        "강준석",
-        "김승훈",
-        "이찬민"
-      ],
-      "start": "2026-09-11T09:30:00",
-      "end": "2026-09-11T12:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-09-12T08:59:35.257532+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-09-12T09:00:39.148407+09:00"
 }
