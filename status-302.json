@@ -2,7 +2,33 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-09-14T11:01:39.857329+09:00"
+  "next_meeting": {
+    "subject": "이창훈 SW 기능개발 논의",
+    "organizer": "이창훈",
+    "attendees": [
+      "김동규",
+      "강종빈",
+      "최이화",
+      "정재찬"
+    ],
+    "start": "2026-09-14T14:00:00",
+    "end": "2026-09-14T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이창훈 SW 기능개발 논의",
+      "organizer": "이창훈",
+      "attendees": [
+        "김동규",
+        "강종빈",
+        "최이화",
+        "정재찬"
+      ],
+      "start": "2026-09-14T14:00:00",
+      "end": "2026-09-14T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-09-14T11:02:35.405689+09:00"
 }
