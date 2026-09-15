@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정영모 컬쳐챗",
     "organizer": "정영모",
     "attendees": [
@@ -12,6 +11,14 @@
     ],
     "start": "2026-09-15T13:40:00",
     "end": "2026-09-15T14:10:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "정광욱 변리사 미팅",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-09-15T15:00:00",
+    "end": "2026-09-15T16:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -56,5 +63,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-15T13:39:35.876190+09:00"
+  "last_updated": "2026-09-15T13:40:48.611104+09:00"
 }
