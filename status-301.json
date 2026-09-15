@@ -3,11 +3,15 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "정광욱 변리사 미팅",
-    "organizer": "정광욱",
-    "attendees": [],
-    "start": "2026-09-15T15:00:00",
-    "end": "2026-09-15T16:30:00",
+    "subject": "컬쳐챗",
+    "organizer": "정영모",
+    "attendees": [
+      "정병주",
+      "김용희",
+      "김경환"
+    ],
+    "start": "2026-09-15T13:40:00",
+    "end": "2026-09-15T14:10:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -32,6 +36,18 @@
       "is_cancelled": false
     },
     {
+      "subject": "컬쳐챗",
+      "organizer": "정영모",
+      "attendees": [
+        "정병주",
+        "김용희",
+        "김경환"
+      ],
+      "start": "2026-09-15T13:40:00",
+      "end": "2026-09-15T14:10:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "정광욱 변리사 미팅",
       "organizer": "정광욱",
       "attendees": [],
@@ -40,5 +56,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-15T13:22:34.634787+09:00"
+  "last_updated": "2026-09-15T13:23:33.533021+09:00"
 }
