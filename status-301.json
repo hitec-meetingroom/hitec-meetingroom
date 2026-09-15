@@ -1,7 +1,16 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "경영전략모임",
+    "organizer": "이지은B",
+    "attendees": [
+      "3층 소회의실1"
+    ],
+    "start": "2026-09-15T12:00:00",
+    "end": "2026-09-15T13:00:00",
+    "is_cancelled": false
+  },
   "next_meeting": {
     "subject": "정광욱 변리사 미팅",
     "organizer": "정광욱",
@@ -24,6 +33,16 @@
       "is_cancelled": false
     },
     {
+      "subject": "경영전략모임",
+      "organizer": "이지은B",
+      "attendees": [
+        "3층 소회의실1"
+      ],
+      "start": "2026-09-15T12:00:00",
+      "end": "2026-09-15T13:00:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "정광욱 변리사 미팅",
       "organizer": "정광욱",
       "attendees": [],
@@ -32,5 +51,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-15T11:59:34.752635+09:00"
+  "last_updated": "2026-09-15T12:00:53.135802+09:00"
 }
