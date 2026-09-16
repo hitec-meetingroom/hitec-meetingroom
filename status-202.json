@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "안희은 업무협의",
     "organizer": "안희은",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-09-16T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "안희은 업무협의",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-16T10:59:34.437982+09:00"
+  "last_updated": "2026-09-16T11:00:52.249569+09:00"
 }
