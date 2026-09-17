@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "이창훈 SW 스프린트 미팅",
     "organizer": "이창훈",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-09-17T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이창훈 SW 스프린트 미팅",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T10:59:45.294733+09:00"
+  "last_updated": "2026-09-17T11:00:56.613326+09:00"
 }
