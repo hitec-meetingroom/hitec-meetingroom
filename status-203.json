@@ -18,7 +18,15 @@
       "start": "2026-09-17T11:30:00",
       "end": "2026-09-17T12:30:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "ES_ENG(Sched) ENG 업무회의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-09-17T15:00:00",
+      "end": "2026-09-17T16:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T11:10:45.538464+09:00"
+  "last_updated": "2026-09-17T11:11:35.077762+09:00"
 }
