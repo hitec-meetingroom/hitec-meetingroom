@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 QA Culture Chat",
     "organizer": "황선민",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-09-17T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "이미래 근골격계질환 인터뷰 (시간 30분 지연)",
@@ -42,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T15:59:35.168368+09:00"
+  "last_updated": "2026-09-17T16:00:56.534803+09:00"
 }
