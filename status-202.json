@@ -2,16 +2,35 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "ES_SALES(Sched) LSE 미주 PJT 관련 미팅 ",
+    "organizer": "ES_SALES(Sched)",
+    "attendees": [
+      "서보성",
+      "김영일",
+      "Lim, SangHyuck (RC-KR SI EA SO)",
+      "ES사업본부 ES영업팀",
+      "김하늘"
+    ],
+    "start": "2026-09-17T10:00:00",
+    "end": "2026-09-17T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "안희은 업무협의",
-      "organizer": "안희은",
-      "attendees": [],
-      "start": "2026-09-16T11:00:00",
-      "end": "2026-09-16T12:00:00",
+      "subject": "ES_SALES(Sched) LSE 미주 PJT 관련 미팅 ",
+      "organizer": "ES_SALES(Sched)",
+      "attendees": [
+        "서보성",
+        "김영일",
+        "Lim, SangHyuck (RC-KR SI EA SO)",
+        "ES사업본부 ES영업팀",
+        "김하늘"
+      ],
+      "start": "2026-09-17T10:00:00",
+      "end": "2026-09-17T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T08:59:42.975864+09:00"
+  "last_updated": "2026-09-17T09:01:00.112822+09:00"
 }

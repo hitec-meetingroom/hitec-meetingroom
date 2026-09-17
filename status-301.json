@@ -2,27 +2,47 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이미래 근골격계질환 인터뷰",
+    "organizer": "이미래",
+    "attendees": [
+      "김용희",
+      "정병주",
+      "정재찬",
+      "정연미",
+      "박민우"
+    ],
+    "start": "2026-09-17T10:30:00",
+    "end": "2026-09-17T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "김용희 생산운영팀 회의",
-      "organizer": "김용희",
+      "subject": "이미래 근골격계질환 인터뷰",
+      "organizer": "이미래",
       "attendees": [
-        "김경환",
-        "김용원"
+        "김용희",
+        "정병주",
+        "정재찬",
+        "정연미",
+        "박민우"
       ],
-      "start": "2026-09-16T09:15:00",
-      "end": "2026-09-16T09:45:00",
+      "start": "2026-09-17T10:30:00",
+      "end": "2026-09-17T12:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "정광욱 리어다 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-09-16T15:00:00",
-      "end": "2026-09-16T16:00:00",
+      "subject": "황선민 QA Culture Chat",
+      "organizer": "황선민",
+      "attendees": [
+        "심규선",
+        "유동호",
+        "복지영"
+      ],
+      "start": "2026-09-17T16:00:00",
+      "end": "2026-09-17T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T08:59:42.975864+09:00"
+  "last_updated": "2026-09-17T09:01:00.112822+09:00"
 }
