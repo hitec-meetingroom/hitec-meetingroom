@@ -1,18 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이창훈 SW 기능개발 회의",
-    "organizer": "이창훈",
-    "attendees": [
-      "정재찬",
-      "강종빈",
-      "최이화"
-    ],
-    "start": "2026-09-17T13:00:00",
-    "end": "2026-09-17T14:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -40,5 +29,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T13:59:38.059576+09:00"
+  "last_updated": "2026-09-17T14:00:54.104706+09:00"
 }

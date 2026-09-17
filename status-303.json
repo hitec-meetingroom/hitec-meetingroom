@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 송년회 TFT",
     "organizer": "인사",
     "attendees": [
@@ -17,6 +16,7 @@
     "end": "2026-09-17T15:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 송년회 TFT",
@@ -34,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T13:59:38.059576+09:00"
+  "last_updated": "2026-09-17T14:00:54.104706+09:00"
 }
