@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "이미래 근골격계질환 인터뷰",
+    "subject": "이미래 근골격계질환 인터뷰 (시간 30분 지연)",
     "organizer": "이미래",
     "attendees": [
       "김용희",
@@ -18,7 +18,7 @@
   },
   "today_meetings": [
     {
-      "subject": "이미래 근골격계질환 인터뷰",
+      "subject": "이미래 근골격계질환 인터뷰 (시간 30분 지연)",
       "organizer": "이미래",
       "attendees": [
         "김용희",
@@ -44,5 +44,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T10:27:35.059863+09:00"
+  "last_updated": "2026-09-17T10:28:36.662287+09:00"
 }
