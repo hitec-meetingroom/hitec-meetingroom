@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_SALES(Sched) LSE 미주 PJT 관련 미팅 ",
     "organizer": "ES_SALES(Sched)",
     "attendees": [
@@ -16,6 +15,7 @@
     "end": "2026-09-17T11:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "ES_SALES(Sched) LSE 미주 PJT 관련 미팅 ",
@@ -32,5 +32,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-17T09:59:39.011204+09:00"
+  "last_updated": "2026-09-17T10:00:56.013739+09:00"
 }
