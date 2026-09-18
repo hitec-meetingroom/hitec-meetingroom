@@ -2,32 +2,31 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [
+      "박병택",
+      "문성진",
+      "박민성"
+    ],
+    "start": "2026-09-18T10:00:00",
+    "end": "2026-09-18T11:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이창훈 SW 스프린트 미팅",
-      "organizer": "이창훈",
+      "subject": "정광욱 하드웨어파트 주간업무회의",
+      "organizer": "정광욱",
       "attendees": [
-        "정재찬",
-        "강종빈",
-        "최이화"
+        "박병택",
+        "문성진",
+        "박민성"
       ],
-      "start": "2026-09-17T11:00:00",
-      "end": "2026-09-17T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이창훈 SW 기능개발 회의",
-      "organizer": "이창훈",
-      "attendees": [
-        "정재찬",
-        "강종빈",
-        "최이화"
-      ],
-      "start": "2026-09-17T13:00:00",
-      "end": "2026-09-17T14:00:00",
+      "start": "2026-09-18T10:00:00",
+      "end": "2026-09-18T11:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-18T08:59:33.966625+09:00"
+  "last_updated": "2026-09-18T09:00:38.746152+09:00"
 }

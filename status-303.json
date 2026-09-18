@@ -2,23 +2,33 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "김승훈 개발팀 보안단말기 설계안 검토회의",
+    "organizer": "김승훈",
+    "attendees": [
+      "SS사업본부 개발팀",
+      "이창훈",
+      "문성진",
+      "정광욱"
+    ],
+    "start": "2026-09-18T10:00:00",
+    "end": "2026-09-18T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 송년회 TFT",
-      "organizer": "인사",
+      "subject": "김승훈 개발팀 보안단말기 설계안 검토회의",
+      "organizer": "김승훈",
       "attendees": [
-        "정찬희",
-        "김덕재",
-        "신예준",
-        "유동호",
-        "이지은B",
-        "이미래"
+        "SS사업본부 개발팀",
+        "이창훈",
+        "문성진",
+        "정광욱"
       ],
-      "start": "2026-09-17T14:00:00",
-      "end": "2026-09-17T15:30:00",
+      "start": "2026-09-18T10:00:00",
+      "end": "2026-09-18T11:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-18T08:59:33.966625+09:00"
+  "last_updated": "2026-09-18T09:00:38.746152+09:00"
 }

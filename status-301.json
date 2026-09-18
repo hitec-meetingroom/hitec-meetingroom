@@ -3,33 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이미래 근골격계질환 인터뷰 (시간 30분 지연)",
-      "organizer": "이미래",
-      "attendees": [
-        "김용희",
-        "정병주",
-        "정재찬",
-        "정연미",
-        "박민우"
-      ],
-      "start": "2026-09-17T10:30:00",
-      "end": "2026-09-17T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 QA Culture Chat",
-      "organizer": "황선민",
-      "attendees": [
-        "심규선",
-        "유동호",
-        "복지영"
-      ],
-      "start": "2026-09-17T16:00:00",
-      "end": "2026-09-17T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-09-18T08:59:33.966625+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-09-18T09:00:38.746152+09:00"
 }
