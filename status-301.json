@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "정병주 주간업무회의",
-    "organizer": "정병주",
-    "attendees": [
-      "SS사업본부 생산운영팀"
-    ],
-    "start": "2026-09-21T13:15:00",
-    "end": "2026-09-21T14:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "김덕재 회사소개 영상 관련 회의",
     "organizer": "김덕재",
@@ -47,5 +38,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-21T13:59:36.321484+09:00"
+  "last_updated": "2026-09-21T14:00:56.027884+09:00"
 }
