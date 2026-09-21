@@ -3,15 +3,15 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "ES_SALES(Sched) EATON UPS 업무 협의",
+    "subject": "EATON UPS 업무 협의",
     "organizer": "ES_SALES(Sched)",
     "attendees": [
       "이훈",
       "김덕재",
       "최중영"
     ],
-    "start": "2026-09-21T14:00:00",
-    "end": "2026-09-21T15:00:00",
+    "start": "2026-09-21T14:30:00",
+    "end": "2026-09-21T16:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -24,17 +24,17 @@
       "is_cancelled": false
     },
     {
-      "subject": "ES_SALES(Sched) EATON UPS 업무 협의",
+      "subject": "EATON UPS 업무 협의",
       "organizer": "ES_SALES(Sched)",
       "attendees": [
         "이훈",
         "김덕재",
         "최중영"
       ],
-      "start": "2026-09-21T14:00:00",
-      "end": "2026-09-21T15:00:00",
+      "start": "2026-09-21T14:30:00",
+      "end": "2026-09-21T16:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-21T13:27:37.663236+09:00"
+  "last_updated": "2026-09-21T13:28:37.654886+09:00"
 }
