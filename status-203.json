@@ -1,14 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "ES_PQ(Sched) Smart PQ 주간회의",
-    "organizer": "ES_PQ(Sched)",
-    "attendees": [],
-    "start": "2026-09-21T09:00:00",
-    "end": "2026-09-21T09:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "ES_SALES(Sched) EATON UPS 업무 협의",
     "organizer": "ES_SALES(Sched)",
@@ -43,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-21T09:29:37.096455+09:00"
+  "last_updated": "2026-09-21T09:30:54.212836+09:00"
 }
