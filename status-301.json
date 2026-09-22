@@ -2,17 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 ERP Beta Test 진행 요청의 건",
-    "organizer": "황선민",
-    "attendees": [
-      "김용원",
-      "김경환"
-    ],
-    "start": "2026-09-22T14:00:00",
-    "end": "2026-09-22T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "복지영 업무 논의",
     "organizer": "복지영",
     "attendees": [
@@ -20,6 +9,18 @@
     ],
     "start": "2026-09-22T15:00:00",
     "end": "2026-09-22T16:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 경영기획팀 미팅(27년도 다이어리 및 캘린더 제작)",
+    "organizer": "인사",
+    "attendees": [
+      "이미래",
+      "정찬희",
+      "이지은B"
+    ],
+    "start": "2026-09-22T16:00:00",
+    "end": "2026-09-22T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -68,5 +69,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-22T14:59:35.179663+09:00"
+  "last_updated": "2026-09-22T15:00:56.682028+09:00"
 }
