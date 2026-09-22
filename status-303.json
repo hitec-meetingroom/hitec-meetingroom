@@ -2,7 +2,27 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-09-22T15:25:47.129744+09:00"
+  "next_meeting": {
+    "subject": "복지영 업무 논의",
+    "organizer": "복지영",
+    "attendees": [
+      "황선민"
+    ],
+    "start": "2026-09-22T16:00:00",
+    "end": "2026-09-22T16:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "복지영 업무 논의",
+      "organizer": "복지영",
+      "attendees": [
+        "황선민"
+      ],
+      "start": "2026-09-22T16:00:00",
+      "end": "2026-09-22T16:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-09-22T15:26:37.122774+09:00"
 }
