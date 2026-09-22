@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 FOTA Flow ",
     "organizer": "황선민",
     "attendees": [
@@ -11,6 +10,17 @@
     ],
     "start": "2026-09-22T10:00:00",
     "end": "2026-09-22T10:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "황선민 ERP Beta Test 진행 요청의 건",
+    "organizer": "황선민",
+    "attendees": [
+      "김용원",
+      "김경환"
+    ],
+    "start": "2026-09-22T14:00:00",
+    "end": "2026-09-22T14:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -49,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-22T09:59:23.464970+09:00"
+  "last_updated": "2026-09-22T10:00:01.514273+09:00"
 }
