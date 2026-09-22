@@ -2,7 +2,14 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "안희은 업무회의",
+    "organizer": "안희은",
+    "attendees": [],
+    "start": "2026-09-22T14:00:00",
+    "end": "2026-09-22T14:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "권용석 ES SALES 내부 회의",
@@ -11,7 +18,15 @@
       "start": "2026-09-22T09:00:00",
       "end": "2026-09-22T10:30:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "안희은 업무회의",
+      "organizer": "안희은",
+      "attendees": [],
+      "start": "2026-09-22T14:00:00",
+      "end": "2026-09-22T14:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-22T13:54:38.458921+09:00"
+  "last_updated": "2026-09-22T13:55:46.645879+09:00"
 }
