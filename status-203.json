@@ -2,14 +2,6 @@
   "room_name": "2층 대회의실",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "ES_ENG(Sched) [PS팀] SK하이닉스 관련 교육",
-    "organizer": "ES_ENG(Sched)",
-    "attendees": [],
-    "start": "2026-09-28T14:00:00",
-    "end": "2026-09-28T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "남기성 ES영업팀 회의",
     "organizer": "남기성",
     "attendees": [],
@@ -17,6 +9,7 @@
     "end": "2026-09-28T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "ES_PQ(Sched) Smart PQ 주간회의",
@@ -43,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-28T14:59:36.477867+09:00"
+  "last_updated": "2026-09-28T15:00:40.720885+09:00"
 }
