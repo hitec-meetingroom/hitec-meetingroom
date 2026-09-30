@@ -2,29 +2,33 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "이미래 ES사업본부 소개영상 기획",
+    "organizer": "이미래",
+    "attendees": [
+      "최중영",
+      "이동욱",
+      "김덕재",
+      "황도하"
+    ],
+    "start": "2026-09-30T10:00:00",
+    "end": "2026-09-30T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "안희은 업무회의",
-      "organizer": "안희은",
-      "attendees": [],
-      "start": "2026-09-29T11:30:00",
-      "end": "2026-09-29T12:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "ES_ENG(Sched) AI QC MEETING",
-      "organizer": "ES_ENG(Sched)",
+      "subject": "이미래 ES사업본부 소개영상 기획",
+      "organizer": "이미래",
       "attendees": [
+        "최중영",
         "이동욱",
-        "배정우",
-        "윤은선",
-        "안희은"
+        "김덕재",
+        "황도하"
       ],
-      "start": "2026-09-29T15:00:00",
-      "end": "2026-09-29T16:00:00",
+      "start": "2026-09-30T10:00:00",
+      "end": "2026-09-30T12:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-30T08:59:26.117200+09:00"
+  "last_updated": "2026-09-30T09:00:31.342301+09:00"
 }
