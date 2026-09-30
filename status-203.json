@@ -2,7 +2,23 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-09-30T14:27:38.443801+09:00"
+  "next_meeting": {
+    "subject": "안희은 삼성전기 베트남 관련 미팅 ",
+    "organizer": "안희은",
+    "attendees": [],
+    "start": "2026-09-30T14:30:00",
+    "end": "2026-09-30T15:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "안희은 삼성전기 베트남 관련 미팅 ",
+      "organizer": "안희은",
+      "attendees": [],
+      "start": "2026-09-30T14:30:00",
+      "end": "2026-09-30T15:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-09-30T14:28:41.107991+09:00"
 }
