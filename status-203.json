@@ -3,11 +3,9 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "AI QC 회의",
+    "subject": "이동욱 AI QC 회의",
     "organizer": "이동욱",
-    "attendees": [
-      "2층 대회의실"
-    ],
+    "attendees": [],
     "start": "2026-09-30T16:30:00",
     "end": "2026-09-30T17:30:00",
     "is_cancelled": false
@@ -22,15 +20,13 @@
       "is_cancelled": false
     },
     {
-      "subject": "AI QC 회의",
+      "subject": "이동욱 AI QC 회의",
       "organizer": "이동욱",
-      "attendees": [
-        "2층 대회의실"
-      ],
+      "attendees": [],
       "start": "2026-09-30T16:30:00",
       "end": "2026-09-30T17:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-30T16:15:52.769093+09:00"
+  "last_updated": "2026-09-30T16:17:00.267779+09:00"
 }
