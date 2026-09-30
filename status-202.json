@@ -2,7 +2,14 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "안희은 AI QC관련 미팅",
+    "organizer": "안희은",
+    "attendees": [],
+    "start": "2026-09-30T16:30:00",
+    "end": "2026-09-30T17:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "이미래 ES사업본부 소개영상 기획",
@@ -24,7 +31,15 @@
       "start": "2026-09-30T14:00:00",
       "end": "2026-09-30T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "안희은 AI QC관련 미팅",
+      "organizer": "안희은",
+      "attendees": [],
+      "start": "2026-09-30T16:30:00",
+      "end": "2026-09-30T17:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-09-30T16:20:25.226607+09:00"
+  "last_updated": "2026-09-30T16:20:54.503268+09:00"
 }
