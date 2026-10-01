@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 경영기획팀 컬쳐챗(2회차)",
     "organizer": "인사",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-10-01T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 경영기획팀 컬쳐챗(2회차)",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-01T15:59:35.689633+09:00"
+  "last_updated": "2026-10-01T16:00:39.742634+09:00"
 }
