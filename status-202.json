@@ -3,36 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이미래 ES사업본부 소개영상 기획",
-      "organizer": "이미래",
-      "attendees": [
-        "최중영",
-        "이동욱",
-        "김덕재",
-        "황도하"
-      ],
-      "start": "2026-09-30T10:00:00",
-      "end": "2026-09-30T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "김하늘 LSE 미주관련 미팅",
-      "organizer": "김하늘",
-      "attendees": [],
-      "start": "2026-09-30T14:00:00",
-      "end": "2026-09-30T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "안희은 AI QC관련 미팅",
-      "organizer": "안희은",
-      "attendees": [],
-      "start": "2026-09-30T16:30:00",
-      "end": "2026-09-30T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-01T08:59:40.630729+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-01T09:00:44.301972+09:00"
 }
