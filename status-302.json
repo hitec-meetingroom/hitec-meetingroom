@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실2",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 BE회의",
     "organizer": "최이화",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-10-01T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 BE회의",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-01T09:29:36.845909+09:00"
+  "last_updated": "2026-10-01T09:30:53.177461+09:00"
 }
