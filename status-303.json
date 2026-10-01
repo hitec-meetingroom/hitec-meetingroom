@@ -1,14 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이미래 회의",
-    "organizer": "이미래",
-    "attendees": [],
-    "start": "2026-10-01T11:15:00",
-    "end": "2026-10-01T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정승호 기술영업팀 + 개발팀 소프트웨어 파트 정기 회의",
     "organizer": "정승호",
@@ -35,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-01T11:59:36.288152+09:00"
+  "last_updated": "2026-10-01T12:00:41.704816+09:00"
 }
