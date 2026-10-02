@@ -9,7 +9,16 @@
     "end": "2026-10-02T11:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "면접 대기실",
+    "organizer": "이지은B",
+    "attendees": [
+      "2층 소회의실"
+    ],
+    "start": "2026-10-02T11:30:00",
+    "end": "2026-10-02T12:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "ES_ENG(Sched) ENG 업무회의",
@@ -18,7 +27,17 @@
       "start": "2026-10-02T10:00:00",
       "end": "2026-10-02T11:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "면접 대기실",
+      "organizer": "이지은B",
+      "attendees": [
+        "2층 소회의실"
+      ],
+      "start": "2026-10-02T11:30:00",
+      "end": "2026-10-02T12:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-02T10:15:42.045346+09:00"
+  "last_updated": "2026-10-02T10:16:45.883363+09:00"
 }
