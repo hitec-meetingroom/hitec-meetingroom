@@ -3,16 +3,22 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "인사 HR 미팅",
-    "organizer": "인사",
-    "attendees": [
-      "이미래"
-    ],
-    "start": "2026-10-02T14:00:00",
-    "end": "2026-10-02T16:00:00",
+    "subject": "정광욱 하드웨어파트 주간업무회의",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-10-02T10:30:00",
+    "end": "2026-10-02T11:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "정광욱 하드웨어파트 주간업무회의",
+      "organizer": "정광욱",
+      "attendees": [],
+      "start": "2026-10-02T10:30:00",
+      "end": "2026-10-02T11:30:00",
+      "is_cancelled": false
+    },
     {
       "subject": "인사 HR 미팅",
       "organizer": "인사",
@@ -24,5 +30,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-02T10:17:13.708571+09:00"
+  "last_updated": "2026-10-02T10:18:18.499042+09:00"
 }
