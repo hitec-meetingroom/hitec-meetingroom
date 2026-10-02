@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "황선민 QA Weekly",
     "organizer": "황선민",
     "attendees": [
@@ -14,6 +13,7 @@
     "end": "2026-10-02T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 직무 분석 미팅",
@@ -49,5 +49,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-02T14:59:36.982660+09:00"
+  "last_updated": "2026-10-02T15:00:53.110767+09:00"
 }
