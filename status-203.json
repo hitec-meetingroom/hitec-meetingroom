@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_ENG(Sched) 허준영 업무회의",
     "organizer": "ES_ENG(Sched)",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-10-02T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 1차 면접_송기현(PR)",
@@ -43,5 +43,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-02T16:59:41.156834+09:00"
+  "last_updated": "2026-10-02T17:00:45.436173+09:00"
 }
