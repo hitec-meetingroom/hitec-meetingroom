@@ -2,24 +2,37 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 1차 면접_송기현(PR)",
+    "organizer": "인사",
+    "attendees": [
+      "김영일",
+      "조광석",
+      "이미래",
+      "정연미",
+      "이지은B",
+      "정찬희"
+    ],
+    "start": "2026-10-02T11:00:00",
+    "end": "2026-10-02T12:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "나기순 SK하이닉스 용인 발전 LINE OCGR 동작 회의",
-      "organizer": "나기순",
-      "attendees": [],
-      "start": "2026-10-01T14:30:00",
-      "end": "2026-10-01T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "ES_ENG(Sched) 허준영 업무회의",
-      "organizer": "ES_ENG(Sched)",
-      "attendees": [],
-      "start": "2026-10-01T16:30:00",
-      "end": "2026-10-01T17:30:00",
+      "subject": "인사 1차 면접_송기현(PR)",
+      "organizer": "인사",
+      "attendees": [
+        "김영일",
+        "조광석",
+        "이미래",
+        "정연미",
+        "이지은B",
+        "정찬희"
+      ],
+      "start": "2026-10-02T11:00:00",
+      "end": "2026-10-02T12:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-02T08:59:34.122155+09:00"
+  "last_updated": "2026-10-02T09:00:37.712442+09:00"
 }
