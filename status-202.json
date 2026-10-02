@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-02T09:58:42.493154+09:00"
+  "next_meeting": {
+    "subject": "ES_ENG(Sched) ENG 업무회의",
+    "organizer": "ES_ENG(Sched)",
+    "attendees": [],
+    "start": "2026-10-02T10:00:00",
+    "end": "2026-10-02T11:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "ES_ENG(Sched) ENG 업무회의",
+      "organizer": "ES_ENG(Sched)",
+      "attendees": [],
+      "start": "2026-10-02T10:00:00",
+      "end": "2026-10-02T11:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-02T09:59:46.706879+09:00"
 }
