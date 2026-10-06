@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "HR 미팅",
+    "subject": "인사 HR 미팅",
     "organizer": "인사",
     "attendees": [
       "이미래"
@@ -14,7 +14,7 @@
   },
   "today_meetings": [
     {
-      "subject": "HR 미팅",
+      "subject": "인사 HR 미팅",
       "organizer": "인사",
       "attendees": [
         "이미래"
@@ -24,5 +24,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-06T09:22:36.595593+09:00"
+  "last_updated": "2026-10-06T09:23:40.652741+09:00"
 }
