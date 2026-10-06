@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 HR 미팅",
-    "organizer": "인사",
-    "attendees": [
-      "이미래"
-    ],
-    "start": "2026-10-06T09:00:00",
-    "end": "2026-10-06T10:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 1 On 1",
     "organizer": "황선민",
@@ -22,16 +13,6 @@
     "is_cancelled": false
   },
   "today_meetings": [
-    {
-      "subject": "인사 HR 미팅",
-      "organizer": "인사",
-      "attendees": [
-        "이미래"
-      ],
-      "start": "2026-10-06T09:00:00",
-      "end": "2026-10-06T10:00:00",
-      "is_cancelled": false
-    },
     {
       "subject": "황선민 1 On 1",
       "organizer": "황선민",
@@ -63,5 +44,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-06T09:22:05.002362+09:00"
+  "last_updated": "2026-10-06T09:22:36.595593+09:00"
 }
