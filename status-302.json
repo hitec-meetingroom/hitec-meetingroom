@@ -12,7 +12,7 @@
     "is_cancelled": false
   },
   "next_meeting": {
-    "subject": "퇴사자 면담",
+    "subject": "인사 퇴사자 면담",
     "organizer": "인사",
     "attendees": [
       "정찬희",
@@ -35,7 +35,7 @@
       "is_cancelled": false
     },
     {
-      "subject": "퇴사자 면담",
+      "subject": "인사 퇴사자 면담",
       "organizer": "인사",
       "attendees": [
         "정찬희",
@@ -47,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-06T10:14:57.639966+09:00"
+  "last_updated": "2026-10-06T10:15:25.410357+09:00"
 }
