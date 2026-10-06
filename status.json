@@ -1,14 +1,7 @@
 {
   "room_name": "2층 교육실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "ES_ENG(Sched) ",
-    "organizer": "ES_ENG(Sched)",
-    "attendees": [],
-    "start": "2026-10-06T16:30:00",
-    "end": "2026-10-06T17:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -20,5 +13,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-06T17:29:32.702133+09:00"
+  "last_updated": "2026-10-06T17:30:00.844952+09:00"
 }
