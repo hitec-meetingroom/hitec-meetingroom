@@ -1,7 +1,16 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "인사 인사 미팅",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희"
+    ],
+    "start": "2026-10-06T10:30:00",
+    "end": "2026-10-06T11:30:00",
+    "is_cancelled": false
+  },
   "next_meeting": {
     "subject": "인사 퇴사자 면담",
     "organizer": "인사",
@@ -16,6 +25,16 @@
   },
   "today_meetings": [
     {
+      "subject": "인사 인사 미팅",
+      "organizer": "인사",
+      "attendees": [
+        "정찬희"
+      ],
+      "start": "2026-10-06T10:30:00",
+      "end": "2026-10-06T11:30:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "인사 퇴사자 면담",
       "organizer": "인사",
       "attendees": [
@@ -28,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-06T10:35:18.258901+09:00"
+  "last_updated": "2026-10-06T10:36:23.348700+09:00"
 }
