@@ -2,7 +2,33 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-07T16:15:18.289442+09:00"
+  "next_meeting": {
+    "subject": "최이화 SW 주간회의",
+    "organizer": "최이화",
+    "attendees": [
+      "김동규",
+      "정재찬",
+      "정승호",
+      "강종빈"
+    ],
+    "start": "2026-10-07T16:30:00",
+    "end": "2026-10-07T18:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "최이화 SW 주간회의",
+      "organizer": "최이화",
+      "attendees": [
+        "김동규",
+        "정재찬",
+        "정승호",
+        "강종빈"
+      ],
+      "start": "2026-10-07T16:30:00",
+      "end": "2026-10-07T18:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-07T16:16:22.109389+09:00"
 }
