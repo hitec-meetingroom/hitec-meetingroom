@@ -3,47 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "황선민 1 On 1",
-      "organizer": "황선민",
-      "attendees": [
-        "유동호"
-      ],
-      "start": "2026-10-06T14:00:00",
-      "end": "2026-10-06T14:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 1 On 1",
-      "organizer": "황선민",
-      "attendees": [
-        "심규선"
-      ],
-      "start": "2026-10-06T14:30:00",
-      "end": "2026-10-06T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 1 on 1",
-      "organizer": "황선민",
-      "attendees": [
-        "복지영"
-      ],
-      "start": "2026-10-06T15:00:00",
-      "end": "2026-10-06T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파 센서 입고 검사 체계 논의",
-      "organizer": "황선민",
-      "attendees": [
-        "박민성"
-      ],
-      "start": "2026-10-06T16:00:00",
-      "end": "2026-10-06T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-07T08:59:42.762511+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-07T09:00:12.522942+09:00"
 }
