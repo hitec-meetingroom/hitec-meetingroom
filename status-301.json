@@ -2,21 +2,27 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 퇴사 프로세스 관련 회의(조율가능)",
+    "organizer": "인사",
+    "attendees": [
+      "이미래"
+    ],
+    "start": "2026-10-08T11:30:00",
+    "end": "2026-10-08T12:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "최이화 SW 주간회의",
-      "organizer": "최이화",
+      "subject": "인사 퇴사 프로세스 관련 회의(조율가능)",
+      "organizer": "인사",
       "attendees": [
-        "김동규",
-        "정재찬",
-        "정승호",
-        "강종빈"
+        "이미래"
       ],
-      "start": "2026-10-07T16:30:00",
-      "end": "2026-10-07T18:00:00",
+      "start": "2026-10-08T11:30:00",
+      "end": "2026-10-08T12:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-08T08:59:45.313186+09:00"
+  "last_updated": "2026-10-08T09:00:49.503853+09:00"
 }
