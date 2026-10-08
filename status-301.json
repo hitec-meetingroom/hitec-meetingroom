@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 퇴사 프로세스 관련 회의(조율가능)",
     "organizer": "인사",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-10-08T12:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "문성진 기획 미팅",
@@ -34,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-08T11:29:36.090124+09:00"
+  "last_updated": "2026-10-08T11:30:05.138296+09:00"
 }
