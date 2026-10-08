@@ -3,16 +3,26 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "인사 퇴사 프로세스 관련 회의(조율가능)",
-    "organizer": "인사",
+    "subject": "문성진 기획 미팅",
+    "organizer": "문성진",
     "attendees": [
-      "이미래"
+      "양동규"
     ],
-    "start": "2026-10-08T11:30:00",
-    "end": "2026-10-08T12:30:00",
+    "start": "2026-10-08T09:30:00",
+    "end": "2026-10-08T10:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "문성진 기획 미팅",
+      "organizer": "문성진",
+      "attendees": [
+        "양동규"
+      ],
+      "start": "2026-10-08T09:30:00",
+      "end": "2026-10-08T10:30:00",
+      "is_cancelled": false
+    },
     {
       "subject": "인사 퇴사 프로세스 관련 회의(조율가능)",
       "organizer": "인사",
@@ -24,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-08T09:02:52.039177+09:00"
+  "last_updated": "2026-10-08T09:03:56.093560+09:00"
 }
