@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정재찬 AS 메일발송 기획공유",
     "organizer": "정재찬",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-10-08T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정재찬 AS 알림발송 기획 공유",
@@ -36,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-08T14:59:47.853952+09:00"
+  "last_updated": "2026-10-08T15:00:51.540567+09:00"
 }
