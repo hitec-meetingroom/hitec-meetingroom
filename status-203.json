@@ -3,18 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이미래 ES사업본부",
-      "organizer": "이미래",
-      "attendees": [
-        "김덕재",
-        "황도하"
-      ],
-      "start": "2026-10-08T17:00:00",
-      "end": "2026-10-08T18:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-09T08:59:09.568416+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-09T09:00:13.331703+09:00"
 }

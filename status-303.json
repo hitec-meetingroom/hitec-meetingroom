@@ -3,28 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "정재찬 AS 알림발송 기획 공유",
-      "organizer": "정재찬",
-      "attendees": [
-        "이창훈"
-      ],
-      "start": "2026-10-08T10:00:00",
-      "end": "2026-10-08T11:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정재찬 AS 메일발송 기획공유",
-      "organizer": "정재찬",
-      "attendees": [
-        "양동규",
-        "이창훈"
-      ],
-      "start": "2026-10-08T15:00:00",
-      "end": "2026-10-08T16:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-09T08:59:09.568416+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-09T09:00:13.331703+09:00"
 }

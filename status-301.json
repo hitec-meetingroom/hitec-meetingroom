@@ -2,28 +2,31 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 QA Weekly",
+    "organizer": "황선민",
+    "attendees": [
+      "심규선",
+      "유동호",
+      "복지영"
+    ],
+    "start": "2026-10-09T15:00:00",
+    "end": "2026-10-09T16:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "문성진 기획 미팅",
-      "organizer": "문성진",
+      "subject": "황선민 QA Weekly",
+      "organizer": "황선민",
       "attendees": [
-        "양동규"
+        "심규선",
+        "유동호",
+        "복지영"
       ],
-      "start": "2026-10-08T09:30:00",
-      "end": "2026-10-08T10:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 퇴사 프로세스 관련 회의(조율가능)",
-      "organizer": "인사",
-      "attendees": [
-        "이미래"
-      ],
-      "start": "2026-10-08T11:30:00",
-      "end": "2026-10-08T12:30:00",
+      "start": "2026-10-09T15:00:00",
+      "end": "2026-10-09T16:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-09T08:59:09.568416+09:00"
+  "last_updated": "2026-10-09T09:00:13.331703+09:00"
 }
