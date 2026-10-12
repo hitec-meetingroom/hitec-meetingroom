@@ -2,7 +2,33 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-12T15:54:38.477498+09:00"
+  "next_meeting": {
+    "subject": "이창훈 SS 민원관리기능 기획 논의",
+    "organizer": "이창훈",
+    "attendees": [
+      "정재찬",
+      "김동규",
+      "최이화",
+      "강종빈"
+    ],
+    "start": "2026-10-12T16:30:00",
+    "end": "2026-10-12T17:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이창훈 SS 민원관리기능 기획 논의",
+      "organizer": "이창훈",
+      "attendees": [
+        "정재찬",
+        "김동규",
+        "최이화",
+        "강종빈"
+      ],
+      "start": "2026-10-12T16:30:00",
+      "end": "2026-10-12T17:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-12T15:55:43.133773+09:00"
 }
