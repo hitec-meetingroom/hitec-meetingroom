@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "박희택 하이텍견학_동해시 3명",
     "organizer": "박희택",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-10-12T15:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "박희택 하이텍견학_동해시 3명",
@@ -24,5 +24,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-12T12:59:37.707652+09:00"
+  "last_updated": "2026-10-12T13:00:41.436152+09:00"
 }
