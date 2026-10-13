@@ -2,21 +2,35 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "복지영 업무 논의",
+    "organizer": "복지영",
+    "attendees": [
+      "황선민"
+    ],
+    "start": "2026-10-13T10:00:00",
+    "end": "2026-10-13T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이창훈 SS 민원관리기능 기획 논의",
-      "organizer": "이창훈",
+      "subject": "복지영 업무 논의",
+      "organizer": "복지영",
       "attendees": [
-        "정재찬",
-        "김동규",
-        "최이화",
-        "강종빈"
+        "황선민"
       ],
-      "start": "2026-10-12T16:30:00",
-      "end": "2026-10-12T17:30:00",
+      "start": "2026-10-13T10:00:00",
+      "end": "2026-10-13T11:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "정광욱 변리사 미팅",
+      "organizer": "정광욱",
+      "attendees": [],
+      "start": "2026-10-13T15:00:00",
+      "end": "2026-10-13T16:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-13T08:59:58.461595+09:00"
+  "last_updated": "2026-10-13T09:00:27.238633+09:00"
 }

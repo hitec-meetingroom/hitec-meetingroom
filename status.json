@@ -3,15 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "허준영 ",
-      "organizer": "허준영",
-      "attendees": [],
-      "start": "2026-10-12T09:30:00",
-      "end": "2026-10-12T10:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-13T08:59:58.461595+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-13T09:00:27.238633+09:00"
 }
