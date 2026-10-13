@@ -11,7 +11,18 @@
     "end": "2026-10-13T17:00:00",
     "is_cancelled": false
   },
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정재찬 보안단말기 설계 논의",
+    "organizer": "정재찬",
+    "attendees": [
+      "김동규",
+      "최이화",
+      "김승훈"
+    ],
+    "start": "2026-10-13T17:00:00",
+    "end": "2026-10-13T17:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "복지영 업무 논의",
@@ -40,7 +51,19 @@
       "start": "2026-10-13T16:30:00",
       "end": "2026-10-13T17:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "정재찬 보안단말기 설계 논의",
+      "organizer": "정재찬",
+      "attendees": [
+        "김동규",
+        "최이화",
+        "김승훈"
+      ],
+      "start": "2026-10-13T17:00:00",
+      "end": "2026-10-13T17:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-13T16:43:57.483803+09:00"
+  "last_updated": "2026-10-13T16:45:01.300964+09:00"
 }
