@@ -2,7 +2,43 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-14T08:59:54.077173+09:00"
+  "next_meeting": {
+    "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
+    "organizer": "황선민",
+    "attendees": [
+      "김용원",
+      "김경환",
+      "정광욱",
+      "권기정",
+      "정승호",
+      "유동호",
+      "심규선",
+      "복지영",
+      "권순영"
+    ],
+    "start": "2026-10-14T17:00:00",
+    "end": "2026-10-14T18:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
+      "organizer": "황선민",
+      "attendees": [
+        "김용원",
+        "김경환",
+        "정광욱",
+        "권기정",
+        "정승호",
+        "유동호",
+        "심규선",
+        "복지영",
+        "권순영"
+      ],
+      "start": "2026-10-14T17:00:00",
+      "end": "2026-10-14T18:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-14T09:00:58.339006+09:00"
 }

@@ -3,47 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "복지영 업무 논의",
-      "organizer": "복지영",
-      "attendees": [
-        "황선민"
-      ],
-      "start": "2026-10-13T10:00:00",
-      "end": "2026-10-13T11:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 변리사 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-10-13T15:00:00",
-      "end": "2026-10-13T16:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파 센서 입고 검사 체계 논의",
-      "organizer": "황선민",
-      "attendees": [
-        "박민성"
-      ],
-      "start": "2026-10-13T16:30:00",
-      "end": "2026-10-13T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정재찬 보안단말기 설계 논의",
-      "organizer": "정재찬",
-      "attendees": [
-        "김동규",
-        "최이화",
-        "김승훈"
-      ],
-      "start": "2026-10-13T17:00:00",
-      "end": "2026-10-13T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-14T08:59:54.077173+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-14T09:00:58.339006+09:00"
 }
