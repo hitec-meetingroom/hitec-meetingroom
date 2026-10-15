@@ -1,26 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황선민 [품질보증팀] 변경절차 공유회 진행의 건",
-    "organizer": "황선민",
-    "attendees": [
-      "SS사업본부 품질보증팀",
-      "SS사업본부 기술영업팀",
-      "SS사업본부 개발팀",
-      "SS사업본부 생산운영팀",
-      "정광욱",
-      "권기정",
-      "김승훈",
-      "유동호",
-      "김경환",
-      "이창훈",
-      "최이화"
-    ],
-    "start": "2026-10-15T11:00:00",
-    "end": "2026-10-15T12:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "박희택 협력업체 안전교육 진행",
     "organizer": "박희택",
@@ -65,5 +46,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-15T12:29:33.319780+09:00"
+  "last_updated": "2026-10-15T12:30:48.307325+09:00"
 }
