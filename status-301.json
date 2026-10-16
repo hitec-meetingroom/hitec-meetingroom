@@ -2,7 +2,7 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "QA Weekly",
+    "subject": "황선민 QA Weekly",
     "organizer": "황선민",
     "attendees": [
       "심규선",
@@ -16,7 +16,7 @@
   "next_meeting": null,
   "today_meetings": [
     {
-      "subject": "QA Weekly",
+      "subject": "황선민 QA Weekly",
       "organizer": "황선민",
       "attendees": [
         "심규선",
@@ -28,5 +28,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-16T10:13:31.596897+09:00"
+  "last_updated": "2026-10-16T10:14:35.290162+09:00"
 }
