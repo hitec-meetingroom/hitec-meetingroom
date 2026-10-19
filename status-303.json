@@ -2,7 +2,47 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-19T08:59:02.361965+09:00"
+  "next_meeting": {
+    "subject": "문성진 밸브제어기 리뷰 ",
+    "organizer": "문성진",
+    "attendees": [
+      "권기정",
+      "정광욱",
+      "김용원",
+      "김경환",
+      "황선민",
+      "양동규",
+      "허승혁",
+      "박희택",
+      "정승호",
+      "이상국",
+      "김승훈"
+    ],
+    "start": "2026-10-19T14:00:00",
+    "end": "2026-10-19T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "문성진 밸브제어기 리뷰 ",
+      "organizer": "문성진",
+      "attendees": [
+        "권기정",
+        "정광욱",
+        "김용원",
+        "김경환",
+        "황선민",
+        "양동규",
+        "허승혁",
+        "박희택",
+        "정승호",
+        "이상국",
+        "김승훈"
+      ],
+      "start": "2026-10-19T14:00:00",
+      "end": "2026-10-19T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-19T09:00:05.849750+09:00"
 }
