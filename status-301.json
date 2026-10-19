@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 입사_최나래",
     "organizer": "인사",
     "attendees": [
@@ -15,6 +14,7 @@
     "end": "2026-10-19T15:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "김동규 인제 설치 사전 작업 미팅",
@@ -38,5 +38,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-19T13:29:35.175000+09:00"
+  "last_updated": "2026-10-19T13:30:52.493320+09:00"
 }
