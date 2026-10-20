@@ -2,18 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "정광욱 사이언스코 미팅 준비",
-    "organizer": "정광욱",
-    "attendees": [
-      "김용원",
-      "이상국",
-      "문성진"
-    ],
-    "start": "2026-10-20T11:00:00",
-    "end": "2026-10-20T11:30:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 커피챗 미팅",
     "organizer": "인사",
     "attendees": [
@@ -21,6 +9,18 @@
     ],
     "start": "2026-10-20T11:30:00",
     "end": "2026-10-20T12:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "정광욱 정광욱 한국사이언스코 미팅",
+    "organizer": "정광욱",
+    "attendees": [
+      "이상국",
+      "문성진",
+      "김용원"
+    ],
+    "start": "2026-10-20T13:30:00",
+    "end": "2026-10-20T15:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -80,5 +80,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T11:29:36.349313+09:00"
+  "last_updated": "2026-10-20T11:30:40.098914+09:00"
 }
