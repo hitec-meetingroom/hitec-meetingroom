@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "SW 다국어 적용 검토",
+    "subject": "이창훈 SW 다국어 적용 검토",
     "organizer": "이창훈",
     "attendees": [
       "정승호",
@@ -32,7 +32,7 @@
       "is_cancelled": false
     },
     {
-      "subject": "SW 다국어 적용 검토",
+      "subject": "이창훈 SW 다국어 적용 검토",
       "organizer": "이창훈",
       "attendees": [
         "정승호",
@@ -44,5 +44,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T16:06:43.788700+09:00"
+  "last_updated": "2026-10-20T16:07:48.216288+09:00"
 }
