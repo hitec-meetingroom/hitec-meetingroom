@@ -3,23 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "ES_SALES(Sched) [ES Saels] Weekly Meeting",
-      "organizer": "ES_SALES(Sched)",
-      "attendees": [],
-      "start": "2026-10-19T09:00:00",
-      "end": "2026-10-19T09:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이동욱 ES사업부 업무협의",
-      "organizer": "이동욱",
-      "attendees": [],
-      "start": "2026-10-19T13:00:00",
-      "end": "2026-10-19T15:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-20T08:59:21.719786+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-20T09:00:25.303195+09:00"
 }
