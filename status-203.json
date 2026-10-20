@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "허준영 업무회의",
     "organizer": "허준영",
     "attendees": [],
@@ -10,6 +9,7 @@
     "end": "2026-10-20T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "안희은 삼성전기 세종 회의",
@@ -36,5 +36,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T16:59:44.667396+09:00"
+  "last_updated": "2026-10-20T17:00:12.344036+09:00"
 }
