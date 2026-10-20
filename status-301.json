@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 OT_신규입사자",
-    "organizer": "인사",
-    "attendees": [
-      "최나래"
-    ],
-    "start": "2026-10-20T09:30:00",
-    "end": "2026-10-20T10:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정광욱 사이언스코 미팅 준비",
     "organizer": "정광욱",
@@ -80,5 +71,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T10:29:35.651292+09:00"
+  "last_updated": "2026-10-20T10:30:53.368771+09:00"
 }
