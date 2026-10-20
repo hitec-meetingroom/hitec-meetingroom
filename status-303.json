@@ -1,18 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이창훈 SW 다국어 적용 검토",
-    "organizer": "이창훈",
-    "attendees": [
-      "정승호",
-      "이상국",
-      "권순영"
-    ],
-    "start": "2026-10-20T16:30:00",
-    "end": "2026-10-20T17:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -44,5 +33,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T17:29:35.049893+09:00"
+  "last_updated": "2026-10-20T17:30:39.229407+09:00"
 }
