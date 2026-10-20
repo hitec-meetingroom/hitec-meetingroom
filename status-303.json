@@ -2,7 +2,18 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "SW 다국어 적용 검토",
+    "organizer": "이창훈",
+    "attendees": [
+      "정승호",
+      "이상국",
+      "권순영"
+    ],
+    "start": "2026-10-20T16:30:00",
+    "end": "2026-10-20T17:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "인사 30주년 송년회 TFT 회의",
@@ -19,7 +30,19 @@
       "start": "2026-10-20T14:00:00",
       "end": "2026-10-20T16:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "SW 다국어 적용 검토",
+      "organizer": "이창훈",
+      "attendees": [
+        "정승호",
+        "이상국",
+        "권순영"
+      ],
+      "start": "2026-10-20T16:30:00",
+      "end": "2026-10-20T17:30:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T16:06:13.705810+09:00"
+  "last_updated": "2026-10-20T16:06:43.788700+09:00"
 }
