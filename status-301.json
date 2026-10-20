@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 커피챗 미팅",
-    "organizer": "인사",
-    "attendees": [
-      "정연미"
-    ],
-    "start": "2026-10-20T11:30:00",
-    "end": "2026-10-20T12:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정광욱 정광욱 한국사이언스코 미팅",
     "organizer": "정광욱",
@@ -81,5 +72,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T12:29:43.615140+09:00"
+  "last_updated": "2026-10-20T12:30:12.416010+09:00"
 }
