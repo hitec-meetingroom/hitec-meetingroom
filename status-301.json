@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정광욱 사이언스코 미팅 준비",
     "organizer": "정광욱",
     "attendees": [
@@ -12,6 +11,16 @@
     ],
     "start": "2026-10-20T11:00:00",
     "end": "2026-10-20T11:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 커피챗 미팅",
+    "organizer": "인사",
+    "attendees": [
+      "정연미"
+    ],
+    "start": "2026-10-20T11:30:00",
+    "end": "2026-10-20T12:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -71,5 +80,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-20T10:59:36.759865+09:00"
+  "last_updated": "2026-10-20T11:00:41.066793+09:00"
 }
