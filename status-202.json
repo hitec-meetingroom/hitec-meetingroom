@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "윤은선 업무회의",
+    "subject": "윤은선 윤은선 업무회의",
     "organizer": "윤은선",
     "attendees": [],
     "start": "2026-10-21T14:00:00",
@@ -12,7 +12,7 @@
   },
   "today_meetings": [
     {
-      "subject": "윤은선 업무회의",
+      "subject": "윤은선 윤은선 업무회의",
       "organizer": "윤은선",
       "attendees": [],
       "start": "2026-10-21T14:00:00",
@@ -20,5 +20,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-21T13:28:38.587019+09:00"
+  "last_updated": "2026-10-21T13:29:45.310339+09:00"
 }
