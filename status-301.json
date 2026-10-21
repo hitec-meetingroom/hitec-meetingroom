@@ -2,18 +2,7 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": {
-    "subject": "인사 27년 사업계획 아이디어 회의",
-    "organizer": "인사",
-    "attendees": [
-      "정찬희",
-      "이미래",
-      "이지은B"
-    ],
-    "start": "2026-10-21T14:00:00",
-    "end": "2026-10-21T16:00:00",
-    "is_cancelled": false
-  },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "정광욱 하드웨어파트 미팅",
@@ -27,19 +16,7 @@
       "start": "2026-10-21T10:00:00",
       "end": "2026-10-21T11:00:00",
       "is_cancelled": false
-    },
-    {
-      "subject": "인사 27년 사업계획 아이디어 회의",
-      "organizer": "인사",
-      "attendees": [
-        "정찬희",
-        "이미래",
-        "이지은B"
-      ],
-      "start": "2026-10-21T14:00:00",
-      "end": "2026-10-21T16:00:00",
-      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-21T13:18:39.701388+09:00"
+  "last_updated": "2026-10-21T13:19:43.596837+09:00"
 }
