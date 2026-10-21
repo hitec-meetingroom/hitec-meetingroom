@@ -2,36 +2,41 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
+    "organizer": "황선민",
+    "attendees": [
+      "김용원",
+      "김경환",
+      "정광욱",
+      "권기정",
+      "정승호",
+      "유동호",
+      "복지영",
+      "권순영"
+    ],
+    "start": "2026-10-21T14:00:00",
+    "end": "2026-10-21T15:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 30주년 송년회 TFT 회의",
-      "organizer": "인사",
+      "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
+      "organizer": "황선민",
       "attendees": [
-        "정찬희",
-        "이미래",
-        "서보성",
-        "김덕재",
-        "신예준",
-        "유동호",
-        "이지은B"
-      ],
-      "start": "2026-10-20T14:00:00",
-      "end": "2026-10-20T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "이창훈 SW 다국어 적용 검토",
-      "organizer": "이창훈",
-      "attendees": [
+        "김용원",
+        "김경환",
+        "정광욱",
+        "권기정",
         "정승호",
-        "이상국",
+        "유동호",
+        "복지영",
         "권순영"
       ],
-      "start": "2026-10-20T16:30:00",
-      "end": "2026-10-20T17:30:00",
+      "start": "2026-10-21T14:00:00",
+      "end": "2026-10-21T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-21T08:59:44.342999+09:00"
+  "last_updated": "2026-10-21T09:00:13.927683+09:00"
 }
