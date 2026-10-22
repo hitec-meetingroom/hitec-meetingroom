@@ -1,20 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "권기정 타운홀 미팅관련 논의",
-    "organizer": "권기정",
-    "attendees": [
-      "이상국",
-      "황선민",
-      "정승호",
-      "정광욱",
-      "김용원"
-    ],
-    "start": "2026-10-22T11:00:00",
-    "end": "2026-10-22T12:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
     "organizer": "황선민",
@@ -65,5 +52,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-22T12:29:22.479767+09:00"
+  "last_updated": "2026-10-22T12:30:26.131993+09:00"
 }
