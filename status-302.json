@@ -2,7 +2,31 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-22T08:58:59.798911+09:00"
+  "next_meeting": {
+    "subject": "김승훈 보안단말기 리뷰",
+    "organizer": "김승훈",
+    "attendees": [
+      "김동규",
+      "최이화",
+      "정재찬"
+    ],
+    "start": "2026-10-22T14:00:00",
+    "end": "2026-10-22T15:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "김승훈 보안단말기 리뷰",
+      "organizer": "김승훈",
+      "attendees": [
+        "김동규",
+        "최이화",
+        "정재찬"
+      ],
+      "start": "2026-10-22T14:00:00",
+      "end": "2026-10-22T15:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-22T09:00:03.799835+09:00"
 }
