@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "김용희 생산운영팀",
-    "organizer": "김용희",
-    "attendees": [
-      "정병주"
-    ],
-    "start": "2026-10-23T09:30:00",
-    "end": "2026-10-23T11:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 QA Weekly",
     "organizer": "황선민",
@@ -47,5 +38,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-23T10:59:27.322240+09:00"
+  "last_updated": "2026-10-23T11:00:01.481077+09:00"
 }
