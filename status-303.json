@@ -2,39 +2,23 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "최이화 SW-영업 정기회의",
+    "organizer": "최이화",
+    "attendees": [],
+    "start": "2026-10-23T14:00:00",
+    "end": "2026-10-23T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "권기정 타운홀 미팅관련 논의",
-      "organizer": "권기정",
-      "attendees": [
-        "이상국",
-        "황선민",
-        "정승호",
-        "정광욱",
-        "김용원"
-      ],
-      "start": "2026-10-22T11:00:00",
-      "end": "2026-10-22T12:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
-      "organizer": "황선민",
-      "attendees": [
-        "김용원",
-        "김경환",
-        "정광욱",
-        "정승호",
-        "유동호",
-        "심규선",
-        "복지영",
-        "권순영"
-      ],
-      "start": "2026-10-22T14:00:00",
-      "end": "2026-10-22T15:00:00",
+      "subject": "최이화 SW-영업 정기회의",
+      "organizer": "최이화",
+      "attendees": [],
+      "start": "2026-10-23T14:00:00",
+      "end": "2026-10-23T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-23T08:58:49.148105+09:00"
+  "last_updated": "2026-10-23T08:59:59.586688+09:00"
 }

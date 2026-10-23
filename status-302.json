@@ -2,20 +2,31 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 27년 사업계획 아이디어 회의",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이미래",
+      "이지은B"
+    ],
+    "start": "2026-10-23T15:00:00",
+    "end": "2026-10-23T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "김승훈 보안단말기 리뷰",
-      "organizer": "김승훈",
+      "subject": "인사 27년 사업계획 아이디어 회의",
+      "organizer": "인사",
       "attendees": [
-        "김동규",
-        "최이화",
-        "정재찬"
+        "정찬희",
+        "이미래",
+        "이지은B"
       ],
-      "start": "2026-10-22T14:00:00",
-      "end": "2026-10-22T15:00:00",
+      "start": "2026-10-23T15:00:00",
+      "end": "2026-10-23T17:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-23T08:58:49.148105+09:00"
+  "last_updated": "2026-10-23T08:59:59.586688+09:00"
 }
