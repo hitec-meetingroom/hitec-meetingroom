@@ -1,22 +1,7 @@
 {
   "room_name": "2층 교육실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "이미래 ",
-    "organizer": "이미래",
-    "attendees": [
-      "김다위",
-      "조용우",
-      "최중영",
-      "김영일",
-      "이훈",
-      "서보성",
-      "정찬희"
-    ],
-    "start": "2026-10-23T15:00:00",
-    "end": "2026-10-23T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -36,5 +21,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-23T16:59:32.254826+09:00"
+  "last_updated": "2026-10-23T17:00:08.814111+09:00"
 }
