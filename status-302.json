@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "HW 파트 주간업무회의",
+    "subject": "문성진 HW 파트 주간업무회의",
     "organizer": "문성진",
     "attendees": [
       "정광욱",
@@ -17,7 +17,7 @@
   },
   "today_meetings": [
     {
-      "subject": "HW 파트 주간업무회의",
+      "subject": "문성진 HW 파트 주간업무회의",
       "organizer": "문성진",
       "attendees": [
         "정광욱",
@@ -42,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-23T10:11:10.468459+09:00"
+  "last_updated": "2026-10-23T10:11:41.972703+09:00"
 }
