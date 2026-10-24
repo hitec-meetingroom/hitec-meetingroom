@@ -3,23 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "이미래 ",
-      "organizer": "이미래",
-      "attendees": [
-        "김다위",
-        "조용우",
-        "최중영",
-        "김영일",
-        "이훈",
-        "서보성",
-        "정찬희"
-      ],
-      "start": "2026-10-23T15:00:00",
-      "end": "2026-10-23T17:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-24T08:59:44.909210+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-24T09:00:09.805486+09:00"
 }
