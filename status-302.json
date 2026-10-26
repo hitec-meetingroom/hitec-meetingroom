@@ -16,9 +16,7 @@
   "next_meeting": {
     "subject": "이지은B 경영기획팀 미팅",
     "organizer": "이지은B",
-    "attendees": [
-      "3층 소회의실2"
-    ],
+    "attendees": [],
     "start": "2026-10-26T17:00:00",
     "end": "2026-10-26T18:00:00",
     "is_cancelled": false
@@ -39,13 +37,11 @@
     {
       "subject": "이지은B 경영기획팀 미팅",
       "organizer": "이지은B",
-      "attendees": [
-        "3층 소회의실2"
-      ],
+      "attendees": [],
       "start": "2026-10-26T17:00:00",
       "end": "2026-10-26T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-26T15:39:19.584765+09:00"
+  "last_updated": "2026-10-26T15:39:47.553129+09:00"
 }
