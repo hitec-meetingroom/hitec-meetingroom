@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 27년 사업계획 아이디어 회의",
     "organizer": "인사",
     "attendees": [
@@ -12,6 +11,18 @@
     ],
     "start": "2026-10-26T15:00:00",
     "end": "2026-10-26T17:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "김용희 생산운영팀 회의",
+    "organizer": "김용희",
+    "attendees": [
+      "김용원",
+      "김경환",
+      "정병주"
+    ],
+    "start": "2026-10-26T17:00:00",
+    "end": "2026-10-26T17:45:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -48,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-26T14:59:36.704898+09:00"
+  "last_updated": "2026-10-26T15:00:40.418919+09:00"
 }
