@@ -1,16 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "강종빈 FE 미팅",
-    "organizer": "강종빈",
-    "attendees": [
-      "이창훈"
-    ],
-    "start": "2026-10-27T11:30:00",
-    "end": "2026-10-27T12:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정승호 sw 파트 면담",
     "organizer": "정승호",
@@ -39,5 +30,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-27T12:29:35.029542+09:00"
+  "last_updated": "2026-10-27T12:30:38.624976+09:00"
 }
