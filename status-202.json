@@ -1,8 +1,24 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
+  "is_occupied": true,
+  "current_meeting": {
+    "subject": "안희은 업무회의",
+    "organizer": "안희은",
+    "attendees": [],
+    "start": "2026-10-27T10:30:00",
+    "end": "2026-10-27T11:00:00",
+    "is_cancelled": false
+  },
   "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-27T10:45:25.935713+09:00"
+  "today_meetings": [
+    {
+      "subject": "안희은 업무회의",
+      "organizer": "안희은",
+      "attendees": [],
+      "start": "2026-10-27T10:30:00",
+      "end": "2026-10-27T11:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-27T10:46:29.968440+09:00"
 }
