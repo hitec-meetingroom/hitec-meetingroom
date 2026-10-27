@@ -1,16 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "복지영 변경관리P 업무 논의",
-    "organizer": "복지영",
-    "attendees": [
-      "황선민"
-    ],
-    "start": "2026-10-27T11:00:00",
-    "end": "2026-10-27T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "정광욱 변리사 미팅",
     "organizer": "정광욱",
@@ -51,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-27T11:59:58.143770+09:00"
+  "last_updated": "2026-10-27T12:01:01.832662+09:00"
 }
