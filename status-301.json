@@ -3,18 +3,32 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "최이화 매뉴얼 리뷰",
+    "subject": "최이화 SW주간회의",
     "organizer": "최이화",
     "attendees": [
-      "이창훈",
+      "정승호",
       "김동규",
+      "이창훈",
       "강종빈"
     ],
-    "start": "2026-10-28T14:00:00",
-    "end": "2026-10-28T15:00:00",
+    "start": "2026-10-28T11:00:00",
+    "end": "2026-10-28T12:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
+    {
+      "subject": "최이화 SW주간회의",
+      "organizer": "최이화",
+      "attendees": [
+        "정승호",
+        "김동규",
+        "이창훈",
+        "강종빈"
+      ],
+      "start": "2026-10-28T11:00:00",
+      "end": "2026-10-28T12:00:00",
+      "is_cancelled": false
+    },
     {
       "subject": "최이화 매뉴얼 리뷰",
       "organizer": "최이화",
@@ -28,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-28T09:21:38.819256+09:00"
+  "last_updated": "2026-10-28T09:22:42.499736+09:00"
 }
