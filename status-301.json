@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "정승호 SW 면담",
-    "organizer": "정승호",
-    "attendees": [
-      "최이화"
-    ],
-    "start": "2026-10-28T13:30:00",
-    "end": "2026-10-28T14:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "최이화 매뉴얼 리뷰",
     "organizer": "최이화",
     "attendees": [
@@ -23,6 +13,7 @@
     "end": "2026-10-28T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 SW주간회의",
@@ -60,5 +51,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-28T13:59:12.377294+09:00"
+  "last_updated": "2026-10-28T14:00:18.006347+09:00"
 }
