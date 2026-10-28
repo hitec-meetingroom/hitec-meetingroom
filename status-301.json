@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "최이화 SW주간회의",
     "organizer": "최이화",
     "attendees": [
@@ -13,6 +12,18 @@
     ],
     "start": "2026-10-28T11:00:00",
     "end": "2026-10-28T12:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "최이화 매뉴얼 리뷰",
+    "organizer": "최이화",
+    "attendees": [
+      "이창훈",
+      "김동규",
+      "강종빈"
+    ],
+    "start": "2026-10-28T14:00:00",
+    "end": "2026-10-28T15:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -42,5 +53,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-28T10:59:42.056932+09:00"
+  "last_updated": "2026-10-28T11:00:14.890864+09:00"
 }
