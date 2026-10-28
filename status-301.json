@@ -3,47 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "복지영 변경관리P 업무 논의",
-      "organizer": "복지영",
-      "attendees": [
-        "황선민"
-      ],
-      "start": "2026-10-27T11:00:00",
-      "end": "2026-10-27T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 변리사 미팅",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-10-27T15:00:00",
-      "end": "2026-10-27T16:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "복지영 변경관리 업무 논의",
-      "organizer": "복지영",
-      "attendees": [
-        "황선민"
-      ],
-      "start": "2026-10-27T16:00:00",
-      "end": "2026-10-27T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "김용희 생산운영팀 회의",
-      "organizer": "김용희",
-      "attendees": [
-        "김경환",
-        "정병주",
-        "김용원"
-      ],
-      "start": "2026-10-27T17:00:00",
-      "end": "2026-10-27T17:45:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-10-28T08:59:23.001552+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-10-28T08:59:59.473639+09:00"
 }

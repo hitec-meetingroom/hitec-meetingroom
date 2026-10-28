@@ -2,7 +2,37 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-28T08:59:23.001552+09:00"
+  "next_meeting": {
+    "subject": "인사 1차 면접_이동윤(PR)",
+    "organizer": "인사",
+    "attendees": [
+      "김영일",
+      "조광석",
+      "이미래",
+      "정찬희",
+      "정연미",
+      "이지은B"
+    ],
+    "start": "2026-10-28T14:30:00",
+    "end": "2026-10-28T15:30:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "인사 1차 면접_이동윤(PR)",
+      "organizer": "인사",
+      "attendees": [
+        "김영일",
+        "조광석",
+        "이미래",
+        "정찬희",
+        "정연미",
+        "이지은B"
+      ],
+      "start": "2026-10-28T14:30:00",
+      "end": "2026-10-28T15:30:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-28T08:59:59.473639+09:00"
 }
