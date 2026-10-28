@@ -2,20 +2,6 @@
   "room_name": "3층 대회의실",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 타운홀미팅 논의",
-    "organizer": "황선민",
-    "attendees": [
-      "정승호",
-      "김용원",
-      "정광욱",
-      "권기정",
-      "이상국"
-    ],
-    "start": "2026-10-28T16:00:00",
-    "end": "2026-10-28T17:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "최이화 통합관리 회의",
     "organizer": "최이화",
     "attendees": [
@@ -31,6 +17,7 @@
     "end": "2026-10-28T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "양동규 MDS인텔리전스 미팅",
@@ -91,5 +78,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-28T16:59:31.902760+09:00"
+  "last_updated": "2026-10-28T17:00:01.928178+09:00"
 }
