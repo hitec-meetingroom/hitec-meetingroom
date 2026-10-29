@@ -2,66 +2,33 @@
   "room_name": "3층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "최이화 초음파 보정",
+    "organizer": "최이화",
+    "attendees": [
+      "박민성",
+      "이창훈",
+      "강종빈",
+      "김동규"
+    ],
+    "start": "2026-10-29T10:00:00",
+    "end": "2026-10-29T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "양동규 MDS인텔리전스 미팅",
-      "organizer": "양동규",
-      "attendees": [
-        "이상국",
-        "권기정"
-      ],
-      "start": "2026-10-28T10:00:00",
-      "end": "2026-10-28T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파 수도 미터(HTM-615U-GR) 정기 미팅",
-      "organizer": "황선민",
-      "attendees": [
-        "김용원",
-        "김경환",
-        "정광욱",
-        "권기정",
-        "정승호",
-        "유동호",
-        "복지영",
-        "권순영"
-      ],
-      "start": "2026-10-28T14:00:00",
-      "end": "2026-10-28T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 타운홀미팅 논의",
-      "organizer": "황선민",
-      "attendees": [
-        "정승호",
-        "김용원",
-        "정광욱",
-        "권기정",
-        "이상국"
-      ],
-      "start": "2026-10-28T16:00:00",
-      "end": "2026-10-28T17:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "최이화 통합관리 회의",
+      "subject": "최이화 초음파 보정",
       "organizer": "최이화",
       "attendees": [
-        "허승혁",
-        "강준석",
-        "박희택",
-        "오소연",
+        "박민성",
         "이창훈",
-        "김동규",
-        "강종빈"
+        "강종빈",
+        "김동규"
       ],
-      "start": "2026-10-28T17:00:00",
-      "end": "2026-10-28T18:00:00",
+      "start": "2026-10-29T10:00:00",
+      "end": "2026-10-29T11:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-29T08:59:45.018942+09:00"
+  "last_updated": "2026-10-29T09:01:03.826587+09:00"
 }
