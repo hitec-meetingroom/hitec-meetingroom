@@ -1,8 +1,7 @@
 {
   "room_name": "2층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 AI 스터디",
     "organizer": "인사",
     "attendees": [
@@ -17,6 +16,7 @@
     "end": "2026-10-29T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "인사 AI 스터디",
@@ -34,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-29T15:59:38.354461+09:00"
+  "last_updated": "2026-10-29T16:00:42.487476+09:00"
 }
