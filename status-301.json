@@ -1,13 +1,24 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 M_안전보건관리",
     "organizer": "인사",
     "attendees": [],
     "start": "2026-10-29T10:30:00",
     "end": "2026-10-29T12:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 27년 사업계획 회의",
+    "organizer": "인사",
+    "attendees": [
+      "정찬희",
+      "이미래",
+      "이지은B"
+    ],
+    "start": "2026-10-29T14:00:00",
+    "end": "2026-10-29T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -32,5 +43,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-29T10:29:37.832231+09:00"
+  "last_updated": "2026-10-29T10:30:56.459146+09:00"
 }
