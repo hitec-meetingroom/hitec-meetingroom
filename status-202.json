@@ -5,7 +5,9 @@
   "next_meeting": {
     "subject": "ES_ENG(Sched) PS팀 ENG 파트 자체 회의",
     "organizer": "ES_ENG(Sched)",
-    "attendees": [],
+    "attendees": [
+      "이동욱"
+    ],
     "start": "2026-10-30T11:00:00",
     "end": "2026-10-30T12:00:00",
     "is_cancelled": false
@@ -14,7 +16,9 @@
     {
       "subject": "ES_ENG(Sched) PS팀 ENG 파트 자체 회의",
       "organizer": "ES_ENG(Sched)",
-      "attendees": [],
+      "attendees": [
+        "이동욱"
+      ],
       "start": "2026-10-30T11:00:00",
       "end": "2026-10-30T12:00:00",
       "is_cancelled": false
@@ -30,5 +34,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-30T09:35:43.959078+09:00"
+  "last_updated": "2026-10-30T09:36:37.939408+09:00"
 }
