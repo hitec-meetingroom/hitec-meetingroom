@@ -1,8 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "ES_SALES(Sched) 데이터센터코리아 최종 회의",
     "organizer": "ES_SALES(Sched)",
     "attendees": [
@@ -13,6 +12,7 @@
     "end": "2026-10-30T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "ES_SALES(Sched) 데이터센터코리아 최종 회의",
@@ -26,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-30T14:59:34.975914+09:00"
+  "last_updated": "2026-10-30T15:00:39.019545+09:00"
 }
