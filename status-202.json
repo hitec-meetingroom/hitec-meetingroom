@@ -3,26 +3,17 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "ES_ENG(Sched) PS팀 ENG 파트 자체 회의",
-    "organizer": "ES_ENG(Sched)",
+    "subject": "ES_SALES(Sched) 데이터센터코리아 최종 회의",
+    "organizer": "ES_SALES(Sched)",
     "attendees": [
+      "김덕재",
       "이동욱"
     ],
-    "start": "2026-10-30T11:00:00",
-    "end": "2026-10-30T12:00:00",
+    "start": "2026-10-30T15:00:00",
+    "end": "2026-10-30T17:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
-    {
-      "subject": "ES_ENG(Sched) PS팀 ENG 파트 자체 회의",
-      "organizer": "ES_ENG(Sched)",
-      "attendees": [
-        "이동욱"
-      ],
-      "start": "2026-10-30T11:00:00",
-      "end": "2026-10-30T12:00:00",
-      "is_cancelled": false
-    },
     {
       "subject": "ES_SALES(Sched) 데이터센터코리아 최종 회의",
       "organizer": "ES_SALES(Sched)",
@@ -35,5 +26,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-30T10:34:36.116228+09:00"
+  "last_updated": "2026-10-30T10:35:40.057490+09:00"
 }
