@@ -1,17 +1,7 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "ES_SALES(Sched) 데이터센터코리아 최종 회의",
-    "organizer": "ES_SALES(Sched)",
-    "attendees": [
-      "김덕재",
-      "이동욱"
-    ],
-    "start": "2026-10-30T15:00:00",
-    "end": "2026-10-30T17:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -26,5 +16,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-30T16:59:38.535833+09:00"
+  "last_updated": "2026-10-30T17:00:42.176999+09:00"
 }

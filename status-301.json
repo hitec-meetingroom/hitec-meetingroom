@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "인사 사업계획 미팅",
-    "organizer": "인사",
-    "attendees": [
-      "이미래"
-    ],
-    "start": "2026-10-30T16:00:00",
-    "end": "2026-10-30T17:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 MS 설정",
     "organizer": "인사",
     "attendees": [
@@ -22,6 +12,7 @@
     "end": "2026-10-30T18:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 수기검침  인수인계",
@@ -68,5 +59,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-30T16:59:38.535833+09:00"
+  "last_updated": "2026-10-30T17:00:42.176999+09:00"
 }
