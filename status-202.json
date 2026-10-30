@@ -18,7 +18,17 @@
       "start": "2026-10-30T11:00:00",
       "end": "2026-10-30T12:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "ES_SALES(Sched) 데이터센터코리아 최종 회의",
+      "organizer": "ES_SALES(Sched)",
+      "attendees": [
+        "김덕재"
+      ],
+      "start": "2026-10-30T15:00:00",
+      "end": "2026-10-30T17:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-10-30T09:31:37.611160+09:00"
+  "last_updated": "2026-10-30T09:32:38.767691+09:00"
 }
