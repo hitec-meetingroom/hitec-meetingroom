@@ -2,7 +2,33 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-10-30T09:50:49.343489+09:00"
+  "next_meeting": {
+    "subject": "문성진 HW파트 주간업무회의",
+    "organizer": "문성진",
+    "attendees": [
+      "정광욱",
+      "박병택",
+      "박민성",
+      "김승훈"
+    ],
+    "start": "2026-10-30T10:00:00",
+    "end": "2026-10-30T11:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "문성진 HW파트 주간업무회의",
+      "organizer": "문성진",
+      "attendees": [
+        "정광욱",
+        "박병택",
+        "박민성",
+        "김승훈"
+      ],
+      "start": "2026-10-30T10:00:00",
+      "end": "2026-10-30T11:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-10-30T09:51:42.846736+09:00"
 }
