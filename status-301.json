@@ -2,17 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "인사 품질 프로세스 공유",
-    "organizer": "인사",
-    "attendees": [
-      "황선민",
-      "서보성"
-    ],
-    "start": "2026-11-03T14:00:00",
-    "end": "2026-11-03T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "복지영 SW 변경관리 업무 논의",
     "organizer": "복지영",
     "attendees": [
@@ -24,6 +13,7 @@
     "end": "2026-11-03T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권기정 사업 미팅 일정 ",
@@ -60,5 +50,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-03T14:59:11.716702+09:00"
+  "last_updated": "2026-11-03T15:00:10.615828+09:00"
 }
