@@ -2,23 +2,23 @@
   "room_name": "2층 대회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 신규 대상 인사평가 설명회",
+    "organizer": "인사",
+    "attendees": [],
+    "start": "2026-11-03T10:00:00",
+    "end": "2026-11-03T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "인사 1차 면접_정은우(PR)",
+      "subject": "인사 신규 대상 인사평가 설명회",
       "organizer": "인사",
-      "attendees": [
-        "김영일",
-        "조광석",
-        "이미래",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-11-02T15:00:00",
-      "end": "2026-11-02T16:00:00",
+      "attendees": [],
+      "start": "2026-11-03T10:00:00",
+      "end": "2026-11-03T11:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-03T08:58:59.779204+09:00"
+  "last_updated": "2026-11-03T09:00:03.512028+09:00"
 }

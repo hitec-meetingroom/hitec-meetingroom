@@ -2,7 +2,52 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-11-03T08:58:59.779204+09:00"
+  "next_meeting": {
+    "subject": "권기정 사업 미팅 일정 ",
+    "organizer": "권기정",
+    "attendees": [
+      "정광욱",
+      "정승호"
+    ],
+    "start": "2026-11-03T10:00:00",
+    "end": "2026-11-03T12:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "권기정 사업 미팅 일정 ",
+      "organizer": "권기정",
+      "attendees": [
+        "정광욱",
+        "정승호"
+      ],
+      "start": "2026-11-03T10:00:00",
+      "end": "2026-11-03T12:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "인사 품질 프로세스 공유",
+      "organizer": "인사",
+      "attendees": [
+        "황선민",
+        "서보성"
+      ],
+      "start": "2026-11-03T14:00:00",
+      "end": "2026-11-03T15:00:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "복지영 SW 변경관리 업무 논의",
+      "organizer": "복지영",
+      "attendees": [
+        "정승호",
+        "이창훈",
+        "황선민"
+      ],
+      "start": "2026-11-03T15:00:00",
+      "end": "2026-11-03T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-11-03T09:00:03.512028+09:00"
 }
