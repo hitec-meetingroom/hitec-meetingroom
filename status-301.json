@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "인사 품질 프로세스 공유",
     "organizer": "인사",
     "attendees": [
@@ -11,6 +10,18 @@
     ],
     "start": "2026-11-03T14:00:00",
     "end": "2026-11-03T15:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "복지영 SW 변경관리 업무 논의",
+    "organizer": "복지영",
+    "attendees": [
+      "정승호",
+      "이창훈",
+      "황선민"
+    ],
+    "start": "2026-11-03T15:00:00",
+    "end": "2026-11-03T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -49,5 +60,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-03T13:59:54.359616+09:00"
+  "last_updated": "2026-11-03T14:00:58.695130+09:00"
 }
