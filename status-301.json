@@ -1,17 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "권기정 사업 미팅 일정 ",
-    "organizer": "권기정",
-    "attendees": [
-      "정광욱",
-      "정승호"
-    ],
-    "start": "2026-11-03T10:00:00",
-    "end": "2026-11-03T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "인사 품질 프로세스 공유",
     "organizer": "인사",
@@ -59,5 +49,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-03T11:59:41.523269+09:00"
+  "last_updated": "2026-11-03T12:00:45.353906+09:00"
 }
