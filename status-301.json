@@ -2,20 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "최이화 보안단말기 리뷰",
-    "organizer": "최이화",
-    "attendees": [
-      "정승호",
-      "이창훈",
-      "김동규",
-      "정재찬",
-      "강종빈"
-    ],
-    "start": "2026-11-04T14:00:00",
-    "end": "2026-11-04T15:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "인사 업무 관련 미팅",
     "organizer": "인사",
     "attendees": [
@@ -26,6 +12,7 @@
     "end": "2026-11-04T16:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "최이화 BE미팅",
@@ -78,5 +65,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-04T14:59:23.254461+09:00"
+  "last_updated": "2026-11-04T15:00:03.142615+09:00"
 }
