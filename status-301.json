@@ -2,42 +2,57 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "최이화 BE미팅",
+    "organizer": "최이화",
+    "attendees": [
+      "정재찬",
+      "김동규"
+    ],
+    "start": "2026-11-04T09:30:00",
+    "end": "2026-11-04T11:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "권기정 사업 미팅 일정 ",
-      "organizer": "권기정",
+      "subject": "최이화 BE미팅",
+      "organizer": "최이화",
       "attendees": [
-        "정광욱",
-        "정승호"
+        "정재찬",
+        "김동규"
       ],
-      "start": "2026-11-03T10:00:00",
-      "end": "2026-11-03T12:00:00",
+      "start": "2026-11-04T09:30:00",
+      "end": "2026-11-04T11:00:00",
       "is_cancelled": false
     },
     {
-      "subject": "인사 품질 프로세스 공유",
-      "organizer": "인사",
-      "attendees": [
-        "황선민",
-        "서보성"
-      ],
-      "start": "2026-11-03T14:00:00",
-      "end": "2026-11-03T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "복지영 SW 변경관리 업무 논의",
-      "organizer": "복지영",
+      "subject": "최이화 SW주간회의",
+      "organizer": "최이화",
       "attendees": [
         "정승호",
         "이창훈",
-        "황선민"
+        "정재찬",
+        "김동규",
+        "강종빈"
       ],
-      "start": "2026-11-03T15:00:00",
-      "end": "2026-11-03T16:00:00",
+      "start": "2026-11-04T11:00:00",
+      "end": "2026-11-04T12:30:00",
+      "is_cancelled": false
+    },
+    {
+      "subject": "최이화 보안단말기 리뷰",
+      "organizer": "최이화",
+      "attendees": [
+        "정승호",
+        "이창훈",
+        "김동규",
+        "정재찬",
+        "강종빈"
+      ],
+      "start": "2026-11-04T14:00:00",
+      "end": "2026-11-04T15:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-04T08:59:34.910824+09:00"
+  "last_updated": "2026-11-04T09:00:05.856997+09:00"
 }
