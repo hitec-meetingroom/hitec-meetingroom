@@ -1,8 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "권기정 녹색기술인증 기업현장 심사",
     "organizer": "권기정",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-11-05T17:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "권기정 녹색기술인증 기업현장 심사",
@@ -24,5 +24,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-05T12:59:36.834612+09:00"
+  "last_updated": "2026-11-05T13:00:41.209039+09:00"
 }
