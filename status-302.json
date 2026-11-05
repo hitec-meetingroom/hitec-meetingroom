@@ -2,7 +2,29 @@
   "room_name": "3층 소회의실2",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-11-05T15:04:04.573692+09:00"
+  "next_meeting": {
+    "subject": "이창훈 초음파 보정 앱 기능 논의",
+    "organizer": "이창훈",
+    "attendees": [
+      "강종빈",
+      "박민성"
+    ],
+    "start": "2026-11-05T15:30:00",
+    "end": "2026-11-05T16:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "이창훈 초음파 보정 앱 기능 논의",
+      "organizer": "이창훈",
+      "attendees": [
+        "강종빈",
+        "박민성"
+      ],
+      "start": "2026-11-05T15:30:00",
+      "end": "2026-11-05T16:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-11-05T15:04:27.582964+09:00"
 }
