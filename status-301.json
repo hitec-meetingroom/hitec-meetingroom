@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정연미 경영전략본부",
     "organizer": "정연미",
     "attendees": [
@@ -12,6 +11,7 @@
     "end": "2026-11-05T16:30:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 PCBA 지그 업체 미팅",
@@ -47,5 +47,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-05T15:29:29.269116+09:00"
+  "last_updated": "2026-11-05T15:30:32.846154+09:00"
 }
