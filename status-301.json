@@ -2,16 +2,6 @@
   "room_name": "3층 소회의실1",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "황선민 PCBA 지그 업체 미팅",
-    "organizer": "황선민",
-    "attendees": [
-      "심규선"
-    ],
-    "start": "2026-11-05T10:00:00",
-    "end": "2026-11-05T11:00:00",
-    "is_cancelled": false
-  },
-  "next_meeting": {
     "subject": "최이화 매뉴얼 리뷰",
     "organizer": "최이화",
     "attendees": [
@@ -24,6 +14,7 @@
     "end": "2026-11-05T12:00:00",
     "is_cancelled": false
   },
+  "next_meeting": null,
   "today_meetings": [
     {
       "subject": "황선민 PCBA 지그 업체 미팅",
@@ -49,5 +40,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-05T10:59:11.826145+09:00"
+  "last_updated": "2026-11-05T11:00:16.050161+09:00"
 }
