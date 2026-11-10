@@ -2,7 +2,14 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "안희은 업무회의",
+    "organizer": "안희은",
+    "attendees": [],
+    "start": "2026-11-10T16:20:00",
+    "end": "2026-11-10T17:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
       "subject": "이동욱 ENG 회의",
@@ -11,7 +18,15 @@
       "start": "2026-11-10T14:00:00",
       "end": "2026-11-10T15:00:00",
       "is_cancelled": false
+    },
+    {
+      "subject": "안희은 업무회의",
+      "organizer": "안희은",
+      "attendees": [],
+      "start": "2026-11-10T16:20:00",
+      "end": "2026-11-10T17:00:00",
+      "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-10T16:18:39.885673+09:00"
+  "last_updated": "2026-11-10T16:19:43.118253+09:00"
 }
