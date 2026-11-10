@@ -3,36 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 1차 면접_박승동(PR)",
-      "organizer": "인사",
-      "attendees": [
-        "김영일",
-        "조광석",
-        "이미래",
-        "정찬희",
-        "정연미",
-        "이지은B"
-      ],
-      "start": "2026-11-09T13:00:00",
-      "end": "2026-11-09T14:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 1차 면접_이치열(PQ)",
-      "organizer": "인사",
-      "attendees": [
-        "최중영",
-        "이미래",
-        "정연미",
-        "정찬희",
-        "이지은B"
-      ],
-      "start": "2026-11-09T15:00:00",
-      "end": "2026-11-09T16:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-11-10T08:59:37.882375+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-11-10T09:00:41.475335+09:00"
 }
