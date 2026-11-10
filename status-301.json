@@ -1,14 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "정광욱 변리사 미팅 3시",
-    "organizer": "정광욱",
-    "attendees": [],
-    "start": "2026-11-10T15:00:00",
-    "end": "2026-11-10T16:30:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": null,
   "today_meetings": [
     {
@@ -28,5 +21,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-10T16:29:37.806353+09:00"
+  "last_updated": "2026-11-10T16:30:54.583621+09:00"
 }
