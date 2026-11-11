@@ -2,24 +2,33 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 ES사업본부 OKR 설정 방향 공유",
+    "organizer": "인사",
+    "attendees": [
+      "김덕재",
+      "최나래",
+      "정찬희",
+      "이미래"
+    ],
+    "start": "2026-11-11T17:00:00",
+    "end": "2026-11-11T18:00:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "이동욱 ENG 회의",
-      "organizer": "이동욱",
-      "attendees": [],
-      "start": "2026-11-10T14:00:00",
-      "end": "2026-11-10T15:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "안희은 업무회의",
-      "organizer": "안희은",
-      "attendees": [],
-      "start": "2026-11-10T16:20:00",
-      "end": "2026-11-10T18:00:00",
+      "subject": "인사 ES사업본부 OKR 설정 방향 공유",
+      "organizer": "인사",
+      "attendees": [
+        "김덕재",
+        "최나래",
+        "정찬희",
+        "이미래"
+      ],
+      "start": "2026-11-11T17:00:00",
+      "end": "2026-11-11T18:00:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-11T08:59:37.234440+09:00"
+  "last_updated": "2026-11-11T09:00:41.053059+09:00"
 }

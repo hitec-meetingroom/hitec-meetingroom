@@ -2,24 +2,27 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "인사 송년회 영상 및 기념품 관련 미팅",
+    "organizer": "인사",
+    "attendees": [
+      "이미래"
+    ],
+    "start": "2026-11-11T16:00:00",
+    "end": "2026-11-11T17:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "정승호 SW 주간회의",
-      "organizer": "정승호",
-      "attendees": [],
-      "start": "2026-11-10T11:00:00",
-      "end": "2026-11-10T12:30:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "정광욱 변리사 미팅 3시",
-      "organizer": "정광욱",
-      "attendees": [],
-      "start": "2026-11-10T15:00:00",
-      "end": "2026-11-10T16:30:00",
+      "subject": "인사 송년회 영상 및 기념품 관련 미팅",
+      "organizer": "인사",
+      "attendees": [
+        "이미래"
+      ],
+      "start": "2026-11-11T16:00:00",
+      "end": "2026-11-11T17:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-11T08:59:37.234440+09:00"
+  "last_updated": "2026-11-11T09:00:41.053059+09:00"
 }
