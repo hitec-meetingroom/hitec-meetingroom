@@ -1,13 +1,25 @@
 {
   "room_name": "2층 소회의실",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "허준영 업무회의",
     "organizer": "허준영",
     "attendees": [],
     "start": "2026-11-11T10:00:00",
     "end": "2026-11-11T11:00:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "인사 ES사업본부 OKR 설정 방향 공유",
+    "organizer": "인사",
+    "attendees": [
+      "김덕재",
+      "최나래",
+      "정찬희",
+      "이미래"
+    ],
+    "start": "2026-11-11T17:00:00",
+    "end": "2026-11-11T18:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -33,5 +45,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-11T09:59:36.333921+09:00"
+  "last_updated": "2026-11-11T10:00:40.006069+09:00"
 }
