@@ -3,7 +3,7 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "검사 성적서 논의",
+    "subject": "황선민 검사 성적서 논의",
     "organizer": "황선민",
     "attendees": [
       "심규선"
@@ -53,7 +53,7 @@
       "is_cancelled": false
     },
     {
-      "subject": "검사 성적서 논의",
+      "subject": "황선민 검사 성적서 논의",
       "organizer": "황선민",
       "attendees": [
         "심규선"
@@ -63,5 +63,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-11T16:01:00.037075+09:00"
+  "last_updated": "2026-11-11T16:01:39.367015+09:00"
 }
