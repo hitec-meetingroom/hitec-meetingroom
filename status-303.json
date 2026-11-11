@@ -1,14 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "인사 타운홀 미팅 만족도 조사 설문 미팅",
-    "organizer": "인사",
-    "attendees": [],
-    "start": "2026-11-11T11:00:00",
-    "end": "2026-11-11T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 초음파 수도 미터(HTM-615U-GR) TP1차 검증 결과 공유회",
     "organizer": "황선민",
@@ -81,5 +74,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-11T11:59:37.719169+09:00"
+  "last_updated": "2026-11-11T12:00:41.561728+09:00"
 }
