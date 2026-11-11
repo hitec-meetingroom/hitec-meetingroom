@@ -1,28 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "황선민 초음파 수도 미터(HTM-615U-GR) TP1차 검증 결과 공유회",
-    "organizer": "황선민",
-    "attendees": [
-      "김용원",
-      "정광욱",
-      "권기정",
-      "정승호",
-      "복지영",
-      "권순영",
-      "김경환",
-      "박민성",
-      "문성진",
-      "김승훈",
-      "박병택",
-      "김용희",
-      "유동호"
-    ],
-    "start": "2026-11-11T14:00:00",
-    "end": "2026-11-11T15:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "황선민 검사 성적서 논의",
     "organizer": "황선민",
@@ -83,5 +62,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-11T14:59:40.787783+09:00"
+  "last_updated": "2026-11-11T15:01:00.101312+09:00"
 }
