@@ -3,17 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "인사 송년회 영상 및 기념품 관련 미팅",
-      "organizer": "인사",
-      "attendees": [
-        "이미래"
-      ],
-      "start": "2026-11-11T16:00:00",
-      "end": "2026-11-11T17:30:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-11-12T08:59:35.096123+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-11-12T09:00:38.538853+09:00"
 }

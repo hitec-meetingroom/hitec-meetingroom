@@ -3,46 +3,6 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": null,
-  "today_meetings": [
-    {
-      "subject": "황선민 사업계획 구조화",
-      "organizer": "황선민",
-      "attendees": [],
-      "start": "2026-11-11T10:30:00",
-      "end": "2026-11-11T11:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "인사 타운홀 미팅 만족도 조사 설문 미팅",
-      "organizer": "인사",
-      "attendees": [],
-      "start": "2026-11-11T11:00:00",
-      "end": "2026-11-11T12:00:00",
-      "is_cancelled": false
-    },
-    {
-      "subject": "황선민 초음파 수도 미터(HTM-615U-GR) TP1차 검증 결과 공유회",
-      "organizer": "황선민",
-      "attendees": [
-        "김경환",
-        "박민성",
-        "문성진",
-        "김승훈",
-        "박병택",
-        "김용희",
-        "유동호",
-        "김용원",
-        "정광욱",
-        "권기정",
-        "정승호",
-        "심규선",
-        "복지영",
-        "권순영"
-      ],
-      "start": "2026-11-11T14:00:00",
-      "end": "2026-11-11T16:00:00",
-      "is_cancelled": false
-    }
-  ],
-  "last_updated": "2026-11-12T08:59:35.096123+09:00"
+  "today_meetings": [],
+  "last_updated": "2026-11-12T09:00:38.538853+09:00"
 }
