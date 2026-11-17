@@ -2,7 +2,7 @@
   "room_name": "3층 대회의실",
   "is_occupied": true,
   "current_meeting": {
-    "subject": "ERP 논의",
+    "subject": "황선민 ERP 논의",
     "organizer": "황선민",
     "attendees": [
       "강준석"
@@ -14,7 +14,7 @@
   "next_meeting": null,
   "today_meetings": [
     {
-      "subject": "ERP 논의",
+      "subject": "황선민 ERP 논의",
       "organizer": "황선민",
       "attendees": [
         "강준석"
@@ -24,5 +24,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-17T09:34:53.180463+09:00"
+  "last_updated": "2026-11-17T09:36:06.773466+09:00"
 }
