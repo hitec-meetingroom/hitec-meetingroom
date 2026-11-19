@@ -3,15 +3,11 @@
   "is_occupied": false,
   "current_meeting": null,
   "next_meeting": {
-    "subject": "황선민 핵심가치 리뷰",
-    "organizer": "황선민",
-    "attendees": [
-      "복지영",
-      "심규선",
-      "유동호"
-    ],
-    "start": "2026-11-19T16:00:00",
-    "end": "2026-11-19T17:00:00",
+    "subject": "정승호 품질보증팀과 미팅",
+    "organizer": "정승호",
+    "attendees": [],
+    "start": "2026-11-19T15:00:00",
+    "end": "2026-11-19T16:00:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -37,6 +33,14 @@
       "is_cancelled": false
     },
     {
+      "subject": "정승호 품질보증팀과 미팅",
+      "organizer": "정승호",
+      "attendees": [],
+      "start": "2026-11-19T15:00:00",
+      "end": "2026-11-19T16:00:00",
+      "is_cancelled": false
+    },
+    {
       "subject": "황선민 핵심가치 리뷰",
       "organizer": "황선민",
       "attendees": [
@@ -49,5 +53,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-19T14:43:39.878686+09:00"
+  "last_updated": "2026-11-19T14:44:41.302331+09:00"
 }
