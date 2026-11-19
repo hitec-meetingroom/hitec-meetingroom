@@ -1,18 +1,7 @@
 {
   "room_name": "3층 대회의실",
-  "is_occupied": true,
-  "current_meeting": {
-    "subject": "권기정 업무협의 미팅(아이앤씨테크놀로지)",
-    "organizer": "권기정",
-    "attendees": [
-      "이상국",
-      "양동규",
-      "정광욱"
-    ],
-    "start": "2026-11-19T10:00:00",
-    "end": "2026-11-19T12:00:00",
-    "is_cancelled": false
-  },
+  "is_occupied": false,
+  "current_meeting": null,
   "next_meeting": {
     "subject": "권기정 사내방문일정공유(부산시 상수도사업본부)",
     "organizer": "권기정",
@@ -53,5 +42,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-19T11:59:43.230003+09:00"
+  "last_updated": "2026-11-19T12:00:59.288379+09:00"
 }
