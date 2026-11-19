@@ -1,8 +1,7 @@
 {
   "room_name": "3층 소회의실1",
-  "is_occupied": false,
-  "current_meeting": null,
-  "next_meeting": {
+  "is_occupied": true,
+  "current_meeting": {
     "subject": "정승호 SW 주간회의",
     "organizer": "정승호",
     "attendees": [
@@ -13,6 +12,14 @@
     ],
     "start": "2026-11-19T11:00:00",
     "end": "2026-11-19T12:30:00",
+    "is_cancelled": false
+  },
+  "next_meeting": {
+    "subject": "정광욱 변리사 미팅 오후 1시",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-11-19T13:00:00",
+    "end": "2026-11-19T14:30:00",
     "is_cancelled": false
   },
   "today_meetings": [
@@ -38,5 +45,5 @@
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-19T10:59:41.880978+09:00"
+  "last_updated": "2026-11-19T11:00:45.664084+09:00"
 }
