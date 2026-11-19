@@ -2,20 +2,23 @@
   "room_name": "3층 소회의실1",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
+  "next_meeting": {
+    "subject": "정광욱 변리사 미팅 오후 1시",
+    "organizer": "정광욱",
+    "attendees": [],
+    "start": "2026-11-19T13:00:00",
+    "end": "2026-11-19T14:30:00",
+    "is_cancelled": false
+  },
   "today_meetings": [
     {
-      "subject": "경영전략본부 중간관리자커피챗 피날레 회의",
-      "organizer": "경영전략본부",
-      "attendees": [
-        "한승복",
-        "최민철",
-        "최안나"
-      ],
-      "start": "2026-11-18T14:00:00",
-      "end": "2026-11-18T16:00:00",
+      "subject": "정광욱 변리사 미팅 오후 1시",
+      "organizer": "정광욱",
+      "attendees": [],
+      "start": "2026-11-19T13:00:00",
+      "end": "2026-11-19T14:30:00",
       "is_cancelled": false
     }
   ],
-  "last_updated": "2026-11-19T08:59:38.087085+09:00"
+  "last_updated": "2026-11-19T09:00:42.992347+09:00"
 }
