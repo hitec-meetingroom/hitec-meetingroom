@@ -2,7 +2,23 @@
   "room_name": "2층 소회의실",
   "is_occupied": false,
   "current_meeting": null,
-  "next_meeting": null,
-  "today_meetings": [],
-  "last_updated": "2026-11-20T10:56:38.821511+09:00"
+  "next_meeting": {
+    "subject": "허준영 ENG파트 컬쳐챗",
+    "organizer": "허준영",
+    "attendees": [],
+    "start": "2026-11-20T11:00:00",
+    "end": "2026-11-20T12:00:00",
+    "is_cancelled": false
+  },
+  "today_meetings": [
+    {
+      "subject": "허준영 ENG파트 컬쳐챗",
+      "organizer": "허준영",
+      "attendees": [],
+      "start": "2026-11-20T11:00:00",
+      "end": "2026-11-20T12:00:00",
+      "is_cancelled": false
+    }
+  ],
+  "last_updated": "2026-11-20T10:57:38.858579+09:00"
 }
